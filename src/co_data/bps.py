@@ -18,6 +18,8 @@ TARGET_COUNTY_FIPS = "107"
 TARGET_PLACE_FIPS = "73825"
 TARGET_PLACE_NAME = "steamboat springs"
 TARGET_YEARS = range(2020, 2026)
+PLACE_MATCH_FIPS_KEY = "fips_place_code"
+PLACE_MATCH_NAME_KEY = "place_name"
 
 
 @dataclass(frozen=True)
@@ -96,7 +98,7 @@ def _normalize_name(value: str | None) -> str:
 
 
 def _get_place_code(record: dict[str, Any]) -> str:
-    return (record.get("fips_place_code") or "").strip()
+    return (record.get(PLACE_MATCH_FIPS_KEY) or "").strip()
 
 
 def _build_common_row(
@@ -155,12 +157,20 @@ def fetch_target_bps() -> BPSExtract:
             for record in place_records
             if (record.get("state_code") or "").strip() == TARGET_STATE_FIPS
         ]
+        routt_candidates = [
+            record for record in candidates if (record.get("county_code") or "").strip() == TARGET_COUNTY_FIPS
+        ]
+        steamboat_text_matches = [
+            record
+            for record in candidates
+            if "steamboat" in _normalize_name(record.get(PLACE_MATCH_NAME_KEY)).lower()
+        ]
         place_match = next(
             (
                 record
-                for record in candidates
+                for record in routt_candidates
                 if _get_place_code(record) == TARGET_PLACE_FIPS
-                or _normalize_name(record.get("place_name")).lower() == TARGET_PLACE_NAME
+                or _normalize_name(record.get(PLACE_MATCH_NAME_KEY)).lower() == TARGET_PLACE_NAME
             ),
             None,
         )
@@ -170,8 +180,12 @@ def fetch_target_bps() -> BPSExtract:
                 {
                     "year": year,
                     "status": "found",
-                    "matched_name": _normalize_name(place_match.get("place_name")),
+                    "matched_name": _normalize_name(place_match.get(PLACE_MATCH_NAME_KEY)),
                     "matched_place_fips": _get_place_code(place_match),
+                    "routt_county_appears": "yes" if routt_candidates else "no",
+                    "steamboat_text_appears": "yes" if steamboat_text_matches else "no",
+                    "colorado_records_scanned": len(candidates),
+                    "match_keys": f"county_code={TARGET_COUNTY_FIPS};{PLACE_MATCH_FIPS_KEY}={TARGET_PLACE_FIPS};{PLACE_MATCH_NAME_KEY}={TARGET_PLACE_NAME}",
                     "source_url": place_url,
                 }
             )
@@ -182,6 +196,10 @@ def fetch_target_bps() -> BPSExtract:
                     "status": "missing",
                     "matched_name": "",
                     "matched_place_fips": "",
+                    "routt_county_appears": "yes" if routt_candidates else "no",
+                    "steamboat_text_appears": "yes" if steamboat_text_matches else "no",
+                    "colorado_records_scanned": len(candidates),
+                    "match_keys": f"county_code={TARGET_COUNTY_FIPS};{PLACE_MATCH_FIPS_KEY}={TARGET_PLACE_FIPS};{PLACE_MATCH_NAME_KEY}={TARGET_PLACE_NAME}",
                     "source_url": place_url,
                 }
             )
