@@ -1,0 +1,7 @@
+year,status,matched_name,matched_place_fips,source_url
+2020,missing,,,https://www2.census.gov/econ/bps/Place/West%20Region/we2020a.txt
+2021,missing,,,https://www2.census.gov/econ/bps/Place/West%20Region/we2021a.txt
+2022,missing,,,https://www2.census.gov/econ/bps/Place/West%20Region/we2022a.txt
+2023,missing,,,https://www2.census.gov/econ/bps/Place/West%20Region/we2023a.txt
+2024,missing,,,https://www2.census.gov/econ/bps/Place/West%20Region/we2024a.txt
+2025,missing,,,https://www2.census.gov/econ/bps/Place/West%20Region/we2025a.txt

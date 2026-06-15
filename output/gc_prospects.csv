@@ -1,0 +1,7 @@
+prospect_name,geography_type,survey_date,non_rep_unit_total,source_url
+Routt County,county,2020,285,https://www2.census.gov/econ/bps/County/co2020a.txt
+Routt County,county,2021,215,https://www2.census.gov/econ/bps/County/co2021a.txt
+Routt County,county,2022,438,https://www2.census.gov/econ/bps/County/co2022a.txt
+Routt County,county,2023,329,https://www2.census.gov/econ/bps/County/co2023a.txt
+Routt County,county,2024,597,https://www2.census.gov/econ/bps/County/co2024a.txt
+Routt County,county,2025,218,https://www2.census.gov/econ/bps/County/co2025a.txt
