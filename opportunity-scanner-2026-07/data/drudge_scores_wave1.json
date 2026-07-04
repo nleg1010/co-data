@@ -1,0 +1,16 @@
+{
+  "dataqs-rdr-drafter":            {"D":5,"R":3,"U":3,"Dd":4,"G":4,"E":3,"cap":"","w":4,"t":4,"i":3,"m":3,"vnote":"500k+ active carriers x 3-9k USD ACV; wedge is reversal-probability training set from snapshot diffs","soc":"53-1047,13-1041"},
+  "dot-intervention-insurance-defense": {"D":5,"R":3,"U":3,"Dd":4,"G":4,"E":3,"cap":"","w":3,"t":4,"i":2,"m":2,"vnote":"Insurance-defense packet angle is fresh but CAB reports own renewal underwriting channel","soc":"13-1041"},
+  "hmsp-eligibility-guardian":     {"D":5,"R":3,"U":4,"Dd":4,"G":5,"E":3,"cap":"","w":3,"t":2,"i":4,"m":4,"vnote":"Narrow TAM (HMSP holders) but existential pain and no dedicated tool found","soc":"13-1041"},
+  "phmsa-special-permit-radar":    {"D":5,"R":2,"U":3,"Dd":3,"G":4,"E":3,"cap":"","w":2,"t":2,"i":4,"m":3,"vnote":"Low per-org frequency caps R; portfolio monitoring across grantees is the product","soc":"13-1041"},
+  "uscg-psc-prearrival-packet":    {"D":4,"R":3,"U":3,"Dd":3,"G":5,"E":4,"cap":"","w":3,"t":3,"i":3,"m":3,"vnote":"Detention costs 10-30k USD/day; PSIX has no bulk download, scraping burden","soc":"11-9199"},
+  "subchapter-m-audit-tracker":    {"D":4,"R":2,"U":3,"Dd":3,"G":4,"E":3,"cap":"","w":2,"t":2,"i":3,"m":3,"vnote":"Annual cadence and small TAM (towing operators); TPO auditors own the relationship","soc":"11-9199"},
+  "clearinghouse-compliance-autopilot": {"D":5,"R":4,"U":4,"Dd":2,"G":5,"E":3,"cap":"Data-available capped at 2: per-driver records are consent-gated, no public entity-keyed lookup","w":2,"t":4,"i":2,"m":3,"vnote":"KILLED at g4/g6: real spend but consent-gated data breaks the public-key day-1 rule","soc":"13-1041"},
+  "npdes-dmr-citizen-suit-radar":  {"D":5,"R":3,"U":3,"Dd":4,"G":5,"E":3,"cap":"","w":4,"t":4,"i":3,"m":4,"vnote":"330k+ NPDES permittees, citizen-suit exposure is board-level fear; DMR data is the moat everyone ignores","soc":"17-2081,13-1041"},
+  "ca-igp-era-autopilot":          {"D":5,"R":3,"U":4,"Dd":4,"G":4,"E":3,"cap":"","w":4,"t":3,"i":3,"m":4,"vnote":"CA-only TAM (10k+ IGP dischargers) but prescribed Level 1/2 ERA structure is template-perfect","soc":"17-2081"},
+  "emanifest-tsdf-market-intel":   {"D":5,"R":4,"U":4,"Dd":4,"G":3,"E":3,"cap":"","w":3,"t":3,"i":4,"m":2,"vnote":"Sales intelligence, not compliance: TSDF/broker BD teams pay for share-shift visibility","soc":"41-4012"},
+  "rcra-inspection-readiness-packet": {"D":4,"R":2,"U":3,"Dd":4,"G":4,"E":3,"cap":"","w":2,"t":3,"i":2,"m":3,"vnote":"Episodic inspections cap R; env consultants own mock audits","soc":"17-2081"},
+  "pwsid-contract-operator-copilot": {"D":4,"R":4,"U":4,"Dd":4,"G":5,"E":3,"cap":"","w":4,"t":3,"i":3,"m":4,"vnote":"Contract operators run 10-100+ PWSIDs each; monthly monitoring calendar x violation response is recurring core work","soc":"51-8031"},
+  "srf-lsl-pipeline-scout":        {"D":5,"R":3,"U":3,"Dd":3,"G":3,"E":3,"cap":"","w":3,"t":3,"i":3,"m":2,"vnote":"BD tool for engineering firms chasing SRF-funded LSL work; new service line inventory data is fresh","soc":"13-1161"},
+  "landfill-tonnage-benchmark":    {"D":5,"R":2,"U":4,"Dd":3,"G":3,"E":2,"cap":"","w":2,"t":2,"i":3,"m":2,"vnote":"Quarterly cadence, CA-first; market intel nice-to-have unless tied to host-fee audits","soc":"13-1041"}
+}
