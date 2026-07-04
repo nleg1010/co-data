@@ -1,0 +1,1208 @@
+{
+ "oath-ecb-summons-defense-packet": {
+  "candidate_id": "oath-ecb-summons-defense-packet",
+  "competitors": [
+   {
+    "name": "SiteCompli (InCheck)",
+    "url": "https://sitecompli.com/",
+    "what": "Category-leading NYC compliance platform: real-time monitoring of DOB, HPD, FDNY, ECB/OATH, County Clerk and more, with alerts, hearing-date tracking, workflows, and the InCheck mobile inspections app, sold to exactly this buyer (NYC managing agents).",
+    "pricing": "Quote-only on the official site; third-party review listings report plans starting around $500/month for up to 10 users (SoftwareWorld) and roughly $100-$500/month (ITQlick); treat as unofficial estimates.",
+    "gap": "Stops at monitoring and workflow. It tells you a summons exists and when the hearing is, but generates no defense work product: no charge-code penalty decoding with cure/stipulation eligibility, no drafted certificate of correction narrative, no default vacate request draft, no historical dismissal/reduction odds per charge code."
+   },
+   {
+    "name": "ViolationWatch",
+    "url": "https://violationwatch.nyc/",
+    "what": "Low-cost automated violation alerting across 10 NYC agencies (DOB, HPD, ECB, OATH, FDNY, 311, etc.) with a compliance calendar and alerts to email, WhatsApp, and Slack; Portfolio plan for 10+ buildings.",
+    "pricing": "$9 per building per month or $99/year; Local Law Tracker add-on $59.99/year; volume pricing for 10+ buildings.",
+    "gap": "Pure detection and reminders. No adjudication layer at all: no penalty exposure math, no hearing outcome analytics, no drafted filings, no portfolio open-summons exposure ledger with recommended dispositions."
+   },
+   {
+    "name": "DOBGuard",
+    "url": "https://dobguard.com/",
+    "what": "Free, no-login DOB / ECB-OATH / HPD / FDNY / DSNY violation lookup by address plus paid building monitoring, backed by an SEO library of guides on ECB fines and OATH hearings.",
+    "pricing": "Lookup is free; paid monitoring tier exists but its price was not published in the pages reviewed (treat as unverified).",
+    "gap": "Confirms the adversarial attack: the free BBL lookup lead magnet is fully commoditized. But DOBGuard's content only explains what an owner should do; the software does not produce the cure narrative, vacate request, or outcome-informed defense packet itself."
+   },
+   {
+    "name": "Expeditors and OATH/ECB attorneys plus spreadsheet tracking (status quo)",
+    "url": "https://www.allboroexpediter.com/",
+    "what": "The incumbent manual trade: violation-removal expeditors (All Boro Expediter, Jack Jaffa & Associates, etc.) and OATH/ECB defense attorneys (e.g., Nacmias Law Firm) handle summonses one at a time (research, correct, file certificate of correction, appear at hearing) while portfolio staff track open summonses in Excel and forward each new summons to the vendor.",
+    "pricing": "Expeditors typically $50-$250/hour plus filing fees or flat per-job fees, often a few thousand dollars on a midsize project; attorney representation is quote-only per summons with fee estimate after reviewing the violation.",
+    "gap": "Expensive, reactive, and per-summons. Nobody in this trade sells portfolio-wide triage: which summonses to cure, stipulate, fight, or pay, ranked by dismissal odds and default exposure. That triage-plus-drafting layer is the honest space, and it can arm the expeditor (channel) rather than replace the hearing appearance (their regulated turf)."
+   }
+  ],
+  "pricing_anchors": [
+   {
+    "anchor": "ViolationWatch monitoring subscription (10 agencies incl. ECB/OATH)",
+    "amount": "$9 per building per month, or $99 per building per year",
+    "receipt_url": "https://violationwatch.nyc/",
+    "receipt_title": "NYC Building Violation Alerts & Monitoring - ViolationWatch"
+   },
+   {
+    "anchor": "SiteCompli platform entry price (unofficial, third-party listing; official pricing is quote-only)",
+    "amount": "From about $500 per month (up to 10 users); ITQlick cites $100-$500/month range",
+    "receipt_url": "https://www.softwareworld.co/software/sitecompli-reviews/",
+    "receipt_title": "SiteCompli Reviews: Pricing & Features | SoftwareWorld"
+   },
+   {
+    "anchor": "Expeditor fees for violation/permit work (manual status quo per-engagement cost)",
+    "amount": "$50-$250 per hour plus filing fees, or flat/retainer fees; often a few thousand dollars on a midsize job",
+    "receipt_url": "https://www.allboroexpediter.com/what-is-an-expeditor-and-how-much-do-they-cost/",
+    "receipt_title": "What is an Expeditor, and How Much Do They Cost? - All Boro Expediter"
+   },
+   {
+    "anchor": "Stakes per summons: Class 1 (immediately hazardous) ECB civil penalty, defaults entered at maximum",
+    "amount": "$1,000 to $25,000 per violation; Class 3 floors run about $200-$250",
+    "receipt_url": "https://regwatch.nyc/guides/nyc-ecb-violation-fines-schedule",
+    "receipt_title": "NYC ECB Violation Fines Schedule (2026) | RegWatch"
+   },
+   {
+    "anchor": "Failure-to-correct add-on penalty (AEUHAZ1) for uncertified Class 1 violations",
+    "amount": "$5,000 on top of ECB penalties, typically issued 75-90 days after violation",
+    "receipt_url": "https://support.sitecompli.com/hc/en-us/articles/360053922473-DOB-ECB-Violations",
+    "receipt_title": "DOB-ECB Violations - SiteCompli & InCheck Support Center"
+   },
+   {
+    "anchor": "Scale of default-judgment pain the packet avoids: DOF settlement waives half of default penalties; outstanding collectible ECB judgment debt",
+    "amount": "About $573 million outstanding as of October 2025",
+    "receipt_url": "https://www.nyc.gov/site/finance/property/settlements.page",
+    "receipt_title": "OATH-Adjudicated ECB Judgments Settlement Program - NYC DOF"
+   }
+  ],
+  "buyer_channels": {
+   "associations": [
+    "New York Apartment Association (NYAA; formed 2024 by merger of CHIP and RSA; CHIP alone had 4,000+ member owners covering 400,000+ rent-stabilized units)",
+    "NYARM - New York Association of Realty Managers (managing-agent association with monthly education programs and an HPD/DHCR-recognized accreditation)"
+   ],
+   "conferences": [
+    "BuildingsNY (Javits Center; 5,000+ NYC owners, property managers, and supers annually; 35-year-old show)",
+    "CooperatorEvents New York Expo (Javits Center in fall, NY Hilton in spring; co-op/condo board members, property managers, and building owners; runs twice a year)"
+   ],
+   "linkedin_filter": "Geography: New York City Metropolitan Area; Industry: Real Estate; Company size 11-500; Title contains 'Director of Compliance' OR 'Compliance Manager' OR 'Violations Coordinator' OR 'Director of Property Management'; company keywords 'property management' or 'managing agent' (NAICS 531312 residential managing agents)",
+   "roster": "HPD Multiple Dwelling Registrations dataset (tesw-yqqr) joined to HPD Registration Contacts (feu5-w2e2) on RegistrationID: registered managing agent and head officer names with business addresses for every NYC multiple dwelling, keyed back to BBL, so the outbound list keys on the same entity as the product"
+  },
+  "enhancement_evidence": {
+   "claim": "The category-making enhancement is outcome-informed defense packets: per-charge-code historical dismissal and reduction rates plus penalty-imposed-vs-charged curves attached to every new summons, computed from public adjudication data.",
+   "support": "NYC publishes the OATH Hearings Division Case Status dataset containing the infraction charged, decision outcome, and payment/penalty amounts for every summons filed at the OATH Hearings Division, which is exactly the table needed to mine dismissal and reduction patterns by charge code and join them (via summons number and BBL in the DOB ECB Violations dataset) to each open summons. Precedent that the analysis works and sells: DOBGuard's 2026 OATH guide already markets derived aggregates (about 15% of ECB violations fully dismissed; 38% of contested violations dismissed or reduced), and no incumbent productizes these odds per charge code inside a drafted packet. Caveat verified: as of May 4, 2026 OATH removed respondent name/address fields from the dataset, but charge, outcome, and amount fields remain, so the BBL/summons-keyed join is unaffected.",
+   "receipt_url": "https://data.cityofnewyork.us/City-Government/OATH-Hearings-Division-Case-Status/jz4z-kudi/data"
+  },
+  "facts_check": [
+   {
+    "fact": "OATH/ECB summonses carry mandatory penalties of roughly $500 to $25,000 each",
+    "status": "confirmed",
+    "receipt_url": "https://regwatch.nyc/guides/nyc-ecb-violation-fines-schedule",
+    "receipt_title": "NYC ECB Violation Fines Schedule (2026) | RegWatch",
+    "note": "Cap confirmed: Class 1 immediately hazardous penalties are statutorily $1,000 to $25,000 per violation. Published floors for minor Class 3 violations run about $200-$250, slightly below the dossier's $500 low end; order of magnitude holds."
+   },
+   {
+    "fact": "Missing the hearing produces a default judgment at the maximum penalty plus interest and default penalties",
+    "status": "confirmed",
+    "receipt_url": "https://www.nyc.gov/site/finance/property/settlements.page",
+    "receipt_title": "OATH-Adjudicated ECB Judgments Settlement Program - NYC DOF",
+    "note": "DOF defines default-judgment debt as base penalty plus interest plus default penalties; secondary sources confirm automatic guilty finding at the maximum fine plus a $60 hearing fee and 9% annual interest after default."
+   },
+   {
+    "fact": "Failure to certify correction within 75 days restores the full penalty",
+    "status": "confirmed",
+    "receipt_url": "https://www.nyc.gov/site/buildings/safety/oath-hearings-penalties.page",
+    "receipt_title": "OATH Hearings & Penalties - NYC Buildings",
+    "note": "Confirmed for the stipulation path: admitting the violation buys 75 days to correct at roughly half penalty, and failing to file an acceptable certificate of correction within 75 days imposes the full penalty for the infraction."
+   },
+   {
+    "fact": "NYC DOF ran a settlement program to clear accumulated ECB judgment debt (base penalty plus interest plus default penalties)",
+    "status": "confirmed",
+    "receipt_url": "https://www.nyc.gov/site/finance/property/settlements.page",
+    "receipt_title": "OATH-Adjudicated ECB Judgments Settlement Program - NYC DOF",
+    "note": "Program is live (waives half of default penalties on OATH-adjudicated ECB default judgments). DOF also reported about $573M of potentially collectible ECB judgment debt outstanding as of October 2025, validating the spend/pain claim."
+   },
+   {
+    "fact": "Backbone dataset DOB ECB Violations (6bgk-3dad) has 1.82M rows, 46 columns, daily updates, last updated June 26, 2026",
+    "status": "unverifiable",
+    "receipt_url": "https://data.cityofnewyork.us/Housing-Development/DOB-ECB-Violations/6bgk-3dad",
+    "receipt_title": "DOB ECB Violations - NYC Open Data",
+    "note": "Dataset existence confirmed on NYC Open Data with mirrors on data.ny.gov and catalog.data.gov, but the portal metadata pages and Socrata API returned HTTP 403 through this environment's proxy, so the live row count, column count, and last-update date could not be re-verified. Flag for a manual portal check; the 1.82M figure is plausible but unreceipted."
+   }
+  ],
+  "search_receipts": [
+   {
+    "query": "DOBGuard free DOB ECB OATH violation lookup NYC",
+    "url": "https://dobguard.com/oath-violation-lookup",
+    "title": "Free OATH Violation Lookup NYC - ECB Hearing Status Search",
+    "claim": "DOBGuard offers free, no-login OATH/ECB, DOB, and HPD lookup by address, confirming the adversarial attack that the lead-magnet lookup is already commoditized."
+   },
+   {
+    "query": "SiteCompli InCheck NYC violations monitoring OATH ECB pricing",
+    "url": "https://sitecompli.com/features-nyc/",
+    "title": "InCheck by SiteCompli - Features for NYC Property Managers",
+    "claim": "InCheck monitors FDNY, DOB, HPD, ECB/OATH, County Clerk and more in real time for NYC property managers; no public pricing on the official site."
+   },
+   {
+    "query": "\"Violation Watch\" NYC DOB violations alerts service pricing",
+    "url": "https://violationwatch.nyc/",
+    "title": "NYC Building Violation Alerts & Monitoring - ViolationWatch",
+    "claim": "ViolationWatch costs $9 per building per month or $99 per year covering 10 agencies including ECB and OATH, plus a $59.99/year Local Law Tracker add-on."
+   },
+   {
+    "query": "SiteCompli pricing cost review property management compliance software",
+    "url": "https://www.softwareworld.co/software/sitecompli-reviews/",
+    "title": "SiteCompli Reviews: Pricing & Features | SoftwareWorld",
+    "claim": "Third-party listings report SiteCompli plans starting around $500/month (ITQlick: $100-$500/month), calibrating the ceiling for a compliance SaaS sold to this buyer."
+   },
+   {
+    "query": "how much does expeditor charge NYC violation removal cost per violation typical fee",
+    "url": "https://www.allboroexpediter.com/what-is-an-expeditor-and-how-much-do-they-cost/",
+    "title": "What is an Expeditor, and How Much Do They Cost? - All Boro Expediter",
+    "claim": "NYC expeditors typically charge $50-$250 per hour plus filing fees, or flat/retainer fees, often totaling a few thousand dollars on a midsize job."
+   },
+   {
+    "query": "OATH ECB hearing attorney representation cost per summons NYC property",
+    "url": "https://nacmiaslaw.com/practice-areas/oath-ecb-violations",
+    "title": "OATH/ECB Violations Defense in NYC | Nacmias Law Firm",
+    "claim": "OATH/ECB defense attorneys quote per-case fees after reviewing the specific violation; no standardized published rates, confirming the manual alternative is quote-only."
+   },
+   {
+    "query": "OATH Hearings Division Case Status dataset NYC Open Data hearing outcomes dismissed",
+    "url": "https://data.cityofnewyork.us/City-Government/OATH-Hearings-Division-Case-Status/jz4z-kudi/data",
+    "title": "OATH Hearings Division Case Status - NYC Open Data",
+    "claim": "Public dataset holds the infraction charged, decision outcome, payments, and amounts per OATH summons, enabling per-charge-code dismissal and reduction analytics; respondent name/address fields removed May 4, 2026 but outcome fields remain."
+   },
+   {
+    "query": "percentage ECB summonses dismissed OATH hearing dismissal rate NYC violations",
+    "url": "https://dobguard.com/resources/ecb-oath-hearings-explained",
+    "title": "OATH Hearing NYC: How to Fight an ECB Violation + 2026 Deadlines & Dismissal Guide",
+    "claim": "About 15% of ECB violations are fully dismissed and 38% of contested violations are dismissed or reduced; ECB issued 125,000+ violations ($78M in fines) in 2024, showing outcome analytics are derivable and marketable."
+   },
+   {
+    "query": "NYC DOB ECB violation penalty schedule Class 1 maximum $25,000 default penalty",
+    "url": "https://regwatch.nyc/guides/nyc-ecb-violation-fines-schedule",
+    "title": "NYC ECB Violation Fines Schedule (2026) | RegWatch",
+    "claim": "Class 1 immediately hazardous ECB penalties run $1,000 to $25,000 per violation and default judgments enter at the maximum amount."
+   },
+   {
+    "query": "OATH stipulation 75 days certificate correction ECB violation full penalty reinstated DOB",
+    "url": "https://www.nyc.gov/site/buildings/safety/oath-hearings-penalties.page",
+    "title": "OATH Hearings & Penalties - NYC Buildings",
+    "claim": "Stipulation grants 75 days to correct at a reduced (about half) penalty; failure to certify correction within 75 days imposes the full penalty, confirming the dossier's 75-day mechanic."
+   },
+   {
+    "query": "NYC Department of Finance ECB judgment settlement program resolve outstanding debt",
+    "url": "https://www.nyc.gov/site/finance/property/settlements.page",
+    "title": "OATH-Adjudicated ECB Judgments Settlement Program - NYC DOF",
+    "claim": "DOF runs a live settlement program waiving half of default penalties on OATH-adjudicated ECB default judgments; about $573M of collectible ECB judgment debt was outstanding as of October 2025."
+   },
+   {
+    "query": "NYC property management trade association managing agents CHIP NYARM membership",
+    "url": "https://nyarm.com/",
+    "title": "Real Estate Management New York NYARM",
+    "claim": "NYARM is an NYC managing-agent trade association with monthly education programs and an accreditation recognized by HPD and DHCR."
+   },
+   {
+    "query": "\"New York Apartment Association\" CHIP RSA merger 2024 landlord group",
+    "url": "https://therealdeal.com/new-york/2024/09/04/rent-stabilization-association-merges-with-chip/",
+    "title": "Rent Stabilization Association Merges with CHIP - The Real Deal",
+    "claim": "CHIP and RSA officially merged in 2024 into the New York Apartment Association, now the primary NYC multifamily owner/manager association for outbound."
+   },
+   {
+    "query": "Community Housing Improvement Program CHIP New York members building owners managers rent stabilized",
+    "url": "https://chipnyc.org/about/",
+    "title": "About - CHIP: Community Housing Improvement Program",
+    "claim": "CHIP had 4,000+ member owners covering 400,000+ rent-stabilized units, sizing the reachable buyer pool for the merged NYAA."
+   },
+   {
+    "query": "\"Buildings New York\" trade show property management conference attendees Javits",
+    "url": "https://www.linkedin.com/showcase/buildingsny/",
+    "title": "BuildingsNY | LinkedIn",
+    "claim": "BuildingsNY at the Javits Center draws 5,000+ NYC building owners, managers, and supers annually; CooperatorEvents NY Expo runs spring and fall editions for boards and property managers."
+   },
+   {
+    "query": "HPD Multiple Dwelling Registration dataset managing agent NYC Open Data BBL",
+    "url": "https://data.cityofnewyork.us/Housing-Development/Registration-Contacts/feu5-w2e2",
+    "title": "Registration Contacts | NYC Open Data",
+    "claim": "HPD Multiple Dwelling Registrations plus Registration Contacts expose managing agent and head officer names and business addresses per building, joinable to BBL, the best entity-keyed public roster for list building."
+   },
+   {
+    "query": "\"DOB ECB Violations\" dataset \"6bgk-3dad\" rows million NYC Open Data",
+    "url": "https://data.cityofnewyork.us/Housing-Development/DOB-ECB-Violations/6bgk-3dad",
+    "title": "DOB ECB Violations - NYC Open Data",
+    "claim": "Backbone dataset exists with mirrors on data.ny.gov and catalog.data.gov, but the claimed 1.82M row count and June 26, 2026 update date could not be re-verified live because portal pages returned HTTP 403 through this environment's proxy."
+   }
+  ]
+ },
+ "snf-pbj-fivestar-guardrail": {
+  "candidate_id": "snf-pbj-fivestar-guardrail",
+  "competitors": [
+   {
+    "name": "SimplePBJ (formerly ezPBJ), Simple/SimpleLTC, a Netsmart solution",
+    "url": "https://simple.health/solutions/skilled-nursing/simplepbj/",
+    "what": "The incumbent PBJ compliance suite: assemble, validate, audit and submit the quarterly PBJ XML to CMS, plus current-quarter Five-Star staffing projections 4 to 6 months before CMS publishes, and a free Essentials benchmarking tier.",
+    "pricing": "SimplePBJ Pro from $119/month per facility (published on simple.health/pricing and corroborated by SaaSworthy); Essentials benchmarking tier free; fuller MDS+PBJ analytics suite reported at $249 to $319/month per facility.",
+    "gap": "It monetizes the submission workflow itself: to get projections a facility must adopt it as its PBJ assembly and submission vendor and map payroll data into it. It does not offer a zero-integration CCN-lookup guardrail an administrator can see before buying anything, does not package audit-trigger flags with the exact offending days as an outbound-ready packet, and its free tier benchmarks published history rather than quantifying distance to the next cut point. Independent 1 to 10 facility operators outside the Netsmart ecosystem are the open segment, which matches the dossier's mind-changer test."
+   },
+   {
+    "name": "StarPRO",
+    "url": "https://getstarpro.com/",
+    "what": "CMS-data benchmarking and star-rating risk analytics for SNF operators, regional managers, lenders and investors; monitors rating changes, staffing, turnover and quality measures per facility and portfolio from published CMS data and cost reports.",
+    "pricing": "Quote-oriented; a pricing page exists at getstarpro.com/pricing but prices were not retrievable (page blocked to automated fetch), so treat as quote-only.",
+    "gap": "It is built entirely on already-published CMS data, so it tells you your rating moved after the fact. No current-quarter pre-submission simulation from the facility's own PBJ XML, no pre-deadline flags naming the specific zero-RN days that will trip an automatic one-star or an audit, and its center of gravity is investors and multi-facility oversight rather than the single administrator trying to protect next quarter's submission."
+   },
+   {
+    "name": "Status quo: Five-Star/PBJ consultants (Proactive LTC Consulting, LeaderStat) plus in-house spreadsheets and the free CMS iQIES provider preview report",
+    "url": "https://proactiveltcexperts.com/5-star/",
+    "what": "Consultants sell per-engagement or annual partnership plans (allotments of onsite and offsite hours) for PBJ reporting accuracy, Five-Star road maps and audit response; facilities otherwise self-check with spreadsheets against the free Five-Star provider preview reports CMS posts in iQIES around the 23rd of each month.",
+    "pricing": "Quote-only for Proactive LTC and LeaderStat (no published rates found); iQIES preview reports free; consultant per-diem magnitude est. $1,500 to $2,500 per day (estimate, not a published rate).",
+    "gap": "Consultants are episodic and labor-priced; none runs a standing quarterly guardrail across every CCN. The free iQIES preview lands roughly a week before each refresh, after the quarter is already submitted, so it confirms damage instead of preventing it (and Care Compare refreshes even froze July through October 2025 during the QIES-to-iQIES transition). Spreadsheet replication of the six-measure case-mix-adjusted cut-point math breaks every time CMS revises the Technical Users Guide."
+   }
+  ],
+  "pricing_anchors": [
+   {
+    "anchor": "SimplePBJ Pro, the incumbent per-facility PBJ submission and Five-Star projection tool (direct price ceiling for a per-facility monthly SaaS)",
+    "amount": "From $119 per month per facility",
+    "receipt_url": "https://simple.health/pricing/",
+    "receipt_title": "Pricing - Simple, a Netsmart solution (SimpleLTC); corroborated by SaaSworthy listing for Simple Health (SimpleLTC)"
+   },
+   {
+    "anchor": "SimpleLTC full MDS + PBJ professional analytics suite (upper bound for per-facility analytics spend)",
+    "amount": "Reported $249 to $319 per month per facility (search-snippet corroborated; treat as approximate)",
+    "receipt_url": "https://www.saasworthy.com/product/simple-health-simpleltc/pricing",
+    "receipt_title": "Simple Health (SimpleLTC) Pricing: Cost and Pricing plans - SaaSworthy"
+   },
+   {
+    "anchor": "Five-Star and PBJ consulting engagements (Proactive LTC Consulting annual partnership plans with hours allotments; LeaderStat PBJ audit consulting)",
+    "amount": "Quote-only; no published rates found. Magnitude est. $1,500 to $2,500 per consultant day (labeled estimate). A quarterly automated packet priced at $300 to $1,500 per facility per quarter undercuts one consultant day.",
+    "receipt_url": "https://www.leaderstat.com/consulting/pbj",
+    "receipt_title": "Payroll-Based Journal (PBJ) Audits - LeaderStat Consulting"
+   },
+   {
+    "anchor": "Free floor that caps entry pricing: SimplePBJ Essentials free benchmarking tier and CMS Five-Star provider preview reports in iQIES (monthly, on or around the 23rd)",
+    "amount": "Free (paid product must beat free retrospective views with pre-deadline simulation and audit-trigger specificity)",
+    "receipt_url": "https://qtso.cms.gov/news-and-updates/notice-5-star-preview-reports-july-2025",
+    "receipt_title": "Notice: 5 Star Preview Reports - July 2025 - QTSO (CMS)"
+   }
+  ],
+  "buyer_channels": {
+   "associations": [
+    "AHCA/NCAL (American Health Care Association / National Center for Assisted Living), the primary SNF operator association",
+    "LeadingAge (national association of nonprofit aging services providers, plus state affiliates such as LeadingAge New York, which publishes PBJ pitfall guidance to members)"
+   ],
+   "conferences": [
+    "AHCA/NCAL Convention & Expo (Delivering Solutions): 2,400 long term and post-acute care providers plus 1,500 vendor partners at the 70th annual in Orlando per AHCA's press release; 2026 edition Orlando Oct 6-9, listings expect 2,000 to 5,000 attendees",
+    "LeadingAge Annual Meeting: more than 6,500 aging services professionals expected at the 2025 meeting in Boston (Nov 2-5, co-located with Global Ageing Network), the largest expo in aging services"
+   ],
+   "linkedin_filter": "Title: Nursing Home Administrator OR Licensed Nursing Home Administrator OR Executive Director OR Regional Director of Operations OR Regional/Divisional VP of Operations; Industry: Hospitals and Health Care; Company keywords: skilled nursing, post-acute, rehabilitation and healthcare center; Company headcount 11 to 1,000 as a proxy for 1 to 100 facility operators (NAICS 623110), excluding companies named Netsmart/SimpleLTC customers where identifiable",
+   "roster": "CMS Provider Data Catalog Provider Information dataset (dataset 4pq5-n9py, NH_ProviderInfo): every Medicare/Medicaid certified nursing home keyed by CCN with name, address, county, phone, ownership, staffing hours, turnover and star ratings, refreshed monthly (roughly 14,500 facilities, est.); join by CCN to the PBJ Daily Nurse Staffing PUF to pre-compute each prospect's audit-trigger flags before outreach"
+  },
+  "enhancement_evidence": {
+   "claim": "The category-making enhancement is the private-layer pre-submission simulator: parse the facility's own current-quarter PBJ XML (the exact file every facility already assembles for CMS each quarter) and replay the Five-Star staffing math and audit triggers before the 45-day submission deadline, without becoming the submission vendor.",
+   "support": "Feasibility is fully documented: CMS publishes the complete PBJ Data Submission Specifications including XSD schema files for developers (version 4.10.0 released for review with full programming release March 22, 2026; XML in other versions rejected on or after April 1, 2026), so a parser is buildable from public artifacts, and payroll/time vendors (Smartlinx, ADP and peers) already emit this XML for facilities. Market precedent: SimplePBJ sells current-quarter Five-Star staffing projections 4 to 6 months before CMS publishes (its 'Instantly predict your Staffing Five-Star' offer at https://www.simple.health/instantly-predict-your-staffing-five-star/), proving the projection is both computable and paid for; CMS's own preview reports in iQIES arrive only about a week before each refresh, leaving the pre-deadline simulation slot open for the independent operators the dossier targets.",
+   "receipt_url": "https://www.cms.gov/medicare/quality/nursing-home-improvement/staffing-data-submission"
+  },
+  "facts_check": [
+   {
+    "fact": "801 facilities received a one-star staffing rating in the January 2025 Care Compare refresh for failing a PBJ data-reporting requirement",
+    "status": "confirmed",
+    "receipt_url": "https://www.mcknights.com/news/staffing-penalties-accumulate-dim-some-five-star-ratings/",
+    "receipt_title": "Staffing penalties accumulate, dim some Five-Star ratings - McKnight's Long-Term Care News (Feb 2025)",
+    "note": "Direct fetch returned 403 (bot protection); figure verified via two independent search excerpts quoting the article: 'Some 801 nursing homes saw their staffing rating fall to a single star in the quarterly refresh for January.' Breakdown per the article: 139 providers auto-one-starred for missing PBJ audit requests and 535 flagged for missing RN coverage on four or more days. Empeon's PBJ blog independently cites the same refresh."
+   },
+   {
+    "fact": "More than 5% of all US nursing homes were penalized on staffing measures in a single quarter",
+    "status": "confirmed",
+    "receipt_url": "https://www.mcknights.com/news/staffing-penalties-accumulate-dim-some-five-star-ratings/",
+    "receipt_title": "Staffing penalties accumulate, dim some Five-Star ratings - McKnight's Long-Term Care News (Feb 2025)",
+    "note": "Article states more than 5% of US nursing homes were penalized in the quarter for failing to fully or accurately report data for three staffing measures; consistent with 801 one-starred facilities plus additional turnover-measure penalties out of roughly 14,500 certified facilities."
+   },
+   {
+    "fact": "Four or more days in a quarter with zero RN hours triggers an automatic one-star staffing rating (as do failure to submit PBJ data and a failed or unanswered CMS PBJ audit)",
+    "status": "confirmed",
+    "receipt_url": "https://www.bonadio.com/article/cms-updates-the-five-star-staffing-calculation-and-adds-new-measures/",
+    "receipt_title": "CMS Updates the Five Star Staffing Calculation & Adds New Measures - The Bonadio Group",
+    "note": "Bonadio: 'Providers that fail to submit data or submit data showing that there were four or more days within a quarter with no RN hours will receive an automatic one-star rating.' Same rule stated across Smartlinx and McKnight's excerpts. Primary source is CMS memo QSO-25-01-NH and the Five-Star Technical Users Guide; cms.gov PDF fetches were blocked (403) from this environment, so the accounting-firm summary is the receipt."
+   },
+   {
+    "fact": "Backbone dataset (PBJ Daily Nurse Staffing PUF) is facility-day level with MDS-based daily census and is refreshed quarterly",
+    "status": "confirmed",
+    "receipt_url": "https://data.cms.gov/quality-of-care/payroll-based-journal-daily-nurse-staffing",
+    "receipt_title": "Payroll Based Journal Daily Nurse Staffing - data.cms.gov",
+    "note": "Dataset is aggregated to facility-day (one row per facility per day, hours by staff category, MDS-calculated daily census); new files uploaded quarterly; catalog shows last update April 29, 2026. Caveat for the wedge: Care Compare star refreshes froze from July 30 through the October 2025 refresh during the QIES-to-iQIES transition, so publication lag can stretch beyond one quarter."
+   }
+  ],
+  "search_receipts": [
+   {
+    "query": "SimplePBJ Netsmart ezPBJ Five-Star staffing projection PBJ submission",
+    "url": "https://www.simple.health/instantly-predict-your-staffing-five-star/",
+    "title": "Instantly predict your Staffing Five-Star - Simple, a Netsmart solution",
+    "claim": "SimplePBJ (formerly ezPBJ) markets current-quarter Five-Star staffing projections 4 to 6 months before CMS publishes, confirming the dossier's adversarial attack that the private-layer projection space is occupied for its customers."
+   },
+   {
+    "query": "SimplePBJ pricing ezPBJ cost per facility per year PBJ software",
+    "url": "https://simple.health/pricing/",
+    "title": "Pricing - Simple, a Netsmart solution (SimpleLTC)",
+    "claim": "SimplePBJ Pro is published from $119/month per facility, with a free Essentials benchmarking tier; fuller MDS+PBJ analytics suite reported at $249 to $319/month per facility."
+   },
+   {
+    "query": "\"SimplePBJ\" OR \"ezPBJ\" \"$119\" OR \"per month\" pricing simple.health",
+    "url": "https://www.saasworthy.com/product/simple-health-simpleltc/pricing",
+    "title": "Simple Health (SimpleLTC) Pricing: Cost and Pricing plans - SaaSworthy",
+    "claim": "Independent corroboration that SimplePBJ Pro costs $119 per month."
+   },
+   {
+    "query": "StarPRO getstarpro pricing five-star rating software nursing home",
+    "url": "https://getstarpro.com/",
+    "title": "StarPRO | Smarter Nursing Home Investments with CMS Data & Risk Analytics",
+    "claim": "StarPRO is a published-CMS-data benchmarking and star-risk analytics platform for operators, regional managers, lenders and investors; pricing page exists but prices were not retrievable, treated as quote-only."
+   },
+   {
+    "query": "Proactive LTC Consulting PBJ five-star rating consulting services nursing home",
+    "url": "https://proactiveltcexperts.com/5-star/",
+    "title": "5 Star Nursing Home, LTC, & SNF | 5 Star Rating - Proactive LTC Consulting",
+    "claim": "Proactive LTC sells Five-Star road maps and PBJ reporting accuracy assessment via quote-only annual partnership plans with allotments of onsite and offsite hours, the manual consultant status quo."
+   },
+   {
+    "query": "nursing home five-star PBJ consulting fees cost per engagement mock audit consultant rates",
+    "url": "https://www.leaderstat.com/consulting/pbj",
+    "title": "Payroll-Based Journal (PBJ) Audits - LeaderStat",
+    "claim": "LeaderStat offers PBJ audit consulting with no published pricing, confirming consultant engagements in this niche are quote-only."
+   },
+   {
+    "query": "CMS 801 nursing homes one star staffing rating January 2025 PBJ audit penalty",
+    "url": "https://www.mcknights.com/news/staffing-penalties-accumulate-dim-some-five-star-ratings/",
+    "title": "Staffing penalties accumulate, dim some Five-Star ratings - McKnight's Long-Term Care News",
+    "claim": "801 nursing homes fell to a one-star staffing rating in the January 2025 refresh (139 for missed audit requests, 535 for 4+ days without RN coverage), and more than 5% of US nursing homes were penalized in the quarter."
+   },
+   {
+    "query": "\"four or more days\" no RN hours one-star staffing rating PBJ CMS five-star methodology",
+    "url": "https://www.bonadio.com/article/cms-updates-the-five-star-staffing-calculation-and-adds-new-measures/",
+    "title": "CMS Updates the Five Star Staffing Calculation & Adds New Measures - Bonadio",
+    "claim": "Failure to submit PBJ data or reporting four or more days in a quarter with no RN hours yields an automatic one-star staffing rating."
+   },
+   {
+    "query": "nursing home Five-Star provider preview reports iQIES CMS monthly refresh",
+    "url": "https://qtso.cms.gov/news-and-updates/notice-5-star-preview-reports-july-2025",
+    "title": "Notice: 5 Star Preview Reports - July 2025 - QTSO (CMS)",
+    "claim": "CMS posts free Five-Star provider preview reports in iQIES on or around the 23rd of each month, about one week before Care Compare updates; refreshes were frozen July 30 through the October 2025 refresh during the QIES-to-iQIES transition."
+   },
+   {
+    "query": "CMS PBJ data specifications XML file version payroll based journal submission format",
+    "url": "https://www.cms.gov/medicare/quality/nursing-home-improvement/staffing-data-submission",
+    "title": "Staffing Data Submission Payroll Based Journal (PBJ) - CMS",
+    "claim": "CMS publishes full PBJ Data Submission Specifications including XSD schema files; version 4.10.0 has a full programming release March 22, 2026 and XML in other versions is rejected on or after April 1, 2026, documenting the exact input format for a pre-submission simulator."
+   },
+   {
+    "query": "\"Payroll-Based Journal Daily Nurse Staffing\" PUF data.cms.gov quarterly facility day level latest quarter",
+    "url": "https://data.cms.gov/quality-of-care/payroll-based-journal-daily-nurse-staffing",
+    "title": "Payroll Based Journal Daily Nurse Staffing - data.cms.gov",
+    "claim": "PBJ PUF is aggregated to facility-day with hours by staff category and MDS-based daily census, uploaded quarterly; catalog shows last update April 29, 2026."
+   },
+   {
+    "query": "\"AHCA/NCAL Convention\" attendees long term care providers",
+    "url": "https://www.ahcancal.org/News-and-Communications/Press-Releases/Pages/AHCA-NCAL-Annual-Convention-Kicks-Off-in-Orlando.aspx",
+    "title": "AHCA/NCAL Annual Convention Kicks Off in Orlando - AHCA/NCAL press release",
+    "claim": "The AHCA/NCAL Annual Convention welcomed 2,400 long term and post-acute care providers and 1,500 vendor partners; 2026 edition is in Orlando Oct 6-9 with listings expecting 2,000 to 5,000 attendees."
+   },
+   {
+    "query": "LeadingAge Annual Meeting 2025 attendees thousands aging services providers conference",
+    "url": "https://annualmeeting.leadingage.org/attend/",
+    "title": "Attend 2025 LeadingAge Annual Meeting",
+    "claim": "The 2025 LeadingAge Annual Meeting in Boston (Nov 2-5, with Global Ageing Network) expects more than 6,500 aging services professionals and hosts the largest expo in aging services."
+   }
+  ]
+ },
+ "fisp-cycle10-deadline-radar": {
+  "candidate_id": "fisp-cycle10-deadline-radar",
+  "competitors": [
+   {
+    "name": "SiteCompli (Inhabit)",
+    "url": "https://sitecompli.com/nyc-2/",
+    "what": "NYC compliance monitoring and property operations platform for owners and property managers; tracks violations and local-law deadlines across agencies including FISP facade status, calendar and alerting inside a broader ops suite. Newer owner-side monitors (DOBguard) are the same shape: portfolio-scoped, quote-only.",
+    "pricing": "quote-only (enterprise, portfolio-based; no published rates)",
+    "gap": "Sells defense to owners and agents watching buildings they already manage. It has no market-wide prospecting view for QEWI engineering firms: no 'every building due and unfiled in sub-cycle 10B' cohort query, no HPD owner and agent contact join, no per-building accruing penalty math packaged for BD outreach."
+   },
+   {
+    "name": "ViolationWatch (Local Law Tracker)",
+    "url": "https://violationwatch.nyc/",
+    "what": "Self-serve per-building NYC violation alerting across roughly 10 agencies (DOB, HPD, ECB, OATH, FDNY, 311) with a Local Law Tracker add-on covering LL11, LL97, and LL152 deadlines per building; alerts to email, WhatsApp, Slack.",
+    "pricing": "$9 per building per month or $99 per building per year; Local Law Tracker add-on $59.99 per year",
+    "gap": "Only monitors buildings the customer enrolls, so it is an owner-side alarm clock, not a prospecting engine. No cross-market scan of the FISP universe, no filing-history or prior-QEWI-of-record intelligence, no lead-pack export, and it prices at commodity-alert levels that would not fund contact enrichment."
+   },
+   {
+    "name": "Status quo: free DOB NOW Public Portal lookups plus spreadsheets, and per-building code consultants or expediters",
+    "url": "https://www.nyc.gov/site/buildings/industry/dob-now-safety.page",
+    "what": "BD staff at QEWI firms hand-search DOB NOW and BIS one BIN at a time and maintain target spreadsheets; managing agents track staggered sub-cycle windows in Excel; code consultants and expediters (e.g., Metropolis Group) advise on penalties building by building for a fee.",
+    "pricing": "Portal is free plus staff time; consultants and expediters are quote-only per engagement",
+    "gap": "One-building-at-a-time lookups cannot produce a sub-cycle cohort by block-number last digit, join HPD registration contacts, or compute accruing penalty exposure at list scale; spreadsheets go stale as statuses change monthly. The honest space: nobody sells the QEWI-firm-side prospect pack or the batch owner-side deadline defense memo built from the same public filings."
+   }
+  ],
+  "pricing_anchors": [
+   {
+    "anchor": "ViolationWatch owner-side monitoring, the published floor for per-building NYC compliance alerting",
+    "amount": "$9 per building per month or $99 per building per year; Local Law Tracker (LL11, LL97, LL152 deadlines) add-on $59.99 per year",
+    "receipt_url": "https://violationwatch.nyc/",
+    "receipt_title": "NYC Building Violation Alerts & Monitoring - ViolationWatch"
+   },
+   {
+    "anchor": "Value of one closed QEWI engagement (what a single sourced lead is worth to the buyer)",
+    "amount": "$8,000 to $60,000 per FISP inspection ($8k-$20k small to mid buildings, $20k-$60k large; QEWI professional fee $3,000-$8,000 plus $5,000-$20,000 rigging or lift access)",
+    "receipt_url": "https://nyrestoration.com/local-law-11-facade-inspection-cost-nyc/",
+    "receipt_title": "Local Law 11 Facade Inspection Cost NYC 2026 | Full Price Guide - MGR Restoration Inc"
+   },
+   {
+    "anchor": "DOB FISP report filing fee (hard per-filing cost every prospect building will pay)",
+    "amount": "$425 per initial report; $425 per amended or subsequent report",
+    "receipt_url": "https://randpc.com/blog/amendedrulefispreports/",
+    "receipt_title": "DOB Increases Filing Fees for Facade Inspection Safety Program (FISP) Reports - RAND"
+   },
+   {
+    "anchor": "Owner-side penalty exposure that the lead magnet quantifies (willingness-to-pay driver)",
+    "amount": "$1,000 per month late filing plus $5,000 per year failure to file; $1,000 per month for uncorrected unsafe conditions",
+    "receipt_url": "https://www.nyc.gov/site/buildings/safety/facade-fees-penalties.page",
+    "receipt_title": "Facade Fees & Penalties - NYC Buildings"
+   },
+   {
+    "anchor": "Enterprise NYC compliance monitoring comparable (SiteCompli, DOBguard) sold without published pricing",
+    "amount": "quote-only, portfolio-based",
+    "receipt_url": "https://sitecompli.com/nyc-2/",
+    "receipt_title": "SiteCompli - NYC's #1 Compliance & Property Operations Solution"
+   }
+  ],
+  "buyer_channels": {
+   "associations": [
+    "ICRI Metro New York Chapter (International Concrete Repair Institute; facade restoration contractors, engineers, and suppliers; dinner meetings and annual project awards)",
+    "SEAoNY (Structural Engineers Association of New York; monthly seminars, annual all-day seminar, awards dinner)"
+   ],
+   "conferences": [
+    "Facades+ New York, Mar 26-27 2026 (Architects Newspaper facade AEC conference, about 60 speakers and a few hundred enclosure-focused architects and engineers; 15-city 2026 series; Zak World of Facades NYC in October is the adjacent event)",
+    "The CooperatorEvents New York Expo at the Javits Center (co-op and condo boards and managing agents; 200+ exhibitors and roughly 2,000 attendees, spring and fall editions)"
+   ],
+   "linkedin_filter": "Greater New York City Area; industry Civil Engineering, Architecture and Planning, or Construction; company size 11-200; titles Principal, Partner, or Director of Business Development; profile keywords facade, restoration, exterior, FISP, Local Law 11, QEWI",
+   "roster": "DOB's published approved QEWI list (https://www.nyc.gov/assets/buildings/pdf/qewi.pdf, individual PEs and RAs with license numbers) joined to the BIN-keyed DOB NOW Facades Compliance Filings dataset, which names the QEWI or applicant of record on every filing, yields the active QEWI-firm roster; HPD Multiple Dwelling Registration supplies owner and agent contacts on the demand side"
+  },
+  "enhancement_evidence": {
+   "claim": "The one-shot facade lead list becomes a recurring multi-regime NYC periodic structural compliance radar (the category product) by extending the same BIN-keyed deadline engine to Local Law 126 parking structure inspections, then elevators and LL152 gas piping, so subscribing firms get fresh due-and-unfiled cohorts every year instead of one sub-cycle pull.",
+   "support": "LL126 mirrors FISP almost one for one on the same DOB NOW: Safety portal: 6-year cycles with staggered sub-cycle windows, a credentialed inspector class (QPSI), Safe/SREM/Unsafe statuses, a $485 initial filing fee, and identical penalty mechanics ($1,000 per month late filing, $5,000 per year failure to file). Filings are already flowing in DOB NOW, and the same engineering firms that do FISP (RAND, Thornton Tomasetti, HLZAE, Walker Consultants) already market LL126 practices, so one buyer purchases both radars; DOB NOW also exposes an elevator safety compliance dataset (e5aq-a4j2) for the third regime.",
+   "receipt_url": "https://randpc.com/articles/surveys-and-inspection/nyc-periodic-inspection-parking-structures/"
+  },
+  "facts_check": [
+   {
+    "fact": "Penalty structure: $5,000 per year failure to file, $1,000 per month late filing, $1,000 per month for uncorrected unsafe conditions",
+    "status": "confirmed",
+    "receipt_url": "https://www.nyc.gov/site/buildings/safety/facade-fees-penalties.page",
+    "receipt_title": "Facade Fees & Penalties - NYC Buildings",
+    "note": "All three amounts match the DOB schedule per DOB and SiteCompli summaries. Dossier if anything understates exposure: failure to correct SWARMP adds a $2,000 civil penalty and unsafe-facade OATH/ECB penalties run $5,000 base up to $25,000."
+   },
+   {
+    "fact": "Owners pay QEWI firms roughly $8,000 to $60,000 per inspection plus $425 filing fees",
+    "status": "confirmed",
+    "receipt_url": "https://nyrestoration.com/local-law-11-facade-inspection-cost-nyc/",
+    "receipt_title": "Local Law 11 Facade Inspection Cost NYC 2026 | Full Price Guide - MGR Restoration Inc",
+    "note": "2026 guide: $8k-$20k small to mid, $20k-$60k large or complex, with QEWI professional fee $3k-$8k plus $5k-$20k access equipment; so the range is the all-in engagement, not the pure professional fee. $425 initial and amended/subsequent filing fee confirmed separately by RAND; one contractor source also cites a $100 amendment charge."
+   },
+   {
+    "fact": "Sub-cycle filing windows are assigned by tax block last digit, and Cycle 10 windows are live now (wedge premise)",
+    "status": "confirmed",
+    "receipt_url": "https://www.nyc.gov/assets/buildings/pdf/facadecycle-sn.pdf",
+    "receipt_title": "Facades Inspection and Safety Program (FISP) Cycle 10 - NYC DOB service notice",
+    "note": "10A (block digits 4,5,6,9) Feb 21 2025 to Feb 21 2027; 10B (0,7,8) Feb 21 2026 to Feb 21 2028; 10C (1,2,3) Feb 21 2027 to Feb 21 2029. As of July 2026 two windows overlap and 10A's close is under 8 months away, which is peak urgency for both prospect packs and owner-side defense."
+   },
+   {
+    "fact": "Backbone dataset DOB NOW: Safety - Facades Compliance Filings (xubg-57si) is public on NYC Open Data with monthly-cadence refresh (portal showed May 10, 2026)",
+    "status": "confirmed",
+    "receipt_url": "https://data.cityofnewyork.us/Housing-Development/DOB-NOW-Safety-Facades-Compliance-Filings/xubg-57si",
+    "receipt_title": "DOB NOW: Safety - Facades Compliance Filings | NYC Open Data",
+    "note": "Dataset existence and content (all FISP filings submitted in DOB NOW) confirmed via NYC Open Data and the catalog.data.gov mirror. The specific May 10, 2026 refresh timestamp could not be re-verified because data.cityofnewyork.us returns 403 to both WebFetch and this environment's egress proxy; treat exact freshness as unverified until pulled from the Socrata API in a normal network environment."
+   }
+  ],
+  "search_receipts": [
+   {
+    "query": "FISP facade penalties failure to file $5,000 per year late filing $1,000 per month NYC DOB",
+    "url": "https://www.nyc.gov/site/buildings/safety/facade-fees-penalties.page",
+    "title": "Facade Fees & Penalties - NYC Buildings",
+    "claim": "DOB penalty schedule: late filing $1,000 per month, failure to file $5,000 per year, failure to correct unsafe $1,000 per month, failure to correct SWARMP $2,000, unsafe-facade ECB penalties up to $25,000."
+   },
+   {
+    "query": "FISP Cycle 10 sub-cycle 10A 10B 10C dates block number last digit February 2025",
+    "url": "https://www.nyc.gov/assets/buildings/pdf/facadecycle-sn.pdf",
+    "title": "Facades Inspection and Safety Program (FISP) Cycle 10",
+    "claim": "Cycle 10 windows by block last digit: 10A digits 4,5,6,9 Feb 21 2025 to Feb 21 2027; 10B digits 0,7,8 Feb 21 2026 to Feb 21 2028; 10C digits 1,2,3 Feb 21 2027 to Feb 21 2029."
+   },
+   {
+    "query": "FISP facade report filing fee $425 initial report DOB",
+    "url": "https://randpc.com/blog/amendedrulefispreports/",
+    "title": "DOB Increases Filing Fees for Facade Inspection Safety Program (FISP) Reports - RAND",
+    "claim": "DOB charges $425 for initial FISP report filings and $425 for amended or subsequent reports, filed through DOB NOW."
+   },
+   {
+    "query": "Local Law 11 FISP inspection cost how much does facade inspection cost NYC QEWI",
+    "url": "https://nyrestoration.com/local-law-11-facade-inspection-cost-nyc/",
+    "title": "Local Law 11 Facade Inspection Cost NYC 2026 | Full Price Guide - MGR Restoration Inc",
+    "claim": "Full LL11 inspection typically $8,000 to $60,000 in 2026: $8k-$20k small to mid buildings, $20k-$60k large; QEWI fee component $3k-$8k plus $5k-$20k scaffold or lift access."
+   },
+   {
+    "query": "SiteCompli compliance monitoring NYC facade FISP tracking pricing",
+    "url": "https://sitecompli.com/nyc-2/",
+    "title": "SiteCompli - NYC's #1 Compliance & Property Operations Solution",
+    "claim": "SiteCompli (Inhabit) is owner and property-manager side NYC compliance monitoring including facades pages per property; no published pricing, sold quote-only."
+   },
+   {
+    "query": "Violerts pricing per building per month NYC compliance tracking",
+    "url": "https://violationwatch.nyc/",
+    "title": "NYC Building Violation Alerts & Monitoring - ViolationWatch",
+    "claim": "ViolationWatch publishes $9 per building per month or $99 per year, all 10 agencies included; Local Law Tracker add-on $59.99 per year covers LL11, LL97, LL152 deadlines per building."
+   },
+   {
+    "query": "DOB NOW qualified exterior wall inspector QEWI approved list roster facades",
+    "url": "https://www.nyc.gov/assets/buildings/pdf/qewi.pdf",
+    "title": "DOB-Approved Qualified Exterior Wall Inspectors (QEWI)",
+    "claim": "DOB publishes an approved QEWI list (names, license type, license number); QEWIs must be NYS PE or RA with 7+ years facade experience and DOB approval to file in DOB NOW: Safety."
+   },
+   {
+    "query": "ICRI Metro New York chapter concrete repair restoration SEAoNY structural engineers association facade",
+    "url": "https://icri-ny.org/",
+    "title": "ICRI NY - Metro New York Chapter, International Concrete Repair Institute",
+    "claim": "ICRI Metro NY convenes facade restoration contractors, engineers, and suppliers with dinner meetings at Club 101 and annual project awards; membership includes facade restoration professionals."
+   },
+   {
+    "query": "Facades+ conference New York attendees AEC facade engineering 2026",
+    "url": "https://facadesplus.com/nyc26/",
+    "title": "New York City, March 26+27 - Facades+, Premier Conference on High-Performance Building Enclosures",
+    "claim": "Facades+ NYC runs Mar 26-27 2026 co-hosted with BIG, about 60 speakers, gathering facade architects, engineers, and enclosure professionals; 15-city North American series in 2026."
+   },
+   {
+    "query": "Cooperator Expo New York co-op condo managing agents attendees exhibitors Javits",
+    "url": "https://coopexpofall.com/",
+    "title": "The CooperatorEvents New York Expo - November 17, 2026 - Jacob Javits Convention Center",
+    "claim": "Cooperator Expo NY draws 200+ exhibitors and roughly 2,000 co-op and condo board members and property managers to the Javits Center; 45th year, spring and fall editions."
+   },
+   {
+    "query": "DOB NOW Safety parking structure compliance filings NYC Open Data Local Law 126 dataset",
+    "url": "https://randpc.com/articles/surveys-and-inspection/nyc-periodic-inspection-parking-structures/",
+    "title": "NYC Periodic Inspection of Parking Structures (PIPS) | Local Law 126 Fact Sheet - RAND",
+    "claim": "LL126 parking structure inspections mirror FISP: QPSI inspector class, 6-year cycles, DOB NOW: Safety filings, $485 initial fee, Safe/SREM/Unsafe statuses, $1,000 per month late and $5,000 per year failure-to-file penalties."
+   },
+   {
+    "query": "\"DOB NOW\" \"Facades Compliance Filings\" NYC Open Data dataset xubg-57si",
+    "url": "https://data.cityofnewyork.us/Housing-Development/DOB-NOW-Safety-Facades-Compliance-Filings/xubg-57si",
+    "title": "DOB NOW: Safety - Facades Compliance Filings | NYC Open Data",
+    "claim": "Backbone dataset exists at ID xubg-57si containing all FISP facade compliance filings submitted in DOB NOW; also mirrored at catalog.data.gov."
+   },
+   {
+    "query": "DOBguard pricing NYC building compliance monitoring per building",
+    "url": "https://dobguard.com/enterprise-solutions",
+    "title": "NYC Compliance Solutions for Property Portfolios | DOBGuard",
+    "claim": "DOBguard is owner and manager side monitoring with Basic, Professional, and Enterprise tiers (up to 75 properties); pricing is custom quote by portfolio size, no published per-building rate."
+   },
+   {
+    "query": "SEAoNY Structural Engineers Association of New York membership events",
+    "url": "https://www.seaony.org/",
+    "title": "SEAoNY - Home",
+    "claim": "SEAoNY is the NYC-area structural engineers association with monthly evening seminars, an annual all-day seminar, and an awards program; membership reaches the PE population that includes QEWIs."
+   }
+  ]
+ },
+ "dataqs-rdr-drafter": {
+  "candidate_id": "dataqs-rdr-drafter",
+  "competitors": [
+   {
+    "name": "CNS (Compliance Navigation Specialists) DataQ Challenge service",
+    "url": "https://www.cnsprotects.com/product/dataq-challenge/",
+    "what": "DOT compliance consultancy selling per-incident, human-drafted DataQ challenge filing in four variants (inspection report request, single violation review, crash preventability review, police crash report request) plus full DOT compliance retainers; markets roughly 60 percent success on crash challenges vs 43 percent self-filed, citing FMCSA data.",
+    "pricing": "quote-only (product page sells challenge types as variants without public prices); comparable per-challenge services run $150 (DataQ Help by My Fleet AI, dataqhelp.com) to $250 (TRUCKSSISTANCE, truckssistance.com/data-q/)",
+    "gap": "Reactive and per-incident: the carrier must notice the bad violation and order a challenge one at a time. No fleetwide scan of the full 24-month SMS record, no ranking by estimated reversal odds, no published outcome dataset, and per-challenge billing caps how many marginal violations ever get challenged."
+   },
+   {
+    "name": "Fleetworthy (enterprise CSA platform; J.J. Keller is the consulting/content analog)",
+    "url": "https://fleetworthy.com/faq/csa-safety-score-tracking/",
+    "what": "Enterprise compliance platform that pulls CSA BASIC scores and inspection data from FMCSA, visualizes trends and negative score contributors with color-coded indicators and expert support; J.J. Keller Compliance Network sells the same motion as regulatory content, DataQs how-to guidance, and consulting engagements.",
+    "pricing": "quote-only enterprise contracts (neither Fleetworthy nor J.J. Keller publishes DataQs or CSA-module pricing)",
+    "gap": "They monitor and visualize scores and advise on process, but do not auto-draft RDR narratives citing the inspection facts and the regulation cited, and neither publishes reversal-odds estimates per violation. Packaged for large fleets with dedicated safety departments, leaving 50 to 1,000 power unit carriers doing manual triage."
+   },
+   {
+    "name": "Status quo: free FMCSA DataQs portal plus spreadsheet tracking (DIY safety director)",
+    "url": "https://dataqs.fmcsa.dot.gov/",
+    "what": "The government filing system itself: filing Requests for Data Review is free with no volume cap. Safety directors track roadside inspections in spreadsheets, decide by gut which violations to fight, and hand-write challenge narratives.",
+    "pricing": "free (staff time only)",
+    "gap": "Burden of proof sits on the carrier and self-filed challenges underperform: FMCSA data shows only 39 percent of violation challenges succeed and 43 percent of self-filed crash challenges, vs about 60 percent for professional filers. The portal gives zero help deciding which of a fleet's hundreds of 24-month violations are challengeable or what evidence wins. The honest space between all three: nobody ranks a carrier's entire record by data-derived reversal odds or drafts at fleet scale for a flat monthly fee."
+   }
+  ],
+  "pricing_anchors": [
+   {
+    "anchor": "Full-service DOT compliance retainer, per driver per month (Moving Authority)",
+    "amount": "$100-250 per driver per month full-service; $50-100 basic packages; industry benchmark $75-150",
+    "receipt_url": "https://movingauthority.com/dot-compliance-services-pricing/",
+    "receipt_title": "DOT Compliance Services Pricing | Moving Authority"
+   },
+   {
+    "anchor": "Flat-rate outsourced DOT compliance service (My Safety Manager)",
+    "amount": "$49 per driver per month flat",
+    "receipt_url": "https://www.mysafetymanager.com/dot-compliance-services-company/",
+    "receipt_title": "Need A DOT Compliance Services Partner? - My Safety Manager"
+   },
+   {
+    "anchor": "Per-challenge DataQ filing service (TRUCKSSISTANCE)",
+    "amount": "$250 per DataQ challenge",
+    "receipt_url": "https://truckssistance.com/data-q/",
+    "receipt_title": "Data Q - TRUCKSSISTANCE"
+   },
+   {
+    "anchor": "Per-submission DataQ preparation service (DataQ Help, a My Fleet AI division)",
+    "amount": "$150 per DataQ submission, non-refundable",
+    "receipt_url": "https://dataqhelp.com/",
+    "receipt_title": "Submit DataQ Challenges with Confidence - DataQ Help"
+   },
+   {
+    "anchor": "Compliance software floor, per driver per month (DOTDriverFiles Pro; FleetDrive 360 similar)",
+    "amount": "$5 per driver per month (software-only, no DataQs drafting)",
+    "receipt_url": "https://dotdriverfiles.com/pricing/",
+    "receipt_title": "DOTDriverFiles Subscription Pricing Information"
+   },
+   {
+    "anchor": "Insurance stakes that calibrate willingness to pay (Full Coverage LLC CSA impact tool)",
+    "amount": "standard-tier carriers pay 15-30 percent above preferred; high-risk tier 40-80 percent above; 2+ BASIC alerts flags a carrier higher risk",
+    "receipt_url": "https://myfullcoverage.com/tools/csa-insurance-impact",
+    "receipt_title": "How Your CSA Score Affects Truck Insurance Rates - Free Lookup | Full Coverage LLC"
+   }
+  ],
+  "buyer_channels": {
+   "associations": [
+    "American Trucking Associations (ATA) Safety Management Council (co-host of the SSHR conference)",
+    "Truckload Carriers Association (TCA), including its Safety Officer group"
+   ],
+   "conferences": [
+    "ATA Safety, Security & Human Resources National Conference & Exhibition (SSHR): 450+ attendees in 2025, 400+ expected April 1-3, 2026, Omni Oklahoma City",
+    "TCA Safety & Security Meeting: June 7-9, 2026, Omni Oklahoma City; 40+ years running, truckload safety directors and VPs (attendance not published; estimate low hundreds based on single-hotel format)"
+   ],
+   "linkedin_filter": "Job title contains 'Safety Director', 'Director of Safety', 'VP of Safety', or 'Safety and Compliance Manager'; industry = Truck Transportation; location = United States; company headcount 51-1,000 as a proxy for 50-1,000 power units",
+   "roster": "FMCSA Motor Carrier Census file (SMS Input - Motor Carrier Census Information), data.transportation.gov dataset kjg3-diqy (also the daily Company Census File, dataset az4n-8mr2): USDOT-number-keyed with company name, address, contacts, power units, and driver counts; join to the monthly SMS violation snapshot to rank outreach by challengeable-violation count"
+  },
+  "enhancement_evidence": {
+   "claim": "Reversal-odds scoring can be trained from month-over-month SMS snapshot diffs because upheld DataQs challenges are deleted from the federal record and reflected in the next monthly SMS update, so a USDOT-keyed violation that vanishes mid-window (well before its 24-month expiry) is a usable success label no incumbent publishes.",
+   "support": "A 2026 DataQs process guide confirms the mechanic: when a challenge is upheld the correction is reflected in the next monthly SMS update, and removed violations stop counting toward BASIC percentiles. The raw material is published: FMCSA takes snapshot input files (census, inspection, violation, crash) on the third or last Friday of each month, distributes them as zip flat files on the SMS Downloads page, and posts them to the DOT Open Data portal by the 15th of the following month. Calibration baselines exist from FMCSA-derived stats: 71,862 RDRs processed in 2024 (8,314 crash, 63,548 inspection/violation), with self-filed success around 25-39 percent vs about 60 percent for professional filers. Adversarial caveat stands and is handleable: diffs must exclude 24-month age-outs and routine corrections, and deep historical archive retention on the portal is unverified, so snapshots should be accumulated from launch (estimate: 3-6 months of collection before the scorer has usable labels).",
+   "receipt_url": "https://otrucking.com/resources/guides/dataqs-challenge-process/"
+  },
+  "facts_check": [
+   {
+    "fact": "Paid DataQs service providers report near 60 percent success vs 43 percent for self-filed crash challenges (dossier supporting source: CNS)",
+    "status": "confirmed",
+    "receipt_url": "https://www.cnsprotects.com/news/why-carrier-and-drivers-need-help-when-challenging-violations-with-the-dataq-process/",
+    "receipt_title": "Why Carriers Need Help Challenging Violations With DataQ Process | CNS",
+    "note": "Live search confirms the CNS article: about 60 percent provider success on crash challenges vs 43 percent self-filed, and only 39 percent of violation challenges (the largest category) succeed per FMCSA data. Caveat: vendor-published marketing stat citing FMCSA, not an independent audit."
+   },
+   {
+    "fact": "DOT compliance retainers run 50 to 250 USD per driver per month (Moving Authority pricing page)",
+    "status": "confirmed",
+    "receipt_url": "https://movingauthority.com/dot-compliance-services-pricing/",
+    "receipt_title": "DOT Compliance Services Pricing | Moving Authority",
+    "note": "Page shows basic packages $50-100 and full-service $100-250 per driver per month, matching the dossier range. Note the market also has flat $49 per driver per month (My Safety Manager) and $5 per driver per month software-only tiers, so the dossier range describes service retainers, not software."
+   },
+   {
+    "fact": "Elevated BASICs carry 20 to 40 percent insurance premium surcharges at high Unsafe Driving percentiles (Full Coverage LLC)",
+    "status": "confirmed",
+    "receipt_url": "https://myfullcoverage.com/tools/csa-insurance-impact",
+    "receipt_title": "How Your CSA Score Affects Truck Insurance Rates - Free Lookup | Full Coverage LLC",
+    "note": "Directionally confirmed but the live tiers differ slightly: standard tier runs 15-30 percent above preferred and high-risk tier 40-80 percent above, with 2+ BASIC alerts triggering higher-risk treatment. The dossier's 20-40 percent band sits inside the live range rather than matching one published figure."
+   },
+   {
+    "fact": "SMS backbone: monthly snapshot zip files of comma-delimited inspection and violation data with readme schemas, updated on a published monthly cycle",
+    "status": "confirmed",
+    "receipt_url": "https://ai.fmcsa.dot.gov/sms/Data/Downloads.aspx",
+    "receipt_title": "Safety Measurement System - Downloads",
+    "note": "Confirmed: snapshots taken the third or last Friday monthly, zips contain flat comma-delimited files plus readme, and the DOT Open Data portal posts SMS input files by the 15th of the next month. One flag: ai.fmcsa.dot.gov and data.transportation.gov both return 403 to automated fetchers, so ingestion needs browser-grade headers or the Socrata API with an app token; deep historical archive retention was not verifiable in this pass."
+   }
+  ],
+  "search_receipts": [
+   {
+    "query": "CNS DataQs challenge service success rate carrier violations",
+    "url": "https://www.cnsprotects.com/news/why-carrier-and-drivers-need-help-when-challenging-violations-with-the-dataq-process/",
+    "title": "Why Carriers Need Help Challenging Violations With DataQ Process | CNS",
+    "claim": "Professional providers achieve near 60 percent success on crash challenges vs 43 percent self-filed; only 39 percent of violation challenges succeed per FMCSA."
+   },
+   {
+    "query": "J.J. Keller DataQs challenge service CSA violation removal",
+    "url": "https://jjkellercompliancenetwork.com/news/dataqs-what-is-it-for-how-does-it-work-and-how-can-i-be-successful",
+    "title": "DataQs: What is it for, how does it work, and how can I be successful? | J. J. Keller Compliance Network",
+    "claim": "J.J. Keller sells DataQs guidance and consulting; challenges with documentation are almost twice as likely to succeed."
+   },
+   {
+    "query": "Fleetworthy DataQs challenge management CSA scores service",
+    "url": "https://fleetworthy.com/faq/csa-safety-score-tracking/",
+    "title": "CSA Safety Score Tracking & Analysis | Fleetworthy",
+    "claim": "Fleetworthy pulls CSA BASIC scores and inspection data from FMCSA and visualizes contributors for enterprise safety departments; monitoring plus expert support, not auto-drafted RDRs."
+   },
+   {
+    "query": "Moving Authority DOT compliance program pricing per driver per month",
+    "url": "https://movingauthority.com/dot-compliance-services-pricing/",
+    "title": "DOT Compliance Services Pricing | Moving Authority",
+    "claim": "Full-service DOT compliance runs $100-250 per driver per month, basic $50-100; benchmark $75-150."
+   },
+   {
+    "query": "DataQ challenge service cost per violation challenge price trucking",
+    "url": "https://truckssistance.com/data-q/",
+    "title": "Data Q - TRUCKSSISTANCE",
+    "claim": "Third-party DataQ challenge service charges $250 per challenge."
+   },
+   {
+    "query": "dataqhelp.com pricing DataQ challenge subscription",
+    "url": "https://dataqhelp.com/",
+    "title": "Submit DataQ Challenges with Confidence - DataQ Help",
+    "claim": "DataQ Help (My Fleet AI division) charges $150 non-refundable per DataQ submission with no success guarantee."
+   },
+   {
+    "query": "\"CNS\" DataQ challenge price \"per challenge\" OR \"$\" cnsprotects",
+    "url": "https://www.cnsprotects.com/product/dataq-challenge/",
+    "title": "DataQ Challenge | Online Setup | CNS",
+    "claim": "CNS sells four DataQ challenge types as product variants; prices not exposed in search results, effectively quote-only."
+   },
+   {
+    "query": "FMCSA SMS data downloads monthly snapshot files carrier violation zip",
+    "url": "https://ai.fmcsa.dot.gov/sms/Data/Downloads.aspx",
+    "title": "Safety Measurement System - Downloads",
+    "claim": "Monthly snapshot zips (taken third or last Friday) contain comma-delimited inspection and violation flat files plus readme; DOT Open Data portal posts SMS input files by the 15th of the next month."
+   },
+   {
+    "query": "CSA SMS violations remain 24 months carrier BASIC score FMCSA",
+    "url": "https://teamster.org/compliance-safety-accountability-csa-frequently-asked-questions/",
+    "title": "Compliance, Safety, Accountability (CSA) Frequently Asked Questions - International Brotherhood of Teamsters",
+    "claim": "Violations count in SMS BASIC calculations for 24 months with time weighting (recent 6 months weighted 3x), then fall off; they persist longer in MCMIS and PSP."
+   },
+   {
+    "query": "CSA scores truck insurance premium increase percentage high BASIC alerts",
+    "url": "https://myfullcoverage.com/tools/csa-insurance-impact",
+    "title": "How Your CSA Score Affects Truck Insurance Rates - Free Lookup | Full Coverage LLC",
+    "claim": "Standard-tier carriers pay 15-30 percent above preferred and high-risk tiers 40-80 percent above; 2+ BASIC alerts marks a carrier higher risk to underwriters."
+   },
+   {
+    "query": "FMCSA DataQs statistics requests for data review filed annually success rate",
+    "url": "https://marqueeig.com/resources/fmcsas-dataqs-overhaul/",
+    "title": "FMCSA's DataQs Overhaul: What Every Carrier Needs to Know Right Now",
+    "claim": "DataQs processed 71,862 requests in 2024 (8,314 crash, 63,548 inspection/violation appeals); standard inspection challenge success 25-35 percent; FMCSA cites about 50 percent positive overall."
+   },
+   {
+    "query": "Truckload Carriers Association Safety Security Meeting attendance safety directors conference 2026",
+    "url": "https://truckload.org/events/2026-safety-meeting/",
+    "title": "2026 Safety & Security Meeting - Truckload Carriers Association",
+    "claim": "TCA Safety & Security Meeting runs June 7-9, 2026 at the Omni Oklahoma City; 40+ years of convening truckload safety professionals with exhibit hall."
+   },
+   {
+    "query": "FMCSA motor carrier census file download USDOT number list power units",
+    "url": "https://data.transportation.gov/Trucking-and-Motorcoaches/SMS-Input-Motor-Carrier-Census-Information/kjg3-diqy",
+    "title": "SMS Input - Motor Carrier Census Information | Department of Transportation - Data Portal",
+    "claim": "USDOT-keyed census dataset with company names, addresses, contacts, power units, and driver counts; companion daily Company Census File (az4n-8mr2) adds authority and insurance fields."
+   },
+   {
+    "query": "ATA Safety Security Human Resources National Conference attendance safety professionals",
+    "url": "https://www.trucking.org/news-insights/ata-opens-registration-sshr-national-conference-and-exhibition",
+    "title": "ATA Opens Registration for SSHR National Conference and Exhibition | American Trucking Associations",
+    "claim": "SSHR 2026 (April 1-3, Omni Oklahoma City) expects 400+ trucking safety, security, and HR professionals; 450+ attended in 2025; co-hosted by ATA Safety Management Council."
+   },
+   {
+    "query": "successful DataQs challenge violation removed reflected next monthly SMS update snapshot",
+    "url": "https://otrucking.com/resources/guides/dataqs-challenge-process/",
+    "title": "DataQs Challenge Process: 2026 Guide | O Trucking",
+    "claim": "When a challenge is upheld the correction is reflected in the next monthly SMS update and the removed violation stops counting toward BASIC percentiles, validating snapshot-diff labels for reversal scoring."
+   }
+  ]
+ },
+ "npdes-dmr-citizen-suit-radar": {
+  "candidate_id": "npdes-dmr-citizen-suit-radar",
+  "competitors": [
+   {
+    "name": "EPA ECHO free tools (Effluent Charts, DMR Exceedances Search, ECHO Notify)",
+    "url": "https://echo.epa.gov/trends/loading-tool/effluent-exceedances-search",
+    "what": "Free federal tools: per-facility Effluent Charts of permit limits vs reported DMR values with violation flags, a DMR Exceedances Search that defaults to the most recent complete 5-year range, and ECHO Notify weekly emails when new violations or enforcement actions post for selected facility IDs or geographies.",
+    "pricing": "Free",
+    "gap": "The adversarial attack is confirmed: the raw 5-year assembly already exists for free. What ECHO does not do: statutory penalty exposure math (days x $68,445 accumulated per parameter), a single exposure narrative ordered the way a 60-day notice letter would present it, SIC-code peer benchmarking, prioritized fixes, or trend-based warning BEFORE a violation posts; ECHO Notify only fires after a violation is already in the public record, and the permittee must know to go look."
+   },
+   {
+    "name": "Mapistry (Elevate platform)",
+    "url": "https://www.mapistry.com/",
+    "what": "Environmental compliance software for industrial facilities, strongest in stormwater/SWPPP: sampling workflows, inspections, task tracking, and exceedance alerts computed from the customer's own entered data across sites. Its own marketing documents the citizen-suit threat.",
+    "pricing": "Quote-only from vendor; third-party listing (Software Finder) shows Essentials $10,998, Advanced $18,998, Enterprise $26,998 per location per year plus $1,500-$8,000 setup",
+    "gap": "Works inside-out from customer-onboarded operational data and is priced as an enterprise multi-site program (roughly $900+ per location per month). It does not compute an outside-in plaintiff's-eye exposure view from the public ICIS-NPDES record with penalty math and cross-industry peer benchmarks, and it cannot be tried from just a permit ID with zero onboarding.",
+    "note": "Ecesis and ComplianceGo occupy the same own-data workflow category with the same gap"
+   },
+   {
+    "name": "Status quo: environmental consultant plus defense counsel plus spreadsheets",
+    "url": "https://www.rmagreen.com/rma-blog/how-much-does-an-npdes-permit-cost-in-2025-quick-calculator-included",
+    "what": "Consultants (e.g., RMA) prepare DMR submittals and inspections at about $500 per quarter per activity and charge $2,500-$10,000 per facility for permit compliance help; exceedance history lives in the consultant's spreadsheets; defense attorneys engage only after a 60-day notice letter arrives and steer response and settlement (ABA guidance).",
+    "pricing": "About $500/quarter per DMR activity; $2,500-$10,000 per facility consulting; attorney response reactive at $10,000 to $1,000,000+ per episode",
+    "gap": "Entirely reactive and per-facility manual. Nobody on the defense side continuously watches the accumulated 5-year public record the way plaintiff groups systematically do; the consultant deliverable is the filing itself, not an exposure ledger, penalty accumulation model, or early-warning trend analysis across a fleet of permits."
+   }
+  ],
+  "pricing_anchors": [
+   {
+    "anchor": "Mapistry per-location SaaS tiers (closest commercial comp)",
+    "amount": "$10,998 to $26,998 per location per year (about $917 to $2,250 per location per month), per third-party listing; vendor itself is quote-only",
+    "receipt_url": "https://softwarefinder.com/facility-management-software/mapistry",
+    "receipt_title": "Mapistry: Pricing, Demo & Features | Software Finder"
+   },
+   {
+    "anchor": "Routine consultant DMR support (manual substitute this tool undercuts or augments)",
+    "amount": "About $500 per quarter per activity for consultant DMR prep or inspections; $2,500 to $10,000 per facility for NPDES compliance consulting; stormwater sample analysis about $500/quarter",
+    "receipt_url": "https://www.rmagreen.com/rma-blog/how-much-does-an-npdes-permit-cost-in-2025-quick-calculator-included",
+    "receipt_title": "How much does an NPDES permit cost in 2025? | RMA"
+   },
+   {
+    "anchor": "Cost of the failure mode the tool prevents (citizen-suit episode)",
+    "amount": "Legal fees $10,000 to $1,000,000+ per settlement, BMP spends $25,000 to $20,000,000; most suits settle within the 60-day notice window",
+    "receipt_url": "https://www.mapistry.com/blog/explaining-the-drastic-increase-in-stormwater-citizen-lawsuits",
+    "receipt_title": "Explaining the Drastic Increase in Stormwater Citizen Lawsuits | Mapistry"
+   },
+   {
+    "anchor": "Statutory exposure per violation-day (urgency calibrator)",
+    "amount": "Up to $68,445 per violation per day (2025 inflation-adjusted CWA maximum cited in notice letters)",
+    "receipt_url": "https://natlawreview.com/article/citizen-suit-enforcement-under-industrial-general-permit-how-businesses-can-avoid",
+    "receipt_title": "Citizen Suit Enforcement Under the Industrial General Permit | National Law Review"
+   },
+   {
+    "anchor": "Implied price corridor (estimate, labeled)",
+    "amount": "Estimate: $250 to $750 per facility per month sits below Mapistry's entry tier, at or below existing consultant DMR spend, and is trivially justified against a single avoided notice-letter episode",
+    "receipt_url": "https://softwarefinder.com/facility-management-software/mapistry",
+    "receipt_title": "Derived from Mapistry and RMA anchors above; NSigma estimate, not a published price"
+   }
+  ],
+  "buyer_channels": {
+   "associations": [
+    "NAEM (National Association for EHS&S Management), 800+ member companies of exactly the target EHS director profile",
+    "Water Environment Federation (WEF), whose industrial members and MAs cover NPDES discharger staff"
+   ],
+   "conferences": [
+    "NAEM EHS&S Management Forum (about 650 EHS&S managers, directors, and VPs; the largest annual gathering of this buyer)",
+    "StormCon (830+ stormwater and erosion control professionals in 2025; Aug 25-27, 2026, Minneapolis; has an industrial stormwater track)"
+   ],
+   "linkedin_filter": "Title: Environmental Manager OR EHS Director OR Environmental Compliance Manager OR EHS Manager; Industry: manufacturing sectors mapping to NAICS 31-33 (chemicals, paper, primary metals, food processing, plastics); company size 51-1,000; US; optionally seeded with a company list exported from the ECHO permit roster",
+   "roster": "ECHO ICIS-NPDES national data set downloads (echo.epa.gov/tools/data-downloads, including the ICIS-NPDES Discharge Points file): every NPDES-permitted facility with name, street address, coordinates, SIC/NAICS, permit type and compliance status, keyed by NPDES permit ID; filter to individual and industrial general permits in NAICS 31-33 and join to FRS IDs for NSigma's existing facility infrastructure"
+  },
+  "enhancement_evidence": {
+   "claim": "The category-making enhancement is the repositioning the mind-changer demands: from plaintiff-exhibit mockup to an internal exceedance EARLY WARNING system that scores each outfall/parameter's trend toward violation before it posts to the public record, so the deliverable reads as compliance hygiene defense counsel would forward, not a discoverable draft exhibit.",
+   "support": "Three verified feasibility signals. (1) Direct precedent: EPA partnered with Stanford's RegLab to run machine learning over ICIS-NPDES discharge volumes, compliance history, and permit-level variables to predict the likelihood of future severe CWA violations (about 30 percent of dischargers self-report persistent or severe violations in a given year), proving the identical public DMR data supports predictive early warning. (2) Demand precedent: EPA's own ECHO Notify (2022) ships weekly facility-keyed violation alerts, but only after violations post, leaving the pre-violation trend window open. (3) Legal framing: ABA defense-bar guidance treats the 60-day notice period as the chance to come into compliance and document it, which is exactly what an internal early-warning artifact supports and what an unsolicited penalty-exposure exhibit undermines.",
+   "receipt_url": "https://law.stanford.edu/press/algorithmic-approaches-for-assessing-pollution-reduction-policies-can-reveal-shifts-in-environmental-protection-of-minority-communities-according-to-stanford-researchers/",
+   "additional_receipts": [
+    "https://echo.epa.gov/tools/echo-notify",
+    "https://www.americanbar.org/groups/environment_energy_resources/resources/natural-resources-environment/2014-2022/dealing-clean-water-act-60-day-notice-letter/"
+   ]
+  },
+  "facts_check": [
+   {
+    "fact": "Citizen-suit notice letters claim per-day penalties of up to $68,445 per violation",
+    "status": "confirmed",
+    "receipt_url": "https://natlawreview.com/article/citizen-suit-enforcement-under-industrial-general-permit-how-businesses-can-avoid",
+    "receipt_title": "Citizen Suit Enforcement Under the Industrial General Permit | National Law Review",
+    "note": "Figure matches the CWA maximum as adjusted by EPA's Jan 8, 2025 civil monetary penalty inflation rule (Federal Register 2025-00206, 40 CFR 19.4; the parallel CWA 404(s)(4) figure is $68,446). Caveat: adjusted annually; no January 2026 adjustment surfaced in searches, so treat $68,445 as the latest verifiable figure and re-check 40 CFR 19.4 before publishing penalty math."
+   },
+   {
+    "fact": "Backbone dataset: ICIS-NPDES DMR downloads are CSV, one zip per federal fiscal year (npdes_dmrs_fyXXXX.zip) since FY2009, refreshed weekly per the ECHO schedule",
+    "status": "confirmed",
+    "receipt_url": "https://echo.epa.gov/tools/data-downloads/icis-npdes-dmr-and-limit-data-set",
+    "receipt_title": "ICIS-NPDES Permit Limit and Discharge Monitoring Report (DMR) Datasets | ECHO | US EPA",
+    "note": "EPA documentation: comma-separated files, one per fiscal year since 2009, zips named npdes_dmrs_fyxxxx.zip with CSVs npdes_dmr_fyxxxx.csv, 'file is updated each week, according to the ECHO refresh schedule.' Exactly as the dossier claims."
+   },
+   {
+    "fact": "Notice-letter episodes run $10,000 to $1,000,000+ in legal fees plus $25,000 to $20,000,000 in BMPs (Mapistry)",
+    "status": "confirmed",
+    "receipt_url": "https://www.mapistry.com/blog/explaining-the-drastic-increase-in-stormwater-citizen-lawsuits",
+    "receipt_title": "Explaining the Drastic Increase in Stormwater Citizen Lawsuits | Mapistry",
+    "note": "Mapistry: settlement legal fees range $10,000 to $1 million or more with similar amounts for mitigation projects; BMPs from citizen lawsuits range $25,000 to $20 million. Also confirms most suits settle in the 60-day window and that fines can accumulate to $3M-$12M+. Vendor-published marketing figures, not peer-reviewed, but they match the dossier verbatim."
+   }
+  ],
+  "search_receipts": [
+   {
+    "query": "EPA ECHO Effluent Charts DMR exceedance search facility five year",
+    "url": "https://echo.epa.gov/trends/loading-tool/effluent-exceedances-search",
+    "title": "DMR Exceedances Search | ECHO | US EPA",
+    "claim": "EPA offers a free DMR Exceedances Search defaulting to the most recent complete 5-year range plus per-facility Effluent Charts of limits, reported values, and violations; the adversarial attack's free-incumbent premise is real."
+   },
+   {
+    "query": "ECHO Notify weekly email alerts new violations enforcement EPA",
+    "url": "https://echo.epa.gov/tools/echo-notify",
+    "title": "ECHO Notify | ECHO | US EPA",
+    "claim": "Since March 2022 EPA sends free weekly emails of new violations and enforcement actions by facility ID, ZIP, county, or state; alerting exists but only after violations post."
+   },
+   {
+    "query": "\"68,445\" citizen suit Clean Water Act penalty per day industrial general permit",
+    "url": "https://natlawreview.com/article/citizen-suit-enforcement-under-industrial-general-permit-how-businesses-can-avoid",
+    "title": "Citizen Suit Enforcement Under the Industrial General Permit | National Law Review",
+    "claim": "NGO notice letters threaten civil penalties up to $68,445 per violation per day, matching the dossier's load-bearing number."
+   },
+   {
+    "query": "Clean Water Act maximum civil penalty per day per violation 2026 inflation adjustment 40 CFR 19.4",
+    "url": "https://www.federalregister.gov/documents/2025/01/08/2025-00206/civil-monetary-penalty-inflation-adjustment",
+    "title": "Federal Register: Civil Monetary Penalty Inflation Adjustment (Jan 8, 2025)",
+    "claim": "Most recent verifiable EPA penalty inflation adjustment is effective Jan 8, 2025 (about 1.02x over 2024); no 2026 rule surfaced in searches."
+   },
+   {
+    "query": "\"$68,445\" Clean Water Act per day per violation penalty 2025",
+    "url": "https://www.epa.gov/cwa-404/clean-water-act-section-309-federal-enforcement-authority",
+    "title": "Clean Water Act Section 309: Federal Enforcement Authority | US EPA",
+    "claim": "2025-adjusted CWA judicial civil penalties run to the high $68,000s per day per violation (CWA 404(s)(4) at $68,446), corroborating the magnitude."
+   },
+   {
+    "query": "Mapistry stormwater compliance software platform pricing per facility",
+    "url": "https://softwarefinder.com/facility-management-software/mapistry",
+    "title": "Mapistry: Pricing, Demo & Features | Software Finder",
+    "claim": "Third-party listing shows Mapistry at $10,998 / $18,998 / $26,998 per location per year plus setup fees; the key commercial SaaS pricing anchor."
+   },
+   {
+    "query": "software monitor NPDES DMR violations citizen suit risk alert permittees",
+    "url": "https://www.ecesis.net/Water-Quality-Software/NPDES-Permit-Compliance-Software.aspx",
+    "title": "NPDES Permit Compliance Software | Ecesis",
+    "claim": "NPDES compliance software incumbents (Ecesis, ComplianceGo, Mapistry) manage the permittee's own data and filing workflow; no product surfaced offering an outside-in citizen-suit exposure radar on the public DMR record."
+   },
+   {
+    "query": "environmental consultant cost NPDES permit compliance per facility DMR quarterly fee",
+    "url": "https://www.rmagreen.com/rma-blog/how-much-does-an-npdes-permit-cost-in-2025-quick-calculator-included",
+    "title": "How much does an NPDES permit cost in 2025? | RMA",
+    "claim": "Consultant DMR prep runs about $500 per quarter per activity and NPDES compliance consulting $2,500-$10,000 per facility; confirms the dossier's RMA 2025 spend figures and identifies RMA as rmagreen.com."
+   },
+   {
+    "query": "Mapistry stormwater citizen lawsuits legal fees \"$10,000\" \"$1,000,000\" BMPs \"$20,000,000\"",
+    "url": "https://www.mapistry.com/blog/explaining-the-drastic-increase-in-stormwater-citizen-lawsuits",
+    "title": "Explaining the Drastic Increase in Stormwater Citizen Lawsuits | Mapistry",
+    "claim": "Settlement legal fees $10,000 to $1M+ and BMPs $25,000 to $20M; most citizen suits settle within the 60-day notice period; plaintiff groups target using public monitoring data."
+   },
+   {
+    "query": "NAEM EHS Management Forum conference attendees environmental managers annual",
+    "url": "https://www.naem.org/what-we-offer/conferences",
+    "title": "EHS & Sustainability Conferences | NAEM",
+    "claim": "NAEM's EHS&S Management Forum draws about 650 EHS managers, directors, and VPs and NAEM's community spans 800+ companies; the buyer's primary association and conference."
+   },
+   {
+    "query": "StormCon stormwater conference annual attendees industrial stormwater professionals",
+    "url": "https://www.stormcon.com/2026/why-attend",
+    "title": "STORMCON 2026 | Why Attend",
+    "claim": "830+ stormwater and erosion control professionals attended StormCon 2025; 2026 edition runs Aug 25-27 in Minneapolis with an industrial stormwater track."
+   },
+   {
+    "query": "machine learning predicting Clean Water Act violations facility noncompliance study Nature",
+    "url": "https://law.stanford.edu/press/algorithmic-approaches-for-assessing-pollution-reduction-policies-can-reveal-shifts-in-environmental-protection-of-minority-communities-according-to-stanford-researchers/",
+    "title": "Stanford Law School RegLab: Algorithmic Approaches for Assessing Pollution Reduction Policies",
+    "claim": "EPA partnered with Stanford RegLab to predict future severe CWA violations by ML over ICIS discharge and compliance history; about 30 percent of dischargers self-report persistent or severe violations yearly; direct precedent for the early-warning enhancement."
+   },
+   {
+    "query": "\"npdes_dmrs_fy\" ECHO data downloads DMR limit data set fiscal year 2009 weekly",
+    "url": "https://echo.epa.gov/tools/data-downloads/icis-npdes-dmr-and-limit-data-set",
+    "title": "ICIS-NPDES Permit Limit and DMR Datasets | ECHO | US EPA",
+    "claim": "Backbone confirmed: one CSV zip per federal fiscal year since 2009 named npdes_dmrs_fyxxxx.zip, updated each week per the ECHO refresh schedule."
+   },
+   {
+    "query": "law firm guidance received Clean Water Act 60-day notice letter audit your own DMR ECHO data proactively",
+    "url": "https://www.americanbar.org/groups/environment_energy_resources/resources/natural-resources-environment/2014-2022/dealing-clean-water-act-60-day-notice-letter/",
+    "title": "Dealing with a Clean Water Act 60-Day Notice Letter | American Bar Association",
+    "claim": "Defense-bar guidance frames the 60-day window as the time to come into compliance and document it; supports the internal early-warning repositioning over an unsolicited plaintiff-exhibit mockup, per the dossier's mind-changer."
+   },
+   {
+    "query": "ICIS-NPDES national data set download permits facilities addresses list ECHO",
+    "url": "https://echo.epa.gov/tools/data-downloads/icis-npdes-discharge-points-download-summary",
+    "title": "ICIS-NPDES Discharge Points Summary | ECHO | US EPA",
+    "claim": "National downloadable roster of NPDES facilities and outfalls with street addresses and coordinates, keyed to permit IDs; the entity-keyed list-building source that also joins to FRS for NSigma's existing infrastructure."
+   }
+  ]
+ },
+ "nyc-elevator-cat1-compliance-packet": {
+  "candidate_id": "nyc-elevator-cat1-compliance-packet",
+  "competitors": [
+   {
+    "name": "SiteCompli (InCheck)",
+    "url": "https://sitecompli.com/solutions/nyc-compliance/",
+    "what": "NYC's dominant compliance monitoring and property-operations SaaS; aggregates DOB, HPD, FDNY, DEP, DOT data into portfolio dashboards with deadline alerts, including DOB elevator CAT1 inspection tracking, sold per-building to large property management companies.",
+    "pricing": "quote-only; per-building pricing described by third-party comparisons as best suited to large management companies (KomplyOS 2026 comparison, Capterra shows no published price)",
+    "gap": "Buyer is the large PM portfolio, not the elevator agency or the small managing agent; it alerts on issued violations and deadlines but does not compute accrued plus projected per-device penalty exposure ($3,000 FTF + $3,000 AOC math) as an owner-ready audit memo, and offers nothing agency-side (no sales one-pager or book-of-business radar for elevator contractors)."
+   },
+   {
+    "name": "TEI Group violation resolution (the manual consultant status quo)",
+    "url": "https://www.teigroup.com/elevator-violations-management.php",
+    "what": "Full-service NYC elevator company offering elevator violations resolution and management as a consulting engagement: survey devices, correct defects, file AOCs and reports, represent owners at OATH/DOB; this is the attorney/expediter/consultant path owners use after violations land.",
+    "pricing": "quote-only per engagement (violation resolution and CAT testing priced case by case)",
+    "gap": "Entirely reactive: engaged after the $3,000 per-device penalties are already issued; no continuous monitoring, no pre-violation projection across staggered 21/90/104-day windows, and an inherent conflict since the consultant profits from the remediation work itself."
+   },
+   {
+    "name": "Free lookups plus the agency spreadsheet (DOB NOW Public Portal, DOB.Watch, ElevatorUptime, ViolationWatch)",
+    "url": "https://dob.watch/",
+    "what": "The status quo the adversarial review flagged: DOB NOW Public Portal and NYC Open Data give free per-BIN device and filing lookups; DOB.Watch offers free DOB violation lookup with alerts; ElevatorUptime (elevatoruptime.com) publishes free per-building elevator status and outage pages; ViolationWatch sells low-cost alerts; elevator agencies track test cycles in Excel because service contracts oblige them to.",
+    "pricing": "free (DOB NOW portal, DOB.Watch, ElevatorUptime); ViolationWatch Local Law Tracker add-on published at $59.99/year",
+    "gap": "Verified honest space: all of these surface violations or device status one building at a time AFTER the fact; none computes accrued plus projected civil-penalty dollars per device, none runs AOC 90/104-day countdown clocks portfolio-wide by BBL, none outputs an owner-ready audit memo, and none gives an elevator agency a client-retention or competitor-switch radar; spreadsheets silently miss staggered per-device windows, which is exactly what generated DOB's October 2023 mass FTF-AOC violation sweep for 2018-2022."
+   }
+  ],
+  "pricing_anchors": [
+   {
+    "anchor": "ViolationWatch Local Law Tracker add-on (low-end NYC compliance deadline tracking subscription)",
+    "amount": "$59.99 per year",
+    "receipt_url": "https://violationwatch.nyc/",
+    "receipt_title": "NYC Building Violation Alerts & Monitoring - ViolationWatch"
+   },
+   {
+    "anchor": "SiteCompli per-building compliance monitoring for large NYC portfolios (enterprise ceiling)",
+    "amount": "quote-only, per-building",
+    "receipt_url": "https://www.komplyos.com/blog/best-building-compliance-software-2026",
+    "receipt_title": "Best Building Compliance Software in 2026 - 10 Tools Compared | KomplyOS"
+   },
+   {
+    "anchor": "CAT1 test market cost per device (2021): witnessing agency $400-$1,000 plus performing elevator company $800-$1,200",
+    "amount": "$1,200-$2,200 per device per year combined",
+    "receipt_url": "https://www.prorealtyusa.com/2021/08/15/new-york-city-elevator-maintenance-and-testing-requirements/",
+    "receipt_title": "NYC Elevator Testing Maintenance and Requirements - ProRealty"
+   },
+   {
+    "anchor": "Manhattan CAT1 witnessing, current quotes: per elevator and per 100k sqft commercial building per year",
+    "amount": "$1,500-$5,000 per elevator; $3,000-$10,000 per building per year; DOB filing fee $30",
+    "receipt_url": "https://insparisk.com/nyc/manhattan.html",
+    "receipt_title": "Manhattan Building Compliance Services | Elevator, Boiler & Facade Inspections | Insparisk"
+   },
+   {
+    "anchor": "Avoided-penalty value that calibrates willingness to pay: failure to file $3,000 per device, late filing $150 per month per device capped at $1,800, failure to correct/file AOC $3,000 per device",
+    "amount": "$3,000 + $3,000 per device per cycle at risk",
+    "receipt_url": "https://www.nyc.gov/assets/buildings/pdf/elv_fta_vio-sn.pdf",
+    "receipt_title": "Violations for 2018-2022 Failure to File Affirmation of Correction (DOB Service Notice)"
+   }
+  ],
+  "buyer_channels": {
+   "associations": [
+    "Elevator Conference of New York (ECNY), ~190 corporate members, NYC contractors/consultants/inspectors",
+    "Elevator Industries Association (EIA), the NYC-area elevator contractor association; nationally, National Association of Elevator Contractors (NAEC, ~708 members)"
+   ],
+   "conferences": [
+    "NAEC Annual Convention & Exposition (76th edition Sept 14-17 2025, Houston; 200+ exhibitors, the industry's main contractor gathering)",
+    "ECNY Annual Supplier Showcase (NYC; 70+ exhibitors, ~650 attendees, plus annual dinner dance; hyper-local to the exact buyer)"
+   ],
+   "linkedin_filter": "People at companies with 'elevator' in the company name or in Facilities Services industry, Greater New York City Area, company size 11-500, titles: Service Manager, Account Manager, Sales Director, Testing or Violations Coordinator; second segment: Managing Agent, Director of Compliance, or Property Manager at NYC residential/commercial management firms (industry Real Estate)",
+   "roster": "DOB NOW Elevator Safety Compliance dataset on NYC Open Data (e5aq-a4j2), entity-keyed by BIN and device number, joinable to BBL/PLUTO for owner and managing-agent lists; for the agency side, the public ECNY Company Directory (ecnyweb.com/company/directory) plus DOB's approved-agency filings visible in DOB NOW"
+  },
+  "enhancement_evidence": {
+   "claim": "The category-product enhancement is the agency-side sales radar implied by the dossier's 'agency sales one-pager': key every overdue or defect-open device to the inspection agency that filed (or failed to file) and sell elevator agencies switch-target lead lists and client-retention penalty alerts, making the product two-sided instead of a one-off owner memo.",
+   "support": "Precedent verified: Convex operates a sales-intelligence platform with a dedicated elevator-industry solution across 5.9M+ properties built on building and permit data, proving elevator contractors already pay for property-level lead intelligence (also covered by ServiceTitan's blog on Convex warm commercial leads). Feasibility verified: the DOB NOW Elevator Safety Compliance dataset is live on NYC Open Data and data.gov with device-level inspection and filing records searchable by BIN and device number, and DOB filings are made by DOB-approved inspection agencies, so filings carry agency attribution in DOB NOW. One labeled assumption remains: confirm at build time that the public dataset exposes the filing agency name column, since direct column-level inspection of data.cityofnewyork.us was blocked by the research proxy in this session.",
+   "receipt_url": "https://www.convex.com/solutions-elevator-industry"
+  },
+  "facts_check": [
+   {
+    "fact": "$3,000 per-device civil penalty for failure to file the annual CAT1 test report (1 RCNY 103-02)",
+    "status": "confirmed",
+    "receipt_url": "https://www.nyc.gov/site/buildings/safety/elevator-frequently-asked-questions.page",
+    "receipt_title": "Elevator Frequently Asked Questions - NYC Buildings",
+    "note": "Confirmed for the target buyer segment: $3,000 per device per year for commercial, mixed-use, and buildings with more than 2 residential units; a lower $1,000 tier applies to 1-2 family homes; if the test was performed on time but filed late the penalty is instead $150 per month per device capped at $1,800."
+   },
+   {
+    "fact": "Another $3,000 per device for missed affirmation of correction (AOC)",
+    "status": "confirmed",
+    "receipt_url": "https://www.nyc.gov/assets/buildings/pdf/elv_fta_vio-sn.pdf",
+    "receipt_title": "Violations for 2018-2022 Failure to File Affirmation of Correction (DOB Service Notice)",
+    "note": "DOB's October 2023 enforcement notice states civil penalties for failure to file and failure to correct are $3,000 per noncompliant device. Two caveats for the pitch: rule text also carries a $1,000-per-elevator tier for smaller buildings, and DOB waived 2022 and 2023 cycle AOC penalties if the AOC was filed by April 14 2023 or April 14 2024, so 'mostly cannot be waived' is broadly true but DOB has granted cycle-wide amnesties under pressure."
+   },
+   {
+    "fact": "CAT1 report must be filed within 21 days",
+    "status": "confirmed",
+    "receipt_url": "https://insparisk.com/nyc/elevator-inspection-guide.html",
+    "receipt_title": "NYC Elevator Witnessing & Periodic Inspection Guide | CAT1, CAT5, DOB Requirements | Insparisk",
+    "note": "Report due within 21 days of the test date, with January 21 as the hard cutoff after the Jan 1-Dec 31 cycle; defects must be corrected within 90 days of the test and the AOC filed within 14 days of correction (104 days total), which are the countdown clocks the penalty radar must track."
+   },
+   {
+    "fact": "CAT1 test plus filing typically several hundred to $2,000 per device per year through an agency (dossier estimate)",
+    "status": "confirmed",
+    "receipt_url": "https://www.prorealtyusa.com/2021/08/15/new-york-city-elevator-maintenance-and-testing-requirements/",
+    "receipt_title": "NYC Elevator Testing Maintenance and Requirements - ProRealty",
+    "note": "2021 market data: witnessing agency $400-$1,000 per device plus performing elevator company $800-$1,200 per device ($1,200-$2,200 combined); current Manhattan witnessing quotes run $1,500-$5,000 per elevator (Insparisk), so the dossier range is directionally right but conservative for Manhattan."
+   }
+  ],
+  "search_receipts": [
+   {
+    "query": "NYC DOB elevator CAT1 civil penalty $3,000 per device failure to file 1 RCNY 103-02",
+    "url": "https://www.nyc.gov/site/buildings/safety/elevator-frequently-asked-questions.page",
+    "title": "Elevator Frequently Asked Questions - Buildings",
+    "claim": "CAT1 failure-to-file penalty is $3,000 per device per year for commercial, mixed-use, and 3+ unit residential buildings; $1,000 for 1-2 family buildings."
+   },
+   {
+    "query": "NYC DOB elevator CAT1 civil penalty $3,000 per device failure to file 1 RCNY 103-02",
+    "url": "https://codelibrary.amlegal.com/codes/newyorkcity/latest/NYCrules/0-0-0-2775",
+    "title": "103-02 Elevator Inspections and Tests, Filing Requirements, Penalties and Waivers",
+    "claim": "1 RCNY 103-02 is the authoritative penalty and waiver rule; owners who fail to file CAT1/3/5 reports within 21 days after cycle end are liable for per-elevator civil penalties."
+   },
+   {
+    "query": "NYC elevator compliance CAT1 deadline 21 days affirmation of correction penalty DOB",
+    "url": "https://insparisk.com/nyc/elevator-inspection-guide.html",
+    "title": "NYC Elevator Witnessing & Periodic Inspection Guide | CAT1, CAT5, DOB Requirements | Insparisk",
+    "claim": "CAT1 reports due within 21 days of test; defects corrected within 90 days and AOC filed within 14 days of correction (104 days total); FTF $3,000 per elevator; late filing $150 per month capped at $1,800."
+   },
+   {
+    "query": "DOB service notice violations 2018-2022 failure to file affirmation of correction elevator $3,000 penalty resolve",
+    "url": "https://www.nyc.gov/assets/buildings/pdf/elv_fta_vio-sn.pdf",
+    "title": "Violations for 2018-2022 Failure to File Affirmation of Correction",
+    "claim": "In October 2023 DOB issued mass violations for missing 2018-2022 AOCs; civil penalties for failure to file and failure to correct are $3,000 per noncompliant device."
+   },
+   {
+    "query": "DOB NOW elevator failure to file affirmation of correction penalty amount $3,000 OR $1,000 per device",
+    "url": "https://rules.cityofnewyork.us/rule/amendment-of-penalties-for-failure-to-file-elevator-affirmations-of-correction-related-to-the-2022-2023-inspection-cycles/",
+    "title": "Amendment of Penalties for failure to file Elevator Affirmations of Correction related to the 2022 & 2023 inspection cycles - NYC Rules",
+    "claim": "DOB waived 2022/2023-cycle AOC penalties if filed by April 14 2023/2024, and rule text carries a $1,000-per-elevator failure-to-correct tier, showing tiering and occasional amnesty."
+   },
+   {
+    "query": "SiteCompli NYC compliance software pricing cost per building elevator tracking",
+    "url": "https://www.komplyos.com/blog/best-building-compliance-software-2026",
+    "title": "Best Building Compliance Software in 2026 - 10 Tools Compared | KomplyOS",
+    "claim": "SiteCompli pricing is per-building, unpublished, and best suited to large management companies; it aggregates DOB/FDNY/HPD/DEP/DOT compliance across portfolios."
+   },
+   {
+    "query": "SiteCompli NYC compliance software pricing cost per building elevator tracking",
+    "url": "https://sitecompli.com/solutions/nyc-compliance/",
+    "title": "Protect Your Properties From NYC Compliance Requirements & Enforcement - InCheck by SiteCompli",
+    "claim": "SiteCompli InCheck is the incumbent NYC compliance monitoring product, including DOB elevator CAT1 deadline tracking for property managers."
+   },
+   {
+    "query": "Violerts NYC violation tracking pricing plans per building elevator compliance",
+    "url": "https://violationwatch.nyc/",
+    "title": "NYC Building Violation Alerts & Monitoring - ViolationWatch",
+    "claim": "ViolationWatch publishes a $59.99 per year Local Law Tracker add-on and portfolio plans; low-end price anchor for NYC compliance tracking."
+   },
+   {
+    "query": "Violerts NYC violation tracking pricing plans per building elevator compliance",
+    "url": "https://dob.watch/",
+    "title": "DOB Violation Search NYC - Free Lookup & Real-Time Monitoring | DOB.Watch",
+    "claim": "Free DOB violation lookup and monitoring exists, confirming the adversarial free-tool claim at the violation level but not at the per-device penalty-projection level."
+   },
+   {
+    "query": "how much does elevator CAT1 test cost NYC witnessing inspection agency typical price",
+    "url": "https://www.prorealtyusa.com/2021/08/15/new-york-city-elevator-maintenance-and-testing-requirements/",
+    "title": "NYC Elevator Testing Maintenance and Requirements - ProRealty",
+    "claim": "CAT1 witness companies charge $400-$1,000 per device and elevator companies another $800-$1,200 per device (2021)."
+   },
+   {
+    "query": "how much does elevator CAT1 test cost NYC witnessing inspection agency typical price",
+    "url": "https://insparisk.com/nyc/manhattan.html",
+    "title": "Manhattan Building Compliance Services | Elevator, Boiler & Facade Inspections | Insparisk",
+    "claim": "Typical Manhattan CAT1 witnessing runs $1,500-$5,000 per elevator, $3,000-$10,000 per year for a 100k sqft commercial building; DOB filing fee is $30."
+   },
+   {
+    "query": "DOB NOW Elevator Safety Compliance dataset NYC Open Data e5aq-a4j2 device number status",
+    "url": "https://data.cityofnewyork.us/Housing-Development/DOB-NOW-Elevator-Safety-Compliance/e5aq-a4j2",
+    "title": "DOB NOW Elevator Safety Compliance | NYC Open Data",
+    "claim": "The backbone dataset is live on NYC Open Data (mirrored on data.gov) with device-level elevator inspection and filing records searchable by address, BIN, block and lot, or device number."
+   },
+   {
+    "query": "NYC Department of Buildings how many elevator devices registered total number 70,000 OR 84,000",
+    "url": "https://abc7ny.com/post/going-up-interactive-map-shows-all-84000-nyc-elevators/3332534/",
+    "title": "Going up? Interactive map shows all 84,000 New York City elevators",
+    "claim": "Per the DOB 2017 Elevator Report, NYC has roughly 84,000 registered elevator devices, sizing the per-device penalty surface."
+   },
+   {
+    "query": "Elevator Conference of New York ECNY Elevator Industries Association NYC elevator contractors association",
+    "url": "https://www.ecnyweb.com/",
+    "title": "ECNY - Elevator Conference of New York",
+    "claim": "ECNY has ~190 corporate members plus 54 individual members; its Annual Supplier Showcase draws 70+ exhibitors and ~650 attendees; a public company directory supports list building."
+   },
+   {
+    "query": "NAEC annual convention exposition elevator contractors attendees size 2025",
+    "url": "https://www.naec.org/events-and-initiatives/annual-convention-and-exposition/2025-annual-convention-and-exposition",
+    "title": "2025 Annual Convention and Exposition - National Association of Elevator Contractors",
+    "claim": "NAEC's 76th Annual Convention & Expo (Sept 14-17 2025, Houston) features 200+ exhibitors; NAEC membership totals ~708 companies."
+   },
+   {
+    "query": "Convex sales intelligence platform elevator contractors commercial services find buildings leads",
+    "url": "https://www.convex.com/solutions-elevator-industry",
+    "title": "Find the projects to take your revenue to the top floor - Convex",
+    "claim": "Convex sells a dedicated elevator-industry sales intelligence solution over 5.9M+ properties using building and permit data, the precedent for the agency-side lead-radar enhancement."
+   },
+   {
+    "query": "NYC elevator CAT1 test cost price per elevator annual category 1 testing fee",
+    "url": "https://www.teigroup.com/elevator-violations-management.php",
+    "title": "TEI Group | NYC Elevator Violations Resolution and Management",
+    "claim": "TEI Group offers elevator violations resolution and management as a consulting engagement, the manual consultant status quo named in the dossier spend line."
+   }
+  ]
+ }
+}
