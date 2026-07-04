@@ -1,0 +1,372 @@
+{
+ "reviews": [
+  {
+   "candidate_id": "oath-ecb-summons-defense-packet",
+   "verdict": "keep",
+   "strongest_attack": "The lead magnet is already free: dobguard.com runs a no-cost DOB/ECB-OATH/HPD violation lookup, Violation Watch sells automated alerts, and SiteCompli's InCheck monitors OATH/ECB/DOB/FDNY in real time for exactly this buyer, so LM10 assumes an unseen artifact that incumbents commoditized years ago. The defensible layer is the drafted defense packet, but that pushes into OATH representation territory owned by a mature expeditor and attorney trade that is simultaneously the competitor and the only credible channel.",
+   "score_changes": [
+    {
+     "dimension": "lead_magnet_strength",
+     "from": 10,
+     "to": 8,
+     "reason": "Anchor 9-10 requires numbers the buyer has never seen assembled; free lookups (dobguard) and incumbent monitors (SiteCompli, Violation Watch) mean the buyer partly knows the content, which is the 7-8 anchor"
+    }
+   ],
+   "what_would_change_my_mind": "Three managing agents saying they would pay for drafted cure narratives and default vacate requests instead of forwarding the summons to their existing expeditor.",
+   "search_receipts": [
+    {
+     "query": "SiteCompli NYC violations tracking OATH ECB DOB FDNY property managers",
+     "url": "https://dobguard.com/violation-lookup",
+     "title": "NYC Building Violation Lookup, DOB, ECB/OATH & HPD | DOBGuard",
+     "claim": "A free NYC violation lookup covering DOB, ECB/OATH and HPD already exists"
+    },
+    {
+     "query": "SiteCompli NYC violations tracking OATH ECB DOB FDNY property managers",
+     "url": "https://sitecompli.com/features-nyc/",
+     "title": "InCheck by SiteCompli - Features for NYC Property Managers",
+     "claim": "SiteCompli monitors FDNY, DOB, HPD, ECB/OATH data in real time for NYC property managers"
+    }
+   ]
+  },
+  {
+   "candidate_id": "snf-pbj-fivestar-guardrail",
+   "verdict": "keep",
+   "strongest_attack": "The hybrid private layer is already occupied: SimplePBJ (formerly ezPBJ, now Netsmart-owned) sits inside the PBJ submission workflow and markets current-quarter Five-Star staffing projections 4 to 6 months before CMS publishes, and CMS itself posts provider preview reports in iQIES. NSigma's public-PUF version arrives a quarter late relative to what the incumbent computes from the facility's own live data, so the wedge is the audit-trigger framing, not the star math.",
+   "score_changes": [
+    {
+     "dimension": "lead_magnet_strength",
+     "from": 9,
+     "to": 7,
+     "reason": "Anchor 7-8 fits: buyer partly knows the content because CMS preview reports and SimplePBJ projections already show the staffing star; the peer benchmark and audit flags are useful but not never-seen"
+    }
+   ],
+   "what_would_change_my_mind": "Evidence that independent 1-10 facility operators, not chains on SimplePBJ, convert on the free CCN lookup at meaningful rates.",
+   "search_receipts": [
+    {
+     "query": "ezPBJ PBJ five star staffing audit software nursing home",
+     "url": "https://www.simpleltc.com/instantly-predict-your-staffing-five-star/",
+     "title": "Instantly predict your Staffing Five-Star, Simple, a Netsmart solution",
+     "claim": "SimplePBJ/ezPBJ already sells current-quarter Five-Star staffing projections 4 to 6 months ahead of CMS publication"
+    },
+    {
+     "query": "CMS Five-Star Preview Report nursing home provider monthly staffing rating preview iQIES",
+     "url": "https://www.cms.gov/medicare/health-safety-standards/certification-compliance/five-star-quality-rating-system",
+     "title": "Five-Star Quality Rating System | CMS",
+     "claim": "Provider preview reports are available to facilities in iQIES before public posting"
+    }
+   ]
+  },
+  {
+   "candidate_id": "npdes-dmr-citizen-suit-radar",
+   "verdict": "demote",
+   "strongest_attack": "EPA's own ECHO site already offers free per-facility Effluent Charts and a DMR Exceedance Search showing limits, reported values, and violation flags over five years, so the LM10 claim of never-seen assembly fails; what is genuinely new is the penalty-exposure framing. And that framing is the liability problem: mailing a manufacturer an unsolicited document formatted as a draft citizen-suit exhibit creates a discoverable artifact that defense counsel will tell the buyer never to open, which poisons the outbound motion the whole thesis rests on.",
+   "score_changes": [
+    {
+     "dimension": "lead_magnet_strength",
+     "from": 10,
+     "to": 8,
+     "reason": "Anchor 9-10 requires assembly the buyer has never seen; ECHO effluent charts and exceedance search are free and facility-specific, so the buyer partly knows the content (7-8 anchor)"
+    },
+    {
+     "dimension": "quick_buildability",
+     "from": 7,
+     "to": 6,
+     "reason": "Access class is public-hard-to-parse with giant per-fiscal-year zips since FY2009 plus NODI and limit-set logic; that is the 5-6 anchor (one gnarly format, giant zips), not 7-8 minor normalization"
+    }
+   ],
+   "what_would_change_my_mind": "An environmental defense attorney confirming they would forward, not quarantine, a third-party penalty-exposure exhibit, or a repositioned magnet that reads as internal early warning rather than a plaintiff mockup.",
+   "search_receipts": [
+    {
+     "query": "EPA ECHO effluent charts free facility lookup DMR exceedance NPDES",
+     "url": "https://echo.epa.gov/help/reports/effluent-charts-help",
+     "title": "Effluent Charts Help | ECHO | US EPA",
+     "claim": "ECHO provides free dynamic per-permit charts of limits, DMR values, and violations over time"
+    },
+    {
+     "query": "EPA ECHO effluent charts free facility lookup DMR exceedance NPDES",
+     "url": "https://echo.epa.gov/trends/loading-tool/effluent-exceedances-search",
+     "title": "DMR Exceedances Search | ECHO | US EPA",
+     "claim": "A free public DMR exceedance search by facility and pollutant already exists"
+    }
+   ]
+  },
+  {
+   "candidate_id": "fisp-cycle10-deadline-radar",
+   "verdict": "keep",
+   "strongest_attack": "The primary buyer is a QEWI firm buying lead lists, and lead lists are one-shot: once a firm pulls its territory's due-and-unfiled cohort for the sub-cycle, the renewal case is thin until the next window, so this is closer to a data product with annual churn than recurring SaaS. Owner-side, SiteCompli already tracks facade status inside broader compliance monitoring. Scores are broadly honest, which is why this survives.",
+   "score_changes": [],
+   "what_would_change_my_mind": "Two QEWI firms committing to a per-seat annual price rather than a one-time list purchase.",
+   "search_receipts": []
+  },
+  {
+   "candidate_id": "dataqs-rdr-drafter",
+   "verdict": "keep",
+   "strongest_attack": "The monthly snapshot cadence means the product learns about a violation weeks after the carrier already holds the same-day roadside inspection report, so the drafting moment is owned by whoever sees the inspection first, and incumbents (CNS, J.J. Keller, Fleetworthy) already sell DataQs challenge services at documented success rates. The snapshot-diff reversal-odds signal is also noisier than claimed, since violations exit snapshots via time decay and record corrections, not only successful challenges.",
+   "score_changes": [],
+   "what_would_change_my_mind": "A validation showing snapshot-diff labels agree with actual DataQs outcomes on a sample, and a mid-size fleet preferring the packet over its existing compliance vendor.",
+   "search_receipts": []
+  },
+  {
+   "candidate_id": "fdny-violation-clearance-lead-engine",
+   "verdict": "demote",
+   "strongest_attack": "The lead magnet is a violation lookup with penalty mapping, and dobguard.com already gives away a free NYC violation lookup covering FDNY and ECB/OATH while SiteCompli covers FDNY monitoring for portfolios, so the free front door is commoditized. The dossier even cites DOBGuard's own content as its penalty-schedule source, which is citing the competitor as evidence. The two-sided buyer (contractor lead gen vs owner compliance) also splits a small team's go-to-market focus.",
+   "score_changes": [
+    {
+     "dimension": "lead_magnet_strength",
+     "from": 8,
+     "to": 6,
+     "reason": "Anchor 5-6 is a personalized but thin lookup summary; with free equivalents live at dobguard.com the magnet does not clear the 7-8 bar of useful-and-not-already-available"
+    }
+   ],
+   "what_would_change_my_mind": "Proof the contractor-side weekly territory lead list converts to booked violation-clearance jobs, since that half has no free equivalent.",
+   "search_receipts": [
+    {
+     "query": "SiteCompli NYC violations tracking OATH ECB DOB FDNY property managers",
+     "url": "https://dobguard.com/violation-lookup",
+     "title": "NYC Building Violation Lookup, DOB, ECB/OATH & HPD | DOBGuard",
+     "claim": "Free FDNY/ECB violation lookup already exists, undercutting the proposed magnet"
+    }
+   ]
+  },
+  {
+   "candidate_id": "ieepa-tariff-refund-cape-pack",
+   "verdict": "kill",
+   "strongest_attack": "This window is closing and the field is armed: CAPE went live April 20, 2026, over $95B is already queued and $40B+ disbursed by end of June, filed by the brokers who already hold the importers' ACE data, and DOJ's June 3 appeal puts the remaining never-sued tail in legal limbo. Preparing and filing customs refund claims for compensation is customs business under 19 CFR Part 111 requiring a licensed broker, so a 2-person data shop is unlicensed, late, and competing with UPS and the AmLaw bar. On top of that, the backbone is ImportYeti's registration-gated free tier, a commercial vendor's product, not a public spine.",
+   "score_changes": [
+    {
+     "dimension": "quick_buildability",
+     "from": 6,
+     "to": 4,
+     "reason": "Anchor 3-4 covers scraping portals; the spine is a competitor's registration-walled site with CSV export gated behind a custom plan, closer to the 0-2 registration-wall anchor than to a 5-6 multi-source join"
+    },
+    {
+     "dimension": "buyer_urgency",
+     "from": 10,
+     "to": 8,
+     "reason": "Urgency was 10 in March; with most refund volume already queued or paid via brokers and the appeal pending, this is recurring rolling-deadline pressure on a shrinking tail, the 7-8 anchor"
+    },
+    {
+     "dimension": "consultancy_fit",
+     "from": 8,
+     "to": 5,
+     "reason": "Anchor 0-2 flags liability mismatch and 5-6 flags domain expertise NSigma must acquire; unlicensed customs-business exposure plus a one-time event, not a repeatable compliance-artifact motion, lands this at 5"
+    }
+   ],
+   "what_would_change_my_mind": "A signed partnership with a licensed customs broker as filer plus Federal Circuit clarity leaving a large unclaimed tail past 2026.",
+   "search_receipts": [
+    {
+     "query": "Supreme Court IEEPA tariffs decision February 2026 refunds CBP importers",
+     "url": "https://www.hklaw.com/en/insights/publications/2026/06/ieepa-tariff-refund-update-government-appeals",
+     "title": "IEEPA Tariff Refund Update: Government Appeals CIT Refund Order | Holland & Knight",
+     "claim": "DOJ appealed the universal refund order on June 3, 2026; $95B+ queued through CAPE and $40B+ expected disbursed by end of June 2026"
+    },
+    {
+     "query": "CBP CAPE process IEEPA tariff refund automatic or importer must file 2026",
+     "url": "https://www.cbp.gov/trade/programs-administration/trade-remedies/ieepa-duty-refunds",
+     "title": "IEEPA Duty Refunds | U.S. Customs and Border Protection",
+     "claim": "Refunds require an affirmative CAPE Declaration by the importer of record or an authorized broker, live since April 20, 2026"
+    }
+   ]
+  },
+  {
+   "candidate_id": "ll152-gas-piping-inspection-radar",
+   "verdict": "demote",
+   "strongest_attack": "The load-bearing field of the magnet, whether a GPS2 has been filed, is not in the backbone: the DOB compliance list is an XLSX of covered buildings and the filing status lives per building inside DOB NOW, which the dossier itself concedes. Without portal scraping the magnet degrades to 'your community district is due this year,' which every LL152 marketing site (locallaw152.com, keepmygas.nyc, KomplyOS guides) already communicates. Penalty facts did verify ($5,000, $1,500 for 3-family), so the pain is real but the spine is weaker than scored.",
+   "score_changes": [
+    {
+     "dimension": "quick_buildability",
+     "from": 9,
+     "to": 7,
+     "reason": "Anchor 9-10 requires a single clean machine-readable source; an XLSX-on-a-webpage plus per-building portal status checks is 1-2 sources with real key-matching and scraping work, the 7 boundary at best"
+    },
+    {
+     "dimension": "lead_magnet_strength",
+     "from": 8,
+     "to": 6,
+     "reason": "Without filing status the artifact is a thin due-window lookup, anchor 5-6, and free LL152 schedule content is already widespread"
+    }
+   ],
+   "what_would_change_my_mind": "A confirmed automated path to GPS2 filing status at portfolio scale, either a new open dataset or a sanctioned DOB NOW query route.",
+   "search_receipts": [
+    {
+     "query": "Local Law 152 gas piping inspection penalty $10,000 civil penalty failure to certify NYC",
+     "url": "https://www.nyc.gov/site/buildings/property-or-business-owner/gas-piping-inspections.page",
+     "title": "Gas Piping Inspection - Buildings (NYC DOB)",
+     "claim": "Current failure-to-certify penalty is $5,000 ($1,500 for 3-family), confirming the dossier's figures; compliance list is a spreadsheet, filing status is in DOB NOW per building"
+    }
+   ]
+  },
+  {
+   "candidate_id": "ll97-penalty-exposure-beam-prep",
+   "verdict": "demote",
+   "strongest_attack": "The boardroom-ready penalty number is fully commoditized: the city's own free NYC Accelerator Building Energy Snapshot, BE-Ex, NY-Engineers, Intelligreen, Law97Audit, and dobguard all publish free LL97 penalty calculators, several running on the same LL84 data. The sticky private layer then competes head-on with the RDP engineering firms (Milrose, Bright Power tier) that owners are legally required to engage for BEAM certification anyway, so the incumbent owns both the relationship and the signature.",
+   "score_changes": [
+    {
+     "dimension": "lead_magnet_strength",
+     "from": 9,
+     "to": 7,
+     "reason": "Anchor 9-10 requires numbers never seen assembled; at least six free LL97 penalty calculators exist including a city-run one, so the buyer partly knows the content, the 7-8 anchor"
+    }
+   ],
+   "what_would_change_my_mind": "A differentiator the free calculators cannot copy in a week, such as verified Article 320/321 pathway analysis that engineering firms adopt as their intake tool.",
+   "search_receipts": [
+    {
+     "query": "free Local Law 97 penalty calculator NYC building emissions",
+     "url": "https://accelerator.nyc/building-energy-snapshot",
+     "title": "Building Energy Snapshot | NYC Accelerator",
+     "claim": "The city itself offers a free LL97 projected-penalty lookup"
+    },
+    {
+     "query": "free Local Law 97 penalty calculator NYC building emissions",
+     "url": "https://be-exchange.org/calculator-v1/",
+     "title": "NYC LL97 Carbon Emissions Calculator (Building Energy Exchange)",
+     "claim": "Multiple established free LL97 penalty calculators already exist"
+    }
+   ]
+  },
+  {
+   "candidate_id": "ma-agency-plan-exit-retention-packet",
+   "verdict": "demote",
+   "strongest_attack": "The money lives with the FMO, not the 5-agent agency: FMOs and carrier quoting platforms (Sunfire, Connecture tier) already distribute plan-exit disruption reports to downline agencies free as retention tools, and the FMO is both the channel you need and the actor best positioned to clone this in a quarter. The 10% forced-disenrollment stat verified, so the pain is real, but the pain calendar is September through December and the buyer feels nothing in July, while client outreach scripts drag a small vendor into CMS marketing-compliance territory.",
+   "score_changes": [
+    {
+     "dimension": "buyer_urgency",
+     "from": 10,
+     "to": 8,
+     "reason": "Anchor 9-10 requires pain hitting this month or quarter; crosswalk and ANOC pressure lands Sept-Dec, making this recurring seasonal pressure, the 7-8 anchor, as the dossier's own g3 caveat admits"
+    }
+   ],
+   "what_would_change_my_mind": "An FMO signing as distribution partner before AEP, converting the cloning threat into the channel.",
+   "search_receipts": [
+    {
+     "query": "Medicare Advantage 2026 plan exits 10 percent enrollees forced to switch disenrollment",
+     "url": "https://publichealth.jhu.edu/2026/1-in-10-medicare-advantage-enrollees-face-forced-disenrollment-in-2026",
+     "title": "1 in 10 Medicare Advantage Enrollees Face Forced Disenrollment in 2026 | Johns Hopkins",
+     "claim": "The 10% forced disenrollment figure for 2026 is confirmed by a JAMA study, up from 6.9% in 2025"
+    }
+   ]
+  },
+  {
+   "candidate_id": "msha-aggregates-regulator-view-benchmark",
+   "verdict": "demote",
+   "strongest_attack": "This is the dossier's clearest case of an interesting dataset cosplaying as a product: there is no filing, no deadline, and no artifact anyone must produce this month, just a quarterly benchmark an EHS director can admire and defer indefinitely. POV early warning is real but POV-proximate mines are a tiny sliver of the aggregates universe, and the incumbents (J.J. Keller mock audits) sell the on-site work the benchmark merely points at. Note also the internal inconsistency: the rationale text says QB8 while the scored value is 7, which suggests drift in the scoring pass.",
+   "score_changes": [
+    {
+     "dimension": "buyer_urgency",
+     "from": 8,
+     "to": 6,
+     "reason": "Anchor 7-8 requires recurring pressure with real dollar consequences on a clock; unannounced inspections create episodic enforcement against a chronic cost, the textbook 5-6 anchor where the buyer can defer a quarter"
+    }
+   ],
+   "what_would_change_my_mind": "Evidence that insurers or corporate boards demand a regulator-view benchmark at renewal, giving it a date and an owner.",
+   "search_receipts": []
+  },
+  {
+   "candidate_id": "nyc-elevator-cat1-compliance-packet",
+   "verdict": "keep",
+   "strongest_attack": "PROMOTE above the demoted 6-9 block: clean Socrata spine with device-level status, hard non-waivable $3,000 per-device penalties on staggered year-round windows, direct BIN infra fit, and unlike the FDNY and LL97 plays the device-level free-tool coverage is thin. Residual attack: elevator agencies track this in spreadsheets because their service contracts already oblige them to, so willingness to pay may sit with the managing agent, not the agency.",
+   "score_changes": [],
+   "what_would_change_my_mind": "Nothing needed to keep; a pilot with one elevator agency would confirm which side of the two-sided buyer pays.",
+   "search_receipts": []
+  },
+  {
+   "candidate_id": "hmsp-eligibility-guardian",
+   "verdict": "keep",
+   "strongest_attack": "The HMSP holder universe is small, low thousands of carriers, so even perfect outbound has a hard TAM ceiling, and recomputing FMCSA's four rates from public snapshots risks mismatching the agency's internal computation; one false alarm about permit jeopardy to a safety director burns the product's credibility permanently. The existential stakes cut both ways: high urgency, but also zero tolerance for approximation.",
+   "score_changes": [],
+   "what_would_change_my_mind": "A back-test showing the recomputed rates match FMCSA determinations for carriers that actually received proposed revocations.",
+   "search_receipts": []
+  },
+  {
+   "candidate_id": "msha-citation-contest-decision-desk",
+   "verdict": "keep",
+   "strongest_attack": "The 10-day conference window collides with weekly-refreshing flat files that lag citation issuance, so the packet may routinely arrive after the decision moment, and the contest decision is currently made with outside counsel whose billables the product threatens, making the natural channel hostile. Coal's structural decline also shrinks the highest-citation-volume segment every year.",
+   "score_changes": [],
+   "what_would_change_my_mind": "Measured lag from citation issuance to public-file appearance under 5 days, leaving room inside the conference window.",
+   "search_receipts": []
+  },
+  {
+   "candidate_id": "snf-2567-poc-idr-copilot",
+   "verdict": "keep",
+   "strongest_attack": "The product core is an LLM drafting a Plan of Correction from an uploaded PDF, the thinnest possible moat, and a defective PoC has direct regulatory consequences (rejection restarts the clock while CMPs accrue), so E&O exposure is real and unpriced while survey consultants and healthcare counsel already own the 10-day fire drill. Scores are already modest and honest, which is why it holds rank.",
+   "score_changes": [],
+   "what_would_change_my_mind": "A consultant channel deal where firms use the drafter internally, converting the competitor into the customer and absorbing the liability inside their engagement.",
+   "search_receipts": []
+  },
+  {
+   "candidate_id": "ca-igp-era-autopilot",
+   "verdict": "keep",
+   "strongest_attack": "Mapistry, cited in the dossier as spend evidence, is in fact an entrenched direct competitor built on the same SMARTS data with years of California stormwater relationships, and the QISPs who must sign Level 1/Level 2 documents will read an auto-drafter as an attack on their billables rather than a tool. Single-state scope also caps the ceiling. BU7 and the rest are honestly scored, so it survives as a niche.",
+   "score_changes": [],
+   "what_would_change_my_mind": "Two QISP firms adopting the drafter as internal tooling, proving channel-not-competitor.",
+   "search_receipts": []
+  },
+  {
+   "candidate_id": "fei-supplier-gmp-surveillance",
+   "verdict": "demote",
+   "strongest_attack": "The brief's own known-free-tool list (fdatracker.ai, 483signal.com) plus Redica's entrenched five-figure subscriptions bracket this from both ends: the free tier of the market already gives away FDA inspection lookups and the paid tier owns the enterprise quality suites. A one-page FEI snapshot is a lookup summary, and openFDA plus the weekly dashboard CSVs make the clone a two-week Claude Code project for anyone, so there is no defensible middle.",
+   "score_changes": [
+    {
+     "dimension": "lead_magnet_strength",
+     "from": 8,
+     "to": 6,
+     "reason": "Anchor 5-6 is a personalized but thin lookup summary; with free FDA-tracking tools live, the snapshot does not meet the 7-8 bar of content the buyer cannot already get"
+    }
+   ],
+   "what_would_change_my_mind": "A differentiated private-layer proof: an approved-supplier-list surveillance memo that a named quality director says would pass an auditor's supplier-file review.",
+   "search_receipts": []
+  },
+  {
+   "candidate_id": "hha-hhvbp-payment-risk-benchmark",
+   "verdict": "demote",
+   "strongest_attack": "CMS itself already delivers exactly this artifact free: quarterly HHVBP Interim Performance Reports in iQIES give every agency its cohort assignment, 12 months of measure performance versus achievement thresholds and benchmarks, and its interim Total Performance Score, with the April 2026 IPRs live now. The proposed memo is a less authoritative paraphrase of a report the buyer already receives, leaving only the dollar translation and the three-measure-moves feature, which is a feature, not a product.",
+   "score_changes": [
+    {
+     "dimension": "lead_magnet_strength",
+     "from": 8,
+     "to": 5,
+     "reason": "Anchor 5-6 at best: the regulator hands the buyer the same cohort, percentile, and TPS content quarterly for free, so the magnet is a thin restatement rather than unseen assembly"
+    }
+   ],
+   "what_would_change_my_mind": "Evidence that small agencies cannot parse their IPRs and will pay for the dollarized translation, for example a waitlist from an association webinar.",
+   "search_receipts": [
+    {
+     "query": "HHVBP interim performance report home health agencies iQIES quarterly",
+     "url": "https://simple.health/expanded-hhvbp-model-preliminary-april-2026-iprs-available-in-iqies/",
+     "title": "Expanded HHVBP Model: Preliminary April 2026 IPRs Available in iQIES",
+     "claim": "CMS publishes quarterly Interim Performance Reports with cohort assignment, measure data, and interim TPS free to every HHA in iQIES"
+    }
+   ]
+  },
+  {
+   "candidate_id": "commercial-property-tax-appeal-packets",
+   "verdict": "demote",
+   "strongest_attack": "Ownwell just raised $50M and already automates commercial appeals in Cook County end to end, AI evidence compilation, township deadline tracking, contingency pricing, 88% claimed success, and it competes for the same owners your certiorari-firm buyers serve. Selling packet software to analyst teams whose market a funded incumbent is actively disintermediating is selling picks to a shrinking mine, and the NYC certiorari bar is small, conservative, and relationship-locked.",
+   "score_changes": [],
+   "what_would_change_my_mind": "A certiorari or tax-consulting firm confirming it would outsource evidence-packet production to a third-party tool rather than treat its comp methodology as the secret sauce.",
+   "search_receipts": [
+    {
+     "query": "Ownwell commercial property tax appeal software automated evidence Cook County",
+     "url": "https://www.ownwell.com/commercial",
+     "title": "Ownwell: Experts in Commercial Property Tax Reduction",
+     "claim": "Ownwell automates commercial property tax appeals end to end including Cook County, with AI evidence compilation and deadline tracking"
+    },
+    {
+     "query": "Ownwell commercial property tax appeal software automated evidence Cook County",
+     "url": "https://www.prnewswire.com/news-releases/ownwell-raises-50m-launches-national-service-to-streamline-property-tax-appeals-and-make-home-ownership-more-affordable-302692103.html",
+     "title": "Ownwell raises $50M, launches national service",
+     "claim": "Ownwell is a $50M-funded incumbent in automated property tax appeals"
+    }
+   ]
+  },
+  {
+   "candidate_id": "nyc-boiler-filing-penalty-shield",
+   "verdict": "keep",
+   "strongest_attack": "Weakest dollars in the NYC family: $50 per month escalators topping at $600 plus a $1,000 failure-to-file are annoyance-grade for portfolio owners, and dedicated filing vendors (OneView, Energo, Insparisk) already sell deadline management. But the scores already price this honestly at rank 20 with LM7 and BU7, and it is a near-zero-marginal-cost add-on to the elevator product rather than a standalone bet.",
+   "score_changes": [],
+   "what_would_change_my_mind": "Nothing needed; ship it only as a bundled module with the elevator packet, never as a standalone product.",
+   "search_receipts": []
+  }
+ ],
+ "field_note": "The field is genuinely strong on spines and NSigma fit, the BBL/CCN/USDOT infrastructure-reuse thesis holds, and the NYC cluster plus the two CMS plays are real workflows with owners and deadlines. But the scoring shows one systematic bias: lead magnet strength was assigned without checking whether the regulator or a free tool already hands the buyer the same artifact, and that error repeats across HHVBP (CMS mails agencies their IPRs), PBJ (CMS previews plus SimplePBJ), NPDES (ECHO effluent charts), LL97 (six free calculators including the city's own), and the NYC lookups (dobguard, Violation Watch). A second bias is calendar blindness: buyer urgency was scored off statutory cycles rather than distance from today, inflating the MA crosswalk and IEEPA plays whose pain windows are months away or mostly consumed. Third, the forced-spread rule was ignored; almost nothing in the top 20 sits at or below 4 on any dimension, which is exactly the 7-to-8 mush the calibration doc warns against. Net: one kill (IEEPA, a closing one-time event on a competitor-owned spine with customs-broker licensure exposure), nine demotions with named reasons, and one promotion (elevator CAT1) whose honest mid scores now beat the deflated candidates ranked above it."
+}

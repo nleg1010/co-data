@@ -11,14 +11,25 @@
   "receipt_class": "R2",
   "scores": {
    "quick_buildability": 10,
-   "lead_magnet_strength": 10,
+   "lead_magnet_strength": 8,
    "buyer_urgency": 9,
    "consultancy_fit": 10,
    "outbound_clarity": 9
   },
   "score_rationale": "Daily Socrata feed onto existing BBL stack, packet templated (QB10); open-summons + accrued-penalty + hearing-date magnet is instant and dollar-precise (LM10); continuous summons stream, default judgments (BU9); the definitional NSigma product: BBL infra + compliance artifact + CRE buyer (CF10); NYC managing agents enumerable via HPD registrations (OC9)",
-  "adjustments": [],
-  "total": 48,
+  "adjustments": [
+   {
+    "dimension": "lead_magnet_strength",
+    "from": 10,
+    "to": 8,
+    "reason": "Anchor 9-10 requires numbers the buyer has never seen assembled; free lookups (dobguard) and incumbent monitors (SiteCompli, Violation Watch) mean the buyer partly knows the content, which is the 7-8 anchor",
+    "phase": "adversarial",
+    "adjudication": "accepted"
+   }
+  ],
+  "adversarial_verdict": "keep",
+  "adversarial_attack": "The lead magnet is already free: dobguard.com runs a no-cost DOB/ECB-OATH/HPD violation lookup, Violation Watch sells automated alerts, and SiteCompli's InCheck monitors OATH/ECB/DOB/FDNY in real time for exactly this buyer, so LM10 assumes an unseen artifact that incumbents commoditized years ago. The defensible layer is the drafted defense packet, but that pushes into OATH representation territory owned by a mature expeditor and attorney trade that is simultaneously the competitor and the only credible channel.",
+  "total": 46,
   "rank": 1
  },
  {
@@ -33,37 +44,26 @@
   "receipt_class": "R2",
   "scores": {
    "quick_buildability": 9,
-   "lead_magnet_strength": 9,
+   "lead_magnet_strength": 7,
    "buyer_urgency": 9,
    "consultancy_fit": 10,
    "outbound_clarity": 10
   },
   "score_rationale": "Quarterly PUF onto existing CCN stack, published star math (QB9); staffing-star risk report from public PBJ is unseen-assembled and scary (LM9); hard quarterly submission + 801 one-starred in one month (BU9); CCN senior-living infra direct (CF10); administrator at NAICS 623110, CCN roster IS the list (OC10)",
-  "adjustments": [],
-  "total": 47,
-  "rank": 2
- },
- {
-  "candidate_id": "npdes-dmr-citizen-suit-radar",
-  "name": "DMR Sentinel: citizen-suit exposure radar and exceedance early warning for NPDES dischargers",
-  "vertical": "Environmental compliance (industrial wastewater and stormwater)",
-  "cluster": "G2 waste-environmental-water",
-  "data_model": "public-first",
-  "lead_magnet": "Free lookup by NPDES permit ID returning the facility's public DMR exceedances formatted as a draft citizen-suit exhibit with estimated penalty exposure.",
-  "entity_key": "NPDES permit ID",
-  "gates_passed": 6,
-  "receipt_class": "R2",
-  "scores": {
-   "quick_buildability": 7,
-   "lead_magnet_strength": 10,
-   "buyer_urgency": 9,
-   "consultancy_fit": 10,
-   "outbound_clarity": 9
-  },
-  "score_rationale": "Big FY CSV families, deterministic logic (QB7); plaintiff's-eye-view packet with statutory penalty math is the strongest fear-based magnet in the field (LM10); active citizen-suit bar mines the same data now (BU9); FRS-keyed industrial EHS buyers, NSigma flagship fit (CF10); EHS director at NAICS 31-33 findable at volume, NPDES list ties artifact (OC9)",
-  "adjustments": [],
+  "adjustments": [
+   {
+    "dimension": "lead_magnet_strength",
+    "from": 9,
+    "to": 7,
+    "reason": "Anchor 7-8 fits: buyer partly knows the content because CMS preview reports and SimplePBJ projections already show the staffing star; the peer benchmark and audit flags are useful but not never-seen",
+    "phase": "adversarial",
+    "adjudication": "accepted"
+   }
+  ],
+  "adversarial_verdict": "keep",
+  "adversarial_attack": "The hybrid private layer is already occupied: SimplePBJ (formerly ezPBJ, now Netsmart-owned) sits inside the PBJ submission workflow and markets current-quarter Five-Star staffing projections 4 to 6 months before CMS publishes, and CMS itself posts provider preview reports in iQIES. NSigma's public-PUF version arrives a quarter late relative to what the incumbent computes from the facility's own live data, so the wedge is the audit-trigger framing, not the star math.",
   "total": 45,
-  "rank": 3
+  "rank": 2
  },
  {
   "candidate_id": "fisp-cycle10-deadline-radar",
@@ -84,8 +84,10 @@
   },
   "score_rationale": "One Socrata dataset + HPD join on existing infra (QB9); deadline + accruing penalty magnet (LM9); sub-cycle windows create rolling deadlines (BU8); BBL/BIN direct (CF9); QEWI firms and owners both targetable (OC8)",
   "adjustments": [],
+  "adversarial_verdict": "keep",
+  "adversarial_attack": "The primary buyer is a QEWI firm buying lead lists, and lead lists are one-shot: once a firm pulls its territory's due-and-unfiled cohort for the sub-cycle, the renewal case is thin until the next window, so this is closer to a data product with annual churn than recurring SaaS. Owner-side, SiteCompli already tracks facade status inside broader compliance monitoring. Scores are broadly honest, which is why this survives.",
   "total": 43,
-  "rank": 4
+  "rank": 3
  },
  {
   "candidate_id": "dataqs-rdr-drafter",
@@ -106,140 +108,51 @@
   },
   "score_rationale": "Monthly zips need snapshot-diff plumbing (QB7); magnet is dollar-precise with drafts attached (LM9); premium renewals + monthly SMS refresh (BU8); USDOT-keyed like waste haulers, industrial buyer (CF9); Apollo-verified 2646 safety directors, DOT# ties list to artifact (OC9)",
   "adjustments": [],
+  "adversarial_verdict": "keep",
+  "adversarial_attack": "The monthly snapshot cadence means the product learns about a violation weeks after the carrier already holds the same-day roadside inspection report, so the drafting moment is owned by whoever sees the inspection first, and incumbents (CNS, J.J. Keller, Fleetworthy) already sell DataQs challenge services at documented success rates. The snapshot-diff reversal-odds signal is also noisier than claimed, since violations exit snapshots via time decay and record corrections, not only successful challenges.",
   "total": 42,
-  "rank": 5
+  "rank": 4
  },
  {
-  "candidate_id": "fdny-violation-clearance-lead-engine",
-  "name": "FDNY Violation Clearance Packet and Fire Protection Lead Engine (NYC)",
-  "vertical": "Fire and life-safety inspection/service companies; NYC building owners",
-  "cluster": "G7 trades-fire-equipment",
+  "candidate_id": "npdes-dmr-citizen-suit-radar",
+  "name": "DMR Sentinel: citizen-suit exposure radar and exceedance early warning for NPDES dischargers",
+  "vertical": "Environmental compliance (industrial wastewater and stormwater)",
+  "cluster": "G2 waste-environmental-water",
   "data_model": "public-first",
-  "lead_magnet": "Free address/BIN FDNY violation report with penalty exposure summary",
-  "entity_key": "NYC BIN/BBL (FDNY violation and account numbers secondary)",
-  "gates_passed": 6,
-  "receipt_class": "R2",
-  "scores": {
-   "quick_buildability": 9,
-   "lead_magnet_strength": 8,
-   "buyer_urgency": 8,
-   "consultancy_fit": 9,
-   "outbound_clarity": 8
-  },
-  "score_rationale": "Socrata + 109-03 penalty mapping on BIN infra (QB9); FDNY violation report with exposure (LM8); weekly violation flow, defaults at max (BU8); BBL/BIN direct (CF9); fire protection contractors from FDNY certs (OC8)",
-  "adjustments": [],
-  "total": 42,
-  "rank": 6
- },
- {
-  "candidate_id": "ieepa-tariff-refund-cape-pack",
-  "name": "IEEPA/301 Tariff Refund and Exposure Pack (CAPE claim prep)",
-  "vertical": "Import trade compliance and duty recovery",
-  "cluster": "G9 export-aviation-procurement",
-  "data_model": "hybrid",
-  "lead_magnet": "Free tariff exposure and refund-range letter for any importer name found in public bill-of-lading data",
-  "entity_key": "Importer/consignee name in CBP AMS ocean manifest records (via ImportYeti free search); EIN/importer-of-record number once engaged",
+  "lead_magnet": "Free lookup by NPDES permit ID returning the facility's public DMR exceedances formatted as a draft citizen-suit exhibit with estimated penalty exposure.",
+  "entity_key": "NPDES permit ID",
   "gates_passed": 6,
   "receipt_class": "R2",
   "scores": {
    "quick_buildability": 6,
-   "lead_magnet_strength": 9,
-   "buyer_urgency": 10,
-   "consultancy_fit": 8,
-   "outbound_clarity": 9
-  },
-  "score_rationale": "Manifest name-matching + finite rate table, ImportYeti registration layer (QB6); refund-range letter in dollars is irresistible (LM9); SCOTUS 2/20/2026 decision, 165B refund flow happening NOW (BU10); FRS import-exposed manufacturers + contingency model fits consultancy (CF8); importers visible in manifest data by name (OC9)",
-  "adjustments": [],
-  "total": 42,
-  "rank": 7
- },
- {
-  "candidate_id": "ll152-gas-piping-inspection-radar",
-  "name": "LL152 Gas Piping Inspection Radar (NYC plumbing contractors)",
-  "vertical": "Plumbing contractors and NYC multifamily/commercial owners, Local Law 152 gas piping compliance",
-  "cluster": "G7 trades-fire-equipment",
-  "data_model": "public-first",
-  "lead_magnet": "Free BBL or address lookup: is this building due for LL152 this cycle year, has a GPS2 been filed, what penalty accrues if missed",
-  "entity_key": "NYC BBL / BIN",
-  "gates_passed": 6,
-  "receipt_class": "R2",
-  "scores": {
-   "quick_buildability": 9,
    "lead_magnet_strength": 8,
-   "buyer_urgency": 8,
-   "consultancy_fit": 9,
-   "outbound_clarity": 8
-  },
-  "score_rationale": "DOB compliance list + PLUTO on BBL infra (QB9); due-this-cycle + penalty lookup (LM8); annual per-district windows through 2027 cycle (BU8); BBL direct (CF9); LMP firms from license lists (OC8)",
-  "adjustments": [],
-  "total": 42,
-  "rank": 8
- },
- {
-  "candidate_id": "ll97-penalty-exposure-beam-prep",
-  "name": "Local Law 97 Penalty Exposure Monitor and BEAM Filing Prep Engine",
-  "vertical": "NYC CRE energy and emissions compliance",
-  "cluster": "G3 nyc-cre-permitting-osha",
-  "data_model": "hybrid",
-  "lead_magnet": "Free BBL lookup: estimated 2024-period LL97 penalty and the 2030 cap cliff computed from public LL84 data.",
-  "entity_key": "NYC BBL (LL84 rows carry BBL and BIN)",
-  "gates_passed": 6,
-  "receipt_class": "R2",
-  "scores": {
-   "quick_buildability": 8,
-   "lead_magnet_strength": 9,
-   "buyer_urgency": 8,
-   "consultancy_fit": 9,
-   "outbound_clarity": 8
-  },
-  "score_rationale": "LL84 annual CSV + covered buildings list on BBL infra (QB8); dollar penalty estimate per BBL is boardroom-ready (LM9); penalties assessing since May 2025, monthly non-filing accrual (BU8); BBL infra direct (CF9); sustainability/asset VPs findable (OC8)",
-  "adjustments": [],
-  "total": 42,
-  "rank": 9
- },
- {
-  "candidate_id": "ma-agency-plan-exit-retention-packet",
-  "name": "AEP Disruption and Book-Retention Packet for Medicare Agencies",
-  "vertical": "Medicare Advantage distribution (independent agencies and FMOs)",
-  "cluster": "G4 medicare-senior-childcare",
-  "data_model": "hybrid",
-  "lead_magnet": "Free plan-exit exposure score for any county FIPS or contract ID lookup.",
-  "entity_key": "CMS contract-plan ID (H/S number plus PBP, e.g. H5216-032) and county FIPS; agent NPN optional for personalization",
-  "gates_passed": 6,
-  "receipt_class": "R2",
-  "scores": {
-   "quick_buildability": 8,
-   "lead_magnet_strength": 9,
-   "buyer_urgency": 10,
-   "consultancy_fit": 7,
-   "outbound_clarity": 8
-  },
-  "score_rationale": "Small documented CSVs, annual spike + monthly refresh (QB8); county plan-exit exposure with commission dollars is AEP gold (LM9); hard Sept-Dec calendar + 10 percent forced disenrollment in 2026 (BU10); CMS file wrangling transfers, buyer newer to NSigma (CF7); agency principals findable via NIPR-derived lists (OC8)",
-  "adjustments": [],
-  "total": 42,
-  "rank": 10
- },
- {
-  "candidate_id": "msha-aggregates-regulator-view-benchmark",
-  "name": "Aggregates Regulator-View Benchmark and POV Early-Warning Packet",
-  "vertical": "Mining safety (stone, sand and gravel aggregates)",
-  "cluster": "G8 utilities-telecom-mining",
-  "data_model": "public-first",
-  "lead_magnet": "Free instant MSHA Regulator-View Scorecard by Mine ID showing how the pit looks to its inspector vs 20 nearest peers",
-  "entity_key": "MSHA Mine ID (7-digit), rolled up by controller/operator ID",
-  "gates_passed": 6,
-  "receipt_class": "R2",
-  "scores": {
-   "quick_buildability": 7,
-   "lead_magnet_strength": 9,
-   "buyer_urgency": 8,
-   "consultancy_fit": 9,
+   "buyer_urgency": 9,
+   "consultancy_fit": 10,
    "outbound_clarity": 9
   },
-  "score_rationale": "Same pipeline + percentile ranking (QB8); regulator-view scorecard vs 20 nearest peers is unseen-assembled (LM9); 2 inspections per pit per year across portfolios (BU8); aggregates producers exactly NSigma's buyer (CF9); pit roster public (OC9)",
-  "adjustments": [],
+  "score_rationale": "Big FY CSV families, deterministic logic (QB7); plaintiff's-eye-view packet with statutory penalty math is the strongest fear-based magnet in the field (LM10); active citizen-suit bar mines the same data now (BU9); FRS-keyed industrial EHS buyers, NSigma flagship fit (CF10); EHS director at NAICS 31-33 findable at volume, NPDES list ties artifact (OC9)",
+  "adjustments": [
+   {
+    "dimension": "lead_magnet_strength",
+    "from": 10,
+    "to": 8,
+    "reason": "Anchor 9-10 requires assembly the buyer has never seen; ECHO effluent charts and exceedance search are free and facility-specific, so the buyer partly knows the content (7-8 anchor)",
+    "phase": "adversarial",
+    "adjudication": "accepted"
+   },
+   {
+    "dimension": "quick_buildability",
+    "from": 7,
+    "to": 6,
+    "reason": "Access class is public-hard-to-parse with giant per-fiscal-year zips since FY2009 plus NODI and limit-set logic; that is the 5-6 anchor (one gnarly format, giant zips), not 7-8 minor normalization",
+    "phase": "adversarial",
+    "adjudication": "accepted"
+   }
+  ],
+  "adversarial_verdict": "demote",
+  "adversarial_attack": "EPA's own ECHO site already offers free per-facility Effluent Charts and a DMR Exceedance Search showing limits, reported values, and violation flags over five years, so the LM10 claim of never-seen assembly fails; what is genuinely new is the penalty-exposure framing. And that framing is the liability problem: mailing a manufacturer an unsolicited document formatted as a draft citizen-suit exhibit creates a discoverable artifact that defense counsel will tell the buyer never to open, which poisons the outbound motion the whole thesis rests on.",
   "total": 42,
-  "rank": 11
+  "rank": 5
  },
  {
   "candidate_id": "nyc-elevator-cat1-compliance-packet",
@@ -260,8 +173,10 @@
   },
   "score_rationale": "Two Socrata sets + penalty engine on BIN infra (QB9); device test status + penalty exposure (LM8); annual per-device with hard 21-day windows staggered year-round (BU8); BIN/BBL direct (CF9); elevator agencies + managing agents (OC8)",
   "adjustments": [],
+  "adversarial_verdict": "keep",
+  "adversarial_attack": "PROMOTE above the demoted 6-9 block: clean Socrata spine with device-level status, hard non-waivable $3,000 per-device penalties on staggered year-round windows, direct BIN infra fit, and unlike the FDNY and LL97 plays the device-level free-tool coverage is thin. Residual attack: elevator agencies track this in spreadsheets because their service contracts already oblige them to, so willingness to pay may sit with the managing agent, not the agency.",
   "total": 42,
-  "rank": 12
+  "rank": 6
  },
  {
   "candidate_id": "hmsp-eligibility-guardian",
@@ -282,8 +197,10 @@
   },
   "score_rationale": "Rate math over one ingestion, thresholds published (QB8); 4-rates-vs-thresholds scorecard is existential and unseen (LM9); continuous SMS-based monitoring, revocation stops revenue (BU8); hazmat carriers adjacent to hauler infra (CF8); narrower HMSP universe but perfectly targetable from SAFER hazmat flags (OC8); stale 2003-2010 threshold-guidance source noted, thresholds re-verified against current FMCSA pages in receipts",
   "adjustments": [],
+  "adversarial_verdict": "keep",
+  "adversarial_attack": "The HMSP holder universe is small, low thousands of carriers, so even perfect outbound has a hard TAM ceiling, and recomputing FMCSA's four rates from public snapshots risks mismatching the agency's internal computation; one false alarm about permit jeopardy to a safety director burns the product's credibility permanently. The existential stakes cut both ways: high urgency, but also zero tolerance for approximation.",
   "total": 41,
-  "rank": 13
+  "rank": 7
  },
  {
   "candidate_id": "msha-citation-contest-decision-desk",
@@ -304,8 +221,10 @@
   },
   "score_rationale": "Weekly flat files + assessed-vs-paid scoring model (QB7); exposure scorecard with S&S peer rates (LM8); 10-day conference and 30-day contest windows per batch (BU8); mine operators are FRS-adjacent asset-heavy industrial buyers (CF9); mine roster public with operators, safety VPs findable (OC9)",
   "adjustments": [],
+  "adversarial_verdict": "keep",
+  "adversarial_attack": "The 10-day conference window collides with weekly-refreshing flat files that lag citation issuance, so the packet may routinely arrive after the decision moment, and the contest decision is currently made with outside counsel whose billables the product threatens, making the natural channel hostile. Coal's structural decline also shrinks the highest-citation-volume segment every year.",
   "total": 41,
-  "rank": 14
+  "rank": 8
  },
  {
   "candidate_id": "snf-2567-poc-idr-copilot",
@@ -326,8 +245,10 @@
   },
   "score_rationale": "Citation CSVs + 2567 PDF parsing (QB7); citation benchmark magnet good, PoC drafting is the product (LM7); 10-day PoC/IDR clock with per-day CMPs (BU9); CCN stack + citation corpus (CF9); same CCN-roster targeting (OC9)",
   "adjustments": [],
+  "adversarial_verdict": "keep",
+  "adversarial_attack": "The product core is an LLM drafting a Plan of Correction from an uploaded PDF, the thinnest possible moat, and a defective PoC has direct regulatory consequences (rejection restarts the clock while CMPs accrue), so E&O exposure is real and unpriced while survey consultants and healthcare counsel already own the 10-day fire drill. Scores are already modest and honest, which is why it holds rank.",
   "total": 41,
-  "rank": 15
+  "rank": 9
  },
  {
   "candidate_id": "ca-igp-era-autopilot",
@@ -348,74 +269,142 @@
   },
   "score_rationale": "SMARTS public CSVs, prescribed report structures (QB8); per-WDID dossier with level projection (LM8); July 1 status changes and Jan 1 report deadlines, CA only (BU7); FRS overlap + industrial CA facilities (CF8); WDID list public, QISP channel identifiable (OC9)",
   "adjustments": [],
+  "adversarial_verdict": "keep",
+  "adversarial_attack": "Mapistry, cited in the dossier as spend evidence, is in fact an entrenched direct competitor built on the same SMARTS data with years of California stormwater relationships, and the QISPs who must sign Level 1/Level 2 documents will read an auto-drafter as an attack on their billables rather than a tool. Single-state scope also caps the ceiling. BU7 and the rest are honestly scored, so it survives as a niche.",
   "total": 40,
-  "rank": 16
+  "rank": 10
  },
  {
-  "candidate_id": "fei-supplier-gmp-surveillance",
-  "name": "Supplier GMP Surveillance Dossiers by FEI (pharma and device supplier quality)",
-  "vertical": "Pharma and medical device supplier quality management",
-  "cluster": "G5 meddevice-pharma-labs",
-  "data_model": "hybrid",
-  "lead_magnet": "Free FEI or firm-name lookup returning a one-page risk snapshot: last inspection date, classification (NAI/VAI/OAI), and any open compliance actions.",
-  "entity_key": "FDA FEI (FDA Establishment Identifier); DUNS as secondary",
+  "candidate_id": "fdny-violation-clearance-lead-engine",
+  "name": "FDNY Violation Clearance Packet and Fire Protection Lead Engine (NYC)",
+  "vertical": "Fire and life-safety inspection/service companies; NYC building owners",
+  "cluster": "G7 trades-fire-equipment",
+  "data_model": "public-first",
+  "lead_magnet": "Free address/BIN FDNY violation report with penalty exposure summary",
+  "entity_key": "NYC BIN/BBL (FDNY violation and account numbers secondary)",
   "gates_passed": 6,
   "receipt_class": "R2",
   "scores": {
-   "quick_buildability": 8,
-   "lead_magnet_strength": 8,
+   "quick_buildability": 9,
+   "lead_magnet_strength": 6,
    "buyer_urgency": 8,
-   "consultancy_fit": 8,
+   "consultancy_fit": 9,
    "outbound_clarity": 8
   },
-  "score_rationale": "Clean weekly FDA feeds, FEI entity resolution (QB8); FEI risk snapshot is instant and unseen-assembled (LM8); weekly dashboard changes + import alerts halting supply (BU8); FEI-keyed facility monitoring mirrors FRS work (CF8); supplier quality directors at pharma findable (OC8)",
-  "adjustments": [],
+  "score_rationale": "Socrata + 109-03 penalty mapping on BIN infra (QB9); FDNY violation report with exposure (LM8); weekly violation flow, defaults at max (BU8); BBL/BIN direct (CF9); fire protection contractors from FDNY certs (OC8)",
+  "adjustments": [
+   {
+    "dimension": "lead_magnet_strength",
+    "from": 8,
+    "to": 6,
+    "reason": "Anchor 5-6 is a personalized but thin lookup summary; with free equivalents live at dobguard.com the magnet does not clear the 7-8 bar of useful-and-not-already-available",
+    "phase": "adversarial",
+    "adjudication": "accepted"
+   }
+  ],
+  "adversarial_verdict": "demote",
+  "adversarial_attack": "The lead magnet is a violation lookup with penalty mapping, and dobguard.com already gives away a free NYC violation lookup covering FDNY and ECB/OATH while SiteCompli covers FDNY monitoring for portfolios, so the free front door is commoditized. The dossier even cites DOBGuard's own content as its penalty-schedule source, which is citing the competitor as evidence. The two-sided buyer (contractor lead gen vs owner compliance) also splits a small team's go-to-market focus.",
   "total": 40,
-  "rank": 17
+  "rank": 11
  },
  {
-  "candidate_id": "hha-hhvbp-payment-risk-benchmark",
-  "name": "HHVBP Payment-at-Risk Forecast and Star Benchmark for Home Health Agencies",
-  "vertical": "Home health",
-  "cluster": "G4 medicare-senior-childcare",
-  "data_model": "public-first",
-  "lead_magnet": "Free CCN lookup: your HHVBP exposure snapshot and star benchmark vs state peers.",
-  "entity_key": "CMS CCN",
+  "candidate_id": "ll97-penalty-exposure-beam-prep",
+  "name": "Local Law 97 Penalty Exposure Monitor and BEAM Filing Prep Engine",
+  "vertical": "NYC CRE energy and emissions compliance",
+  "cluster": "G3 nyc-cre-permitting-osha",
+  "data_model": "hybrid",
+  "lead_magnet": "Free BBL lookup: estimated 2024-period LL97 penalty and the 2030 cap cliff computed from public LL84 data.",
+  "entity_key": "NYC BBL (LL84 rows carry BBL and BIN)",
   "gates_passed": 6,
   "receipt_class": "R2",
   "scores": {
    "quick_buildability": 8,
-   "lead_magnet_strength": 8,
-   "buyer_urgency": 7,
-   "consultancy_fit": 8,
-   "outbound_clarity": 9
+   "lead_magnet_strength": 7,
+   "buyer_urgency": 8,
+   "consultancy_fit": 9,
+   "outbound_clarity": 8
   },
-  "score_rationale": "Quarterly PDC CSVs + published model (QB8); payment-at-risk forecast in dollars (LM8); annual adjustment with quarterly previews (BU7); CCN family (CF8); HHA administrators via CCN roster (OC9)",
-  "adjustments": [],
+  "score_rationale": "LL84 annual CSV + covered buildings list on BBL infra (QB8); dollar penalty estimate per BBL is boardroom-ready (LM9); penalties assessing since May 2025, monthly non-filing accrual (BU8); BBL infra direct (CF9); sustainability/asset VPs findable (OC8)",
+  "adjustments": [
+   {
+    "dimension": "lead_magnet_strength",
+    "from": 9,
+    "to": 7,
+    "reason": "Anchor 9-10 requires numbers never seen assembled; at least six free LL97 penalty calculators exist including a city-run one, so the buyer partly knows the content, the 7-8 anchor",
+    "phase": "adversarial",
+    "adjudication": "accepted"
+   }
+  ],
+  "adversarial_verdict": "demote",
+  "adversarial_attack": "The boardroom-ready penalty number is fully commoditized: the city's own free NYC Accelerator Building Energy Snapshot, BE-Ex, NY-Engineers, Intelligreen, Law97Audit, and dobguard all publish free LL97 penalty calculators, several running on the same LL84 data. The sticky private layer then competes head-on with the RDP engineering firms (Milrose, Bright Power tier) that owners are legally required to engage for BEAM certification anyway, so the incumbent owns both the relationship and the signature.",
   "total": 40,
-  "rank": 18
+  "rank": 12
  },
  {
-  "candidate_id": "commercial-property-tax-appeal-packets",
-  "name": "Commercial Property Tax Appeal Evidence Packet Generator",
-  "vertical": "Commercial appraisal, assessment, and property tax representation",
-  "cluster": "G10 insurance-labor-education-appraisal-vet",
-  "data_model": "public-first",
-  "lead_magnet": "Free PIN or BBL lookup: over-assessment screen score with estimated annual savings and the parcel's next filing window.",
-  "entity_key": "County parcel ID: Cook County PIN, NYC BBL (Harris County account number as expansion)",
+  "candidate_id": "ma-agency-plan-exit-retention-packet",
+  "name": "AEP Disruption and Book-Retention Packet for Medicare Agencies",
+  "vertical": "Medicare Advantage distribution (independent agencies and FMOs)",
+  "cluster": "G4 medicare-senior-childcare",
+  "data_model": "hybrid",
+  "lead_magnet": "Free plan-exit exposure score for any county FIPS or contract ID lookup.",
+  "entity_key": "CMS contract-plan ID (H/S number plus PBP, e.g. H5216-032) and county FIPS; agent NPN optional for personalization",
   "gates_passed": 6,
   "receipt_class": "R2",
   "scores": {
    "quick_buildability": 8,
    "lead_magnet_strength": 9,
-   "buyer_urgency": 7,
-   "consultancy_fit": 8,
-   "outbound_clarity": 7
+   "buyer_urgency": 8,
+   "consultancy_fit": 7,
+   "outbound_clarity": 8
   },
-  "score_rationale": "Cook County clean API + published models, NYC BBL second (QB8); savings-estimate screen in dollars (LM9); rolling township windows (BU7); BBL overlap + contingency-fee consultants as channel (CF8); certiorari firms a known list (OC7)",
-  "adjustments": [],
-  "total": 39,
-  "rank": 19
+  "score_rationale": "Small documented CSVs, annual spike + monthly refresh (QB8); county plan-exit exposure with commission dollars is AEP gold (LM9); hard Sept-Dec calendar + 10 percent forced disenrollment in 2026 (BU10); CMS file wrangling transfers, buyer newer to NSigma (CF7); agency principals findable via NIPR-derived lists (OC8)",
+  "adjustments": [
+   {
+    "dimension": "buyer_urgency",
+    "from": 10,
+    "to": 8,
+    "reason": "Anchor 9-10 requires pain hitting this month or quarter; crosswalk and ANOC pressure lands Sept-Dec, making this recurring seasonal pressure, the 7-8 anchor, as the dossier's own g3 caveat admits",
+    "phase": "adversarial",
+    "adjudication": "accepted"
+   }
+  ],
+  "adversarial_verdict": "demote",
+  "adversarial_attack": "The money lives with the FMO, not the 5-agent agency: FMOs and carrier quoting platforms (Sunfire, Connecture tier) already distribute plan-exit disruption reports to downline agencies free as retention tools, and the FMO is both the channel you need and the actor best positioned to clone this in a quarter. The 10% forced-disenrollment stat verified, so the pain is real, but the pain calendar is September through December and the buyer feels nothing in July, while client outreach scripts drag a small vendor into CMS marketing-compliance territory.",
+  "total": 40,
+  "rank": 13
+ },
+ {
+  "candidate_id": "msha-aggregates-regulator-view-benchmark",
+  "name": "Aggregates Regulator-View Benchmark and POV Early-Warning Packet",
+  "vertical": "Mining safety (stone, sand and gravel aggregates)",
+  "cluster": "G8 utilities-telecom-mining",
+  "data_model": "public-first",
+  "lead_magnet": "Free instant MSHA Regulator-View Scorecard by Mine ID showing how the pit looks to its inspector vs 20 nearest peers",
+  "entity_key": "MSHA Mine ID (7-digit), rolled up by controller/operator ID",
+  "gates_passed": 6,
+  "receipt_class": "R2",
+  "scores": {
+   "quick_buildability": 7,
+   "lead_magnet_strength": 9,
+   "buyer_urgency": 6,
+   "consultancy_fit": 9,
+   "outbound_clarity": 9
+  },
+  "score_rationale": "Same pipeline + percentile ranking (QB8); regulator-view scorecard vs 20 nearest peers is unseen-assembled (LM9); 2 inspections per pit per year across portfolios (BU8); aggregates producers exactly NSigma's buyer (CF9); pit roster public (OC9)",
+  "adjustments": [
+   {
+    "dimension": "buyer_urgency",
+    "from": 8,
+    "to": 6,
+    "reason": "Anchor 7-8 requires recurring pressure with real dollar consequences on a clock; unannounced inspections create episodic enforcement against a chronic cost, the textbook 5-6 anchor where the buyer can defer a quarter",
+    "phase": "adversarial",
+    "adjudication": "accepted"
+   }
+  ],
+  "adversarial_verdict": "demote",
+  "adversarial_attack": "This is the dossier's clearest case of an interesting dataset cosplaying as a product: there is no filing, no deadline, and no artifact anyone must produce this month, just a quarterly benchmark an EHS director can admire and defer indefinitely. POV early warning is real but POV-proximate mines are a tiny sliver of the aggregates universe, and the incumbents (J.J. Keller mock audits) sell the on-site work the benchmark merely points at. Note also the internal inconsistency: the rationale text says QB8 while the scored value is 7, which suggests drift in the scoring pass.",
+  "total": 40,
+  "rank": 14
  },
  {
   "candidate_id": "nyc-boiler-filing-penalty-shield",
@@ -436,8 +425,10 @@
   },
   "score_rationale": "Single Socrata set + penalty clock (QB9); filing status lookup useful (LM7); $50/mo escalators then $1000, softer than elevator (BU7); BBL direct (CF8); inspection agencies enumerable (OC8)",
   "adjustments": [],
+  "adversarial_verdict": "keep",
+  "adversarial_attack": "Weakest dollars in the NYC family: $50 per month escalators topping at $600 plus a $1,000 failure-to-file are annoyance-grade for portfolio owners, and dedicated filing vendors (OneView, Energo, Insparisk) already sell deadline management. But the scores already price this honestly at rank 20 with LM7 and BU7, and it is a near-zero-marginal-cost add-on to the elevator product rather than a standalone bet.",
   "total": 39,
-  "rank": 20
+  "rank": 15
  },
  {
   "candidate_id": "osha-citation-response-packet",
@@ -459,7 +450,7 @@
   "score_rationale": "Daily bulk CSVs, reduction stats + templates (QB8); history lookup is table stakes, conference stats are the hook (LM7); 15-working-day contest clock and 100k inspections/yr (BU9); construction safety adjacent to industrial ICP (CF7); specialty contractor owners/EHS at volume (OC8)",
   "adjustments": [],
   "total": 39,
-  "rank": 21
+  "rank": 16
  },
  {
   "candidate_id": "pwsid-contract-operator-copilot",
@@ -481,7 +472,7 @@
   "score_rationale": "SDWA CSVs + fixed PN templates (QB8); portfolio scoreboard needs PWSID list paste, mild friction (LM7); monthly monitoring cycles with public-notification triggers (BU8); CCN-pattern portfolio compliance, utility ops buyers (CF8); contract operator firms enumerable from state lists (OC8)",
   "adjustments": [],
   "total": 39,
-  "rank": 22
+  "rank": 17
  },
  {
   "candidate_id": "chain-inspection-sentinel",
@@ -503,7 +494,7 @@
   "score_rationale": "NYC+Chicago Socrata + address matching to chain rosters (QB7); chain scorecard with closure flags (LM8); daily postings, same-day revenue effects (BU8); NYC data overlap, restaurant chains off industrial ICP (CF7); VP food safety at multi-unit chains findable (OC8)",
   "adjustments": [],
   "total": 38,
-  "rank": 23
+  "rank": 18
  },
  {
   "candidate_id": "chicago-building-court-prep-packet",
@@ -525,7 +516,7 @@
   "score_rationale": "Two Socrata datasets, NYC architecture reuse (QB8); daily-fine exposure lookup stings (LM8); DOAH calendar + accruing daily fines (BU8); pattern reuse, no shared keys (CF7); Chicago owner/manager lists via assessor data (OC7)",
   "adjustments": [],
   "total": 38,
-  "rank": 24
+  "rank": 19
  },
  {
   "candidate_id": "dot-intervention-insurance-defense",
@@ -547,7 +538,7 @@
   "score_rationale": "Reuses SMS ingestion + peer model (QB7); renewal defense memo strong but partly known to buyer (LM8); renewal-cycle pressure, monthly percentile moves (BU7); same stack and buyers (CF8); same list as dataqs, insurance angle widens titles (OC8)",
   "adjustments": [],
   "total": 38,
-  "rank": 25
+  "rank": 20
  },
  {
   "candidate_id": "fcc-rmd-carrier-kyc-packet",
@@ -569,7 +560,7 @@
   "score_rationale": "One CSV + order scraping, 2-3 week MVP (QB9); status check + partner scan useful (LM7); mandatory blocking since May 2024, removals keep coming (BU8); VoIP carriers off-ICP (CF5); RMD filer list IS the prospect list (OC9)",
   "adjustments": [],
   "total": 38,
-  "rank": 26
+  "rank": 21
  },
  {
   "candidate_id": "fda-import-alert-exit-packet",
@@ -591,7 +582,40 @@
   "score_rationale": "Alert-page scraping + refusals join (QB6); red-list + refusal history lookup is urgent for anyone listed (LM8); every shipment detained while listed, daily cost (BU9); FEI facility pattern (CF7); the red list IS the prospect list, perfect targeting (OC9)",
   "adjustments": [],
   "total": 38,
-  "rank": 27
+  "rank": 22
+ },
+ {
+  "candidate_id": "fei-supplier-gmp-surveillance",
+  "name": "Supplier GMP Surveillance Dossiers by FEI (pharma and device supplier quality)",
+  "vertical": "Pharma and medical device supplier quality management",
+  "cluster": "G5 meddevice-pharma-labs",
+  "data_model": "hybrid",
+  "lead_magnet": "Free FEI or firm-name lookup returning a one-page risk snapshot: last inspection date, classification (NAI/VAI/OAI), and any open compliance actions.",
+  "entity_key": "FDA FEI (FDA Establishment Identifier); DUNS as secondary",
+  "gates_passed": 6,
+  "receipt_class": "R2",
+  "scores": {
+   "quick_buildability": 8,
+   "lead_magnet_strength": 6,
+   "buyer_urgency": 8,
+   "consultancy_fit": 8,
+   "outbound_clarity": 8
+  },
+  "score_rationale": "Clean weekly FDA feeds, FEI entity resolution (QB8); FEI risk snapshot is instant and unseen-assembled (LM8); weekly dashboard changes + import alerts halting supply (BU8); FEI-keyed facility monitoring mirrors FRS work (CF8); supplier quality directors at pharma findable (OC8)",
+  "adjustments": [
+   {
+    "dimension": "lead_magnet_strength",
+    "from": 8,
+    "to": 6,
+    "reason": "Anchor 5-6 is a personalized but thin lookup summary; with free FDA-tracking tools live, the snapshot does not meet the 7-8 bar of content the buyer cannot already get",
+    "phase": "adversarial",
+    "adjudication": "accepted"
+   }
+  ],
+  "adversarial_verdict": "demote",
+  "adversarial_attack": "The brief's own known-free-tool list (fdatracker.ai, 483signal.com) plus Redica's entrenched five-figure subscriptions bracket this from both ends: the free tier of the market already gives away FDA inspection lookups and the paid tier owns the enterprise quality suites. A one-page FEI snapshot is a lookup summary, and openFDA plus the weekly dashboard CSVs make the clone a two-week Claude Code project for anyone, so there is no defensible middle.",
+  "total": 38,
+  "rank": 23
  },
  {
   "candidate_id": "forwarder-screening-evidence-pack",
@@ -613,7 +637,81 @@
   "score_rationale": "CSL API daily + CSV ingestion (QB8); counterparty red-flag report from public manifests is provocative (LM8); daily CSL changes + 2025 seven-figure OFAC forwarder penalties (BU8); freight forwarders off industrial ICP (CF6); FMC OTI license list IS the roster (OC9)",
   "adjustments": [],
   "total": 38,
-  "rank": 28
+  "rank": 24
+ },
+ {
+  "candidate_id": "ll152-gas-piping-inspection-radar",
+  "name": "LL152 Gas Piping Inspection Radar (NYC plumbing contractors)",
+  "vertical": "Plumbing contractors and NYC multifamily/commercial owners, Local Law 152 gas piping compliance",
+  "cluster": "G7 trades-fire-equipment",
+  "data_model": "public-first",
+  "lead_magnet": "Free BBL or address lookup: is this building due for LL152 this cycle year, has a GPS2 been filed, what penalty accrues if missed",
+  "entity_key": "NYC BBL / BIN",
+  "gates_passed": 6,
+  "receipt_class": "R2",
+  "scores": {
+   "quick_buildability": 7,
+   "lead_magnet_strength": 6,
+   "buyer_urgency": 8,
+   "consultancy_fit": 9,
+   "outbound_clarity": 8
+  },
+  "score_rationale": "DOB compliance list + PLUTO on BBL infra (QB9); due-this-cycle + penalty lookup (LM8); annual per-district windows through 2027 cycle (BU8); BBL direct (CF9); LMP firms from license lists (OC8)",
+  "adjustments": [
+   {
+    "dimension": "quick_buildability",
+    "from": 9,
+    "to": 7,
+    "reason": "Anchor 9-10 requires a single clean machine-readable source; an XLSX-on-a-webpage plus per-building portal status checks is 1-2 sources with real key-matching and scraping work, the 7 boundary at best",
+    "phase": "adversarial",
+    "adjudication": "accepted"
+   },
+   {
+    "dimension": "lead_magnet_strength",
+    "from": 8,
+    "to": 6,
+    "reason": "Without filing status the artifact is a thin due-window lookup, anchor 5-6, and free LL152 schedule content is already widespread",
+    "phase": "adversarial",
+    "adjudication": "accepted"
+   }
+  ],
+  "adversarial_verdict": "demote",
+  "adversarial_attack": "The load-bearing field of the magnet, whether a GPS2 has been filed, is not in the backbone: the DOB compliance list is an XLSX of covered buildings and the filing status lives per building inside DOB NOW, which the dossier itself concedes. Without portal scraping the magnet degrades to 'your community district is due this year,' which every LL152 marketing site (locallaw152.com, keepmygas.nyc, KomplyOS guides) already communicates. Penalty facts did verify ($5,000, $1,500 for 3-family), so the pain is real but the spine is weaker than scored.",
+  "total": 38,
+  "rank": 25
+ },
+ {
+  "candidate_id": "commercial-property-tax-appeal-packets",
+  "name": "Commercial Property Tax Appeal Evidence Packet Generator",
+  "vertical": "Commercial appraisal, assessment, and property tax representation",
+  "cluster": "G10 insurance-labor-education-appraisal-vet",
+  "data_model": "public-first",
+  "lead_magnet": "Free PIN or BBL lookup: over-assessment screen score with estimated annual savings and the parcel's next filing window.",
+  "entity_key": "County parcel ID: Cook County PIN, NYC BBL (Harris County account number as expansion)",
+  "gates_passed": 6,
+  "receipt_class": "R2",
+  "scores": {
+   "quick_buildability": 8,
+   "lead_magnet_strength": 9,
+   "buyer_urgency": 7,
+   "consultancy_fit": 6,
+   "outbound_clarity": 7
+  },
+  "score_rationale": "Cook County clean API + published models, NYC BBL second (QB8); savings-estimate screen in dollars (LM9); rolling township windows (BU7); BBL overlap + contingency-fee consultants as channel (CF8); certiorari firms a known list (OC7)",
+  "adjustments": [
+   {
+    "dimension": "consultancy_fit",
+    "from": 8,
+    "to": 6,
+    "reason": "Adjudicated translation of reviewer demote verdict: Ownwell ($50M funded) automates Cook County commercial appeals end to end and disintermediates the certiorari-firm buyer; selling packet tools to a buyer losing its market is a weak consultancy motion",
+    "phase": "adversarial",
+    "adjudication": "judge-translated"
+   }
+  ],
+  "adversarial_verdict": "demote",
+  "adversarial_attack": "Ownwell just raised $50M and already automates commercial appeals in Cook County end to end, AI evidence compilation, township deadline tracking, contingency pricing, 88% claimed success, and it competes for the same owners your certiorari-firm buyers serve. Selling packet software to analyst teams whose market a funded incumbent is actively disintermediating is selling picks to a shrinking mine, and the NYC certiorari bar is small, conservative, and relationship-locked.",
+  "total": 37,
+  "rank": 26
  },
  {
   "candidate_id": "ctgov-fdaaa-results-compliance",
@@ -635,7 +733,7 @@
   "score_rationale": "Single JSON API with open-source precedent (QB9); sponsor compliance scorecard leverages public shaming (LM8); FDA notices increasing, per-day CMP authority (BU7); academic compliance off industrial ICP (CF6); PRS admins/research compliance titled and findable (OC8)",
   "adjustments": [],
   "total": 37,
-  "rank": 29
+  "rank": 27
  },
  {
   "candidate_id": "emanifest-tsdf-market-intel",
@@ -657,7 +755,7 @@
   "score_rationale": "Bulk e-Manifest ingestion is the lift, registration-gated API (QB6); lost-accounts-to-named-competitors magnet is a sales team's dream (LM9); BD urgency is chronic not calendared (BU5); waste vertical is NSigma home turf (CF9); TSDF sales VPs findable, handler list public (OC8)",
   "adjustments": [],
   "total": 37,
-  "rank": 30
+  "rank": 28
  },
  {
   "candidate_id": "fsis-enforcement-radar",
@@ -679,7 +777,40 @@
   "score_rationale": "Quarterly XLSX + posted letter PDFs (QB6); establishment benchmark card good (LM7); daily inspector presence, NOIE 3-day response, suspension stops production (BU9); establishment-keyed event stream mirrors FRS (CF7); FSIS establishment directory IS the list with plant addresses (OC9)",
   "adjustments": [],
   "total": 37,
-  "rank": 31
+  "rank": 29
+ },
+ {
+  "candidate_id": "hha-hhvbp-payment-risk-benchmark",
+  "name": "HHVBP Payment-at-Risk Forecast and Star Benchmark for Home Health Agencies",
+  "vertical": "Home health",
+  "cluster": "G4 medicare-senior-childcare",
+  "data_model": "public-first",
+  "lead_magnet": "Free CCN lookup: your HHVBP exposure snapshot and star benchmark vs state peers.",
+  "entity_key": "CMS CCN",
+  "gates_passed": 6,
+  "receipt_class": "R2",
+  "scores": {
+   "quick_buildability": 8,
+   "lead_magnet_strength": 5,
+   "buyer_urgency": 7,
+   "consultancy_fit": 8,
+   "outbound_clarity": 9
+  },
+  "score_rationale": "Quarterly PDC CSVs + published model (QB8); payment-at-risk forecast in dollars (LM8); annual adjustment with quarterly previews (BU7); CCN family (CF8); HHA administrators via CCN roster (OC9)",
+  "adjustments": [
+   {
+    "dimension": "lead_magnet_strength",
+    "from": 8,
+    "to": 5,
+    "reason": "Anchor 5-6 at best: the regulator hands the buyer the same cohort, percentile, and TPS content quarterly for free, so the magnet is a thin restatement rather than unseen assembly",
+    "phase": "adversarial",
+    "adjudication": "accepted"
+   }
+  ],
+  "adversarial_verdict": "demote",
+  "adversarial_attack": "CMS itself already delivers exactly this artifact free: quarterly HHVBP Interim Performance Reports in iQIES give every agency its cohort assignment, 12 months of measure performance versus achievement thresholds and benchmarks, and its interim Total Performance Score, with the April 2026 IPRs live now. The proposed memo is a less authoritative paraphrase of a report the buyer already receives, leaving only the dollar translation and the three-measure-moves feature, which is a feature, not a product.",
+  "total": 37,
+  "rank": 30
  },
  {
   "candidate_id": "phmsa-nopv-response-precedent-engine",
@@ -701,7 +832,7 @@
   "score_rationale": "Case-table scrape + LLM PDF extraction over bounded corpus (QB6); proposed-vs-final dollar benchmark is unseen (LM8); 30-day NOPV response windows, record penalties (BU8); pipeline operators FRS-adjacent (CF8); OPID list public (OC8)",
   "adjustments": [],
   "total": 37,
-  "rank": 32
+  "rank": 31
  },
  {
   "candidate_id": "cslb-sub-roster-compliance-monitor",
@@ -723,7 +854,7 @@
   "score_rationale": "Monthly CSLB files, documented formats (QB8); paste-25-licenses memo has mild input friction (LM7); statutory-employer liability + automatic suspensions monthly (BU8); GC risk buyers adjacent (CF7); CA GCs at volume (OC8)",
   "adjustments": [],
   "total": 36,
-  "rank": 33
+  "rank": 32
  },
  {
   "candidate_id": "fcc-bdc-preaudit-challenge-desk",
@@ -745,7 +876,7 @@
   "score_rationale": "Availability CSVs + version diffing (QB7); footprint discrepancy report is novel (LM8); Mar/Sep deadlines + NALs issued (BU7); small ISPs off industrial ICP (CF6); filer list IS the universe (OC8)",
   "adjustments": [],
   "total": 36,
-  "rank": 34
+  "rank": 33
  },
  {
   "candidate_id": "ll87-energy-audit-radar",
@@ -767,7 +898,7 @@
   "score_rationale": "KILLED g3: 10-year cycle. Trivial on BBL stack (QB9); due-year + penalty magnet fine (LM7); decadal cadence fails repetition (BU3); infra fit high (CF9); same NYC lists (OC8)",
   "adjustments": [],
   "total": 36,
-  "rank": 35
+  "rank": 34
  },
  {
   "candidate_id": "maude-pms-signal-packet",
@@ -789,7 +920,7 @@
   "score_rationale": "openFDA JSON, no auth (QB8); competitor MDR trend chart is genuinely novel to PMS teams (LM8); annual PSURs + continuous trending duty (BU7); device RA/QA new buyer, benchmark pattern transfers (CF7); PMS managers findable at midsize device cos (OC7)",
   "adjustments": [],
   "total": 36,
-  "rank": 36
+  "rank": 35
  },
  {
   "candidate_id": "510k-predicate-landscape-package",
@@ -811,7 +942,7 @@
   "score_rationale": "Monthly 510(k) files + on-demand PDF parse (QB8); predicate tree with MAUDE overlay is new visual (LM8); per-submission urgency, no standing clock (BU6); RA buyer adjacent (CF7); RA directors findable (OC7)",
   "adjustments": [],
   "total": 35,
-  "rank": 37
+  "rank": 36
  },
  {
   "candidate_id": "assisted-living-survey-readiness-benchmark",
@@ -833,7 +964,7 @@
   "score_rationale": "CDSS portal + PDF report parsing (QB5); citation-vs-neighbors card (LM7); citation escalation math creates real fear (BU7); extends senior-living domain, sibling of CCN work (CF9); RCFE lists public (OC8)",
   "adjustments": [],
   "total": 35,
-  "rank": 38
+  "rank": 37
  },
  {
   "candidate_id": "clery-crime-log-qa-asr-packet",
@@ -855,7 +986,7 @@
   "score_rationale": "Annual survey files + incident-CSV QA (QB7); anomaly flags vs peers is a sharp hook post-Liberty (LM8); daily log duty + record fines, Oct 1 ASR (BU7); higher-ed off-ICP (CF5); Clery coordinators titled and listed (OC8)",
   "adjustments": [],
   "total": 35,
-  "rank": 39
+  "rank": 38
  },
  {
   "candidate_id": "dob-plan-exam-objection-intel",
@@ -877,7 +1008,7 @@
   "score_rationale": "Daily Socrata filings feed (QB8); days-in-queue benchmark is novel but no dollar sting (LM7); per-project urgency, no penalty clock (BU6); NYC stack direct but buyer is expeditors (CF8); expeditor firms enumerable (OC7)",
   "adjustments": [],
   "total": 35,
-  "rank": 40
+  "rank": 39
  },
  {
   "candidate_id": "fcc-uls-spectrum-portfolio-guardian",
@@ -899,7 +1030,7 @@
   "score_rationale": "Known-solved ULS parsing, big weekly files (QB7); portfolio health report with auto-termination flags (LM8); buildout/renewal deadlines with auto-termination (BU7); utilities railroads pipelines mines = existing buyer types (CF8); spectrum manager title rare, hides under telecom/ops (OC6)",
   "adjustments": [],
   "total": 35,
-  "rank": 41
+  "rank": 40
  },
  {
   "candidate_id": "ferc-eqr-mbr-compliance-guardrail",
@@ -920,6 +1051,57 @@
   },
   "score_rationale": "EQR bulk is gnarly + watchlist scrape (QB5); delinquency check strong for at-risk sellers (LM7); quarterly statutory filings + revocations documented (BU8); power-market adjacency (CF7); seller list public (OC8)",
   "adjustments": [],
+  "total": 35,
+  "rank": 41
+ },
+ {
+  "candidate_id": "ieepa-tariff-refund-cape-pack",
+  "name": "IEEPA/301 Tariff Refund and Exposure Pack (CAPE claim prep)",
+  "vertical": "Import trade compliance and duty recovery",
+  "cluster": "G9 export-aviation-procurement",
+  "data_model": "hybrid",
+  "lead_magnet": "Free tariff exposure and refund-range letter for any importer name found in public bill-of-lading data",
+  "entity_key": "Importer/consignee name in CBP AMS ocean manifest records (via ImportYeti free search); EIN/importer-of-record number once engaged",
+  "gates_passed": 6,
+  "receipt_class": "R2",
+  "scores": {
+   "quick_buildability": 4,
+   "lead_magnet_strength": 9,
+   "buyer_urgency": 8,
+   "consultancy_fit": 5,
+   "outbound_clarity": 9
+  },
+  "score_rationale": "Manifest name-matching + finite rate table, ImportYeti registration layer (QB6); refund-range letter in dollars is irresistible (LM9); SCOTUS 2/20/2026 decision, 165B refund flow happening NOW (BU10); FRS import-exposed manufacturers + contingency model fits consultancy (CF8); importers visible in manifest data by name (OC9)",
+  "adjustments": [
+   {
+    "dimension": "quick_buildability",
+    "from": 6,
+    "to": 4,
+    "reason": "Anchor 3-4 covers scraping portals; the spine is a competitor's registration-walled site with CSV export gated behind a custom plan, closer to the 0-2 registration-wall anchor than to a 5-6 multi-source join",
+    "phase": "adversarial",
+    "adjudication": "accepted"
+   },
+   {
+    "dimension": "buyer_urgency",
+    "from": 10,
+    "to": 8,
+    "reason": "Urgency was 10 in March; with most refund volume already queued or paid via brokers and the appeal pending, this is recurring rolling-deadline pressure on a shrinking tail, the 7-8 anchor",
+    "phase": "adversarial",
+    "adjudication": "accepted"
+   },
+   {
+    "dimension": "consultancy_fit",
+    "from": 8,
+    "to": 5,
+    "reason": "Anchor 0-2 flags liability mismatch and 5-6 flags domain expertise NSigma must acquire; unlicensed customs-business exposure plus a one-time event, not a repeatable compliance-artifact motion, lands this at 5",
+    "phase": "adversarial",
+    "adjudication": "accepted"
+   }
+  ],
+  "adversarial_verdict": "kill",
+  "adversarial_attack": "This window is closing and the field is armed: CAPE went live April 20, 2026, over $95B is already queued and $40B+ disbursed by end of June, filed by the brokers who already hold the importers' ACE data, and DOJ's June 3 appeal puts the remaining never-sued tail in legal limbo. Preparing and filing customs refund claims for compensation is customs business under 19 CFR Part 111 requiring a licensed broker, so a 2-person data shop is unlicensed, late, and competing with UPS and the AmLaw bar. On top of that, the backbone is ImportYeti's registration-gated free tier, a commercial vendor's product, not a public spine.",
+  "killed_by_adversarial": true,
+  "kill_reason": "Customs business licensure (19 CFR Part 111) exposure for claim prep-for-compensation; refund window mostly consumed ($95B queued, $40B disbursed via brokers by June 2026); DOJ appeal pending; backbone is ImportYeti, a registration-gated commercial mirror, not a public spine",
   "total": 35,
   "rank": 42
  },
