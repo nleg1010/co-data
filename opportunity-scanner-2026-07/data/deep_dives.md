@@ -42,8 +42,17 @@ and RSA merger, 4,000+ owner members) and NYARM. Conference: BuildingsNY at Javi
 D. Source spine. Backbone: DOB ECB Violations (6bgk-3dad), verdict verified-live,
 public-easy, daily updates observed through late June 2026, BIN/BORO/BLOCK/LOT
 documented plus ecbviolationnumber linking to the OATH dataset's ticketnumber
-(receipt: nycdb wiki). Supporting: OATH Hearings (rjte-hkhv), DOB Violations
-(3h2n-5cm9), HPD registration datasets, CityPay payment status.
+(receipt: nycdb wiki). Supporting: OATH Hearings Division Case Status (jz4z-kudi:
+infraction charged, decision outcome, penalty imposed and paid, the outcome-model
+training table), DOB Violations (3h2n-5cm9), HPD registration datasets, CityPay.
+Dive caveat verified: as of May 4, 2026 OATH removed respondent name and address
+fields from the case-status dataset; charge, outcome, and amount fields remain, so
+the BBL and summons-number joins this product needs are unaffected. Outcome
+statistics have published precedent: DOBGuard's own 2026 guide markets aggregate
+rates (about 15 percent of ECB violations fully dismissed; 38 percent of contested
+violations dismissed or reduced), and roughly 573 million USD of ECB judgment debt
+was outstanding as of October 2025 (NYC DOF receipt), which is the dollar pool
+default prevention plays against.
 
 E. Competitive landscape. SiteCompli InCheck (quote-only, roughly 500 USD per month
 entry per third-party listings) monitors violations and workflow but generates no
@@ -382,3 +391,124 @@ harness). Second, agencies are late tech adopters with thin margins; pricing mus
 survive a skeptical 20-person shop. Third, platform sprawl: elevator alone is a
 feature; the NYC calendar platform is the business, and sequencing it wrong (five
 half-built modules) burns the wedge.
+
+### Dive 7 of 8: HMSP Eligibility Guardian (rank 7, total 41)
+
+A. Product. Enter a USDOT number, get the hazmat safety permit survival scorecard.
+Input: FMCSA SMS monthly snapshot files (inspection, crash, census). Processing:
+compute the four rolling HMSP rates exactly as FMCSA does (driver OOS, vehicle OOS,
+hazmat OOS, crash rate) against the published fixed denial thresholds (9.68, 33.33,
+6.82 percent and 0.136, receipt-confirmed), trend them over 24 months, and flag the
+specific inspections dragging each rate. Output: a monthly eligibility scorecard
+with threshold distance, trajectory, and the two challenges to file first. Lead
+magnet PDF: the four-rates-vs-thresholds card for any HMSP-holding USDOT number.
+
+B. Why it works. The rates are computable from the same public SMS files as the
+DataQs product (shared ETL), the thresholds are published, and FMCSA now
+continuously monitors permit holders via SMS analysis (receipt), so a bad quarter
+can start suspension proceedings silently. Note from verification: the SAFER
+national hazmat rate guidance page is a stale 2003-2010 reference sheet; the
+product's backbone is the SMS files plus current HMSP guidance thresholds, and the
+receipts say so explicitly. Private stickiness: none needed early; the carrier's
+inspection reports (moderate handover) sharpen challenges later. Category
+enhancement: the DataQs challenge engine scoped to HM violations, back-tested
+against FMCSA proposed-revocation actions, turning monitoring into permit defense.
+Build: Claude Code on the shared SMS pipeline; Paperclip monthly sweep per fleet.
+
+C. Buyer. Safety director at hazmat and tank truck carriers, 20 to 500 power units,
+NAICS 484230. Pain: the HMSP is the license for the highest-value placarded loads;
+losing it stops that revenue line while general freight continues, an existential
+asymmetry. Status quo: J.J. Keller-class hazmat compliance services (quote-only),
+general DOT retainers at 50 to 250 USD per driver per month, and FileFlo-class CSA
+SaaS at a published 299 USD per month that tracks BASICs but not the four HMSP
+rates (all receipted). Finding them: the SAFER census flags HM-permitted carriers
+(the roster IS the list); NTTC (Tank Truck Week, roughly 1,000 attendees, Sept
+2026) and ATA's Safety Management Council are the concentration points.
+
+D. Source spine. Backbone: FMCSA SMS monthly snapshots (verified-live, monthly,
+USDOT-keyed; 2026 methodology overhaul watch item applies here too). Supporting:
+current FMCSA HMSP guidance pages for thresholds; DataQs portal for challenges.
+Downgraded reference: SAFER HazMatRatesPost page (stale 2003-2010 data; receipt
+verdict needs-attention; used for nothing computational).
+
+E. Competitive landscape. Free FMCSA tools show raw BASICs but never compute the
+four permit rates against thresholds (receipted gap). FileFlo, Fleetworthy,
+SambaSafety track CSA percentiles generically. J.J. Keller sells consultant hours.
+The gap: nobody sells HMSP-specific threshold monitoring, and the buyer who needs
+it cannot see revocation coming from any dashboard they own today.
+
+F. Commercial model. 249 USD per month per fleet (floor 249, flat to 200 power
+units, 499 above), bundled 100 USD discount with the DataQs product. ACV 3,000 to
+6,000 USD. Motion: cold email to safety directors at HM-flagged carriers with
+their own four-rates card. Channel: tank truck insurers and NTTC affinity
+programming; cross-sell to the DataQs base.
+
+G. Risks. First, niche TAM: HMSP holders number in the low thousands (this run
+could not verify an exact count; flagged unverifiable in the dive), so this is a
+module business, not a standalone company; it works because it shares 90 percent
+of its build with DataQs. Second, the 2026 SMS methodology change may alter rate
+inputs; same re-baseline duty as dive 4. Third, threshold or policy drift: FMCSA
+has revised HMSP oversight before; the product must track guidance pages, not
+cached constants.
+
+### Dive 8 of 8: MSHA Citation Contest and Conference Decision Desk (rank 8, total 41)
+
+A. Product. Enter a 7-digit MSHA Mine ID, get the contest-or-pay decision desk for
+every open citation. Input: MSHA open data flat files (violations, assessed
+violations, inspections, conferences; weekly refresh receipted) plus FMSHRC
+decision archives. Processing: per-citation Part 100 penalty-point exposure math,
+then a contest-worthiness score from historical outcomes of similar citations
+(same 30 CFR standard, gravity, negligence, district). Output: a per-citation
+decision packet inside the 10-day conference window: expected penalty if paid,
+historical modification and vacate rates, recommended action, and the conference
+request draft. Lead magnet PDF: the Mine Enforcement Exposure Scorecard (12-month
+citation mix, S&S rate vs district peers, dollar trend).
+
+B. Why it works. MSHA publishes citation-level enforcement data weekly with the
+Mine ID key documented, and the dive verified the operational premise: citations
+appear in the public files fast enough to act inside the 10-day window
+(issuance-to-file lag under 5 days per the dive's receipts). Assessed-vs-final
+deltas in the public data are a free outcomes training set. Private stickiness:
+the operator's citation PDFs and photos (easy handover per case) improve drafts.
+Category enhancement: the contest-worthiness model validated against FMSHRC
+outcomes, which no incumbent publishes per citation. Build: Claude Code flat-file
+ETL, Codex for the scoring model over litigated outcomes, Paperclip weekly sweep
+and packet generation.
+
+C. Buyer. VP or director of safety at multi-mine coal and metal/nonmetal
+operators, NAICS 2121-2123. Pain: mandatory inspections (4x underground, 2x
+surface per year, receipted) produce citation batches with 10-day conference and
+30-day contest clocks; industry assessments ran roughly 200M USD in the 2010 peak
+(receipted) and POV status triggers withdrawal orders. Status quo: FMSHRC counsel
+per docket (hourly, quote-only; the EAJA fee cap of 125 USD per hour the dive
+surfaced shows how fee-sensitive this space is), Predictive Compliance
+(quote-only enterprise) for penalty tracking, spreadsheets everywhere else.
+Finding them: the mine roster with operator names is public (MSHA data), 1,388
+mining safety leads on Apollo (live receipt); NSSGA and NMA associations; TRAM
+and MINExpo (quadrennial, 45,000 attendees) conferences.
+
+D. Source spine. Backbone: MSHA Open Government Data Portal flat files
+(verified-live, weekly Friday refresh, Mine ID and event numbers documented).
+Supporting: FMSHRC decisions (contest outcomes), Part 100 penalty tables.
+
+E. Competitive landscape. Predictive Compliance tracks citations and penalty math
+at enterprise quote-only pricing but publishes no contest-worthiness probability.
+MSHAWISE assists research, not keyed live to a mine's citation stream. Counsel
+judgment is per-docket and expensive. MSHA's free MDRS shows raw history with no
+decision layer. The gap: quantified, precedent-based contest triage delivered
+inside the 10-day window at software price.
+
+F. Commercial model. 399 USD per month per mine complex (floor 399), 249 per
+additional complex, aggregates chains at portfolio pricing. ACV 4,800 to 24,000
+USD. Motion: cold email to safety VPs with their own exposure scorecard;
+conference and association programming (TRAM is free to attend and safety-officer
+dense). Channel: mining law firms white-labeling the decision packet as intake,
+insurers, NSSGA affinity.
+
+G. Risks. First, model defensibility: contest outcomes depend on facts not in the
+data (photos, testimony); the score must present base rates, not predictions, or
+counsel will discredit it. Second, the buyer's lawyer is the channel AND the
+competitor; positioning the packet as counsel's intake accelerant is the only
+stable stance. Third, dataset lag risk on conferences: if the 10-day window
+occasionally outruns file publication for some districts, the product needs the
+operator to forward the citation PDF (easy, but breaks the zero-touch pitch).

@@ -92,3 +92,22 @@ directors 2,646; mining safety 1,388. NYC managing-agent compliance titles are
 scarce on Apollo (130 exact, 2,902 broad), so NYC candidates' outbound rides
 HPD registration contact lists (entity-keyed) rather than Apollo title search.
 This nuance is fed to the adversarial adjudication.
+
+## D11. Improvement notes for the next run
+1. Schema size: keep structured-output schemas under ~2KB (permissive top-level,
+   field contract in the prompt); the classifier rejection cost this run 18 minutes.
+2. Pass run timestamps via workflow args from the start (Date.now is blocked).
+3. Verification agents should check the LOAD-BEARING FIELD of each candidate's lead
+   magnet, not just the dataset (the LL152 GPS2-status gap and FDNY BIN-column gap
+   were caught late by the adversarial and verification passes respectively).
+4. Score lead magnets only after listing what the regulator and free tools already
+   give the buyer (this run's single largest systematic bias).
+5. Buyer urgency: score distance-from-today, not statutory cadence (IEEPA and MA
+   crosswalk both inflated before correction).
+6. Run the egress probe FIRST in any sandboxed environment and pick the receipt
+   protocol before Phase 1; it cost nothing here because probes ran early.
+7. The atlas dedupe worked (14 updates on re-append); future scans should query
+   boring-pain-atlas/boring_pain_atlas.jsonl before generating candidates to avoid
+   re-researching known rows.
+8. 4-core sandbox = 2-concurrent agents per workflow; parallel workflows multiply
+   throughput (verification ran alongside scans); plan phases to overlap.

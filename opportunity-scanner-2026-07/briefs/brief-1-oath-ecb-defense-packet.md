@@ -23,7 +23,10 @@ lead magnet (one-page exposure ledger for any BBL) generates from the same engin
 Backbone: DOB ECB Violations, data.cityofnewyork.us/Housing-Development/DOB-ECB-Violations/6bgk-3dad
 (Socrata CSV/JSON API, daily, BIN/BORO/BLOCK/LOT + ecbviolationnumber documented).
 Joins: OATH Hearings rjte-hkhv (ticketnumber = ecbviolationnumber, penalties,
-outcomes, hearing status), DOB Violations 3h2n-5cm9 (legacy civil penalties), HPD
+outcomes, hearing status), OATH Hearings Division Case Status jz4z-kudi (charge,
+decision outcome, penalty imposed and paid: the outcome-statistics training table;
+note: respondent name/address fields removed May 4, 2026, joins via summons number
+and BBL unaffected), DOB Violations 3h2n-5cm9 (legacy civil penalties), HPD
 Multiple Dwelling Registrations tesw-yqqr + Registration Contacts feu5-w2e2
 (managing agent contacts for outbound), CityPay ECB (payable balance spot checks,
 manual). Charge-code penalty schedule: 1 RCNY 102-01 appendix and agency penalty

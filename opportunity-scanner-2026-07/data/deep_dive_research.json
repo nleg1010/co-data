@@ -1204,5 +1204,389 @@
     "claim": "TEI Group offers elevator violations resolution and management as a consulting engagement, the manual consultant status quo named in the dossier spend line."
    }
   ]
+ },
+ "hmsp-eligibility-guardian": {
+  "candidate_id": "hmsp-eligibility-guardian",
+  "competitors": [
+   {
+    "name": "FMCSA free tools plus spreadsheet status quo (SMS website, SAFER Company Snapshot, DataQs)",
+    "url": "https://ai.fmcsa.dot.gov/SMS/Tools/Index.aspx",
+    "what": "Free per-USDOT SMS profiles with BASIC percentiles and raw inspection histories; SAFER posts the national HMSP rate guidance and a per-carrier permit status lookup; DataQs is the free portal for challenging violations. The de facto status quo is a safety director exporting inspection lists and hand-computing rates in Excel.",
+    "pricing": "Free (government tools); spreadsheet labor only",
+    "gap": "None of the free tools compute the carrier's four rolling HMSP eligibility rates against the fixed denial thresholds (9.68 / 33.33 / 6.82 / 0.136), show a monthly trend toward a threshold, attribute which specific inspections drag each rate, or rank DataQs candidates. SMS shows CSA BASIC percentiles, a different math, so drift toward HMSP jeopardy stays invisible until FMCSA serves the 30-day proposed suspension or revocation notice."
+   },
+   {
+    "name": "J.J. Keller Managed and Hazmat Compliance Services (the manual consultant incumbent; transportation attorneys are the escalation path)",
+    "url": "https://www.jjkeller.com/professional-services/hazmat-services",
+    "what": "Outsourced hazmat compliance programs and a CSA Program Administration Service where specialists collect roadside inspection reports, monitor violation trends in the DataSense platform, and visit onsite 4 to 12 times a year; transportation attorneys handle administrative review under 49 CFR 385.423 after a proposed revocation letter arrives.",
+    "pricing": "Quote-only; category benchmark for DOT compliance retainers is 50 to 250 USD per driver per month per Moving Authority",
+    "gap": "Consultant-delivered and CSA BASIC-centric: no one recomputes the four HMSP-specific rates monthly against the published fixed thresholds or ties each rate to the specific challengeable HM violations, and attorneys are engaged reactively only after FMCSA has already served the 30-day notice, when the corrective window is nearly gone."
+   },
+   {
+    "name": "CSA score management SaaS (FileFlo, Fleetworthy, SambaSafety)",
+    "url": "https://www.getfileflo.com/blog/best-csa-score-management-safety-rating-software-2026",
+    "what": "Subscription software that tracks CSA BASIC scores from FMCSA data, alerts on new violations, manages DataQ evidence, and preps 49 CFR 385.17 safety management plans for general trucking fleets; SambaSafety adds continuous MVR and driver monitoring, Fleetworthy sells enterprise safety analytics.",
+    "pricing": "FileFlo publishes a flat 299 USD per month for any fleet size; Fleetworthy and SambaSafety are quote-only enterprise pricing",
+    "gap": "All are built around CSA percentiles for any motor carrier. None track the HMSP permit eligibility math (the four fixed OOS and crash-rate thresholds computed per 49 CFR 385.407 guidance), none model permit jeopardy for the small placarded-hazmat universe, and none produce an HMSP corrective memo or back-tested threshold alert, which is the existential metric for a permitted hazmat carrier."
+   }
+  ],
+  "pricing_anchors": [
+   {
+    "anchor": "FileFlo CSA score management SaaS, flat monthly subscription including DataQ evidence prep",
+    "amount": "299 USD per month (any fleet size)",
+    "receipt_url": "https://www.getfileflo.com/blog/best-csa-score-management-safety-rating-software-2026",
+    "receipt_title": "Best CSA Score Management + Safety Rating Prep Software 2026: Top 7 Platforms Ranked | FileFlo"
+   },
+   {
+    "anchor": "Full-service DOT compliance retainer (audits, training, records management); basic packages lower",
+    "amount": "100 to 250 USD per driver per month full-service; 50 to 100 USD basic; a 5-truck fleet pays roughly 500 to 1,250 USD per month",
+    "receipt_url": "https://movingauthority.com/dot-compliance-services-pricing/",
+    "receipt_title": "DOT Compliance Services Pricing | Moving Authority"
+   },
+   {
+    "anchor": "My Safety Manager complete DOT compliance service, budget end of the consultant market",
+    "amount": "49 USD per driver per month",
+    "receipt_url": "https://www.mysafetymanager.com/",
+    "receipt_title": "DOT Compliance Services - My Safety Manager"
+   },
+   {
+    "anchor": "J.J. Keller managed compliance services with onsite consultant visits 4 to 12 times per year",
+    "amount": "quote-only",
+    "receipt_url": "https://www.jjkeller.com/professional-services/managed-services",
+    "receipt_title": "Managed Compliance Services | J. J. Keller"
+   }
+  ],
+  "buyer_channels": {
+   "associations": [
+    "National Tank Truck Carriers (NTTC), including its Safety & Security Council of fleet safety professionals",
+    "American Trucking Associations (ATA) Safety Management Council"
+   ],
+   "conferences": [
+    "NTTC Tank Truck Week (roughly 1,000 to 1,100 attendees, 80+ exhibitors; Sept 27-30, 2026, Oklahoma City; Safety & Security Council meets here)",
+    "ATA Safety, Security & Human Resources National Conference & Exhibition (roughly 400 to 450 attendees; April 1-3, 2026, Oklahoma City)"
+   ],
+   "linkedin_filter": "Title contains Safety Director, Director of Safety, VP of Safety, or Compliance Manager; industry Truck Transportation; United States; company size 51-500 employees; company name or keywords containing tank lines, transport, propane, industrial gas, ammonia, explosives, or hazmat (NAICS 484230 specialized freight)",
+   "roster": "No bulk HMSP holder list is published. Best entity-keyed build: enumerate hazmat-flagged carriers from FMCSA's monthly SMS census and inspection flat files (USDOT-number keyed, comma delimited, posted monthly at ai.fmcsa.dot.gov), then confirm active HMSP status per USDOT on SAFER's public HMSP verification page (https://safer.fmcsa.dot.gov/mcs150t/pkg_shipper.prc_shipper_request); the permit number also appears on the public SAFER Company Snapshot."
+  },
+  "enhancement_evidence": {
+   "claim": "A DataQs challenge engine, which flags the specific removable HM violations dragging each of the four HMSP rates and is validated by back-testing recomputed rates against FMCSA proposed revocations, turns the monitoring scorecard into a category product.",
+   "support": "DataQs processed 71,862 requests for data review in 2024 (63,548 of them inspection and violation appeals) and roughly 39 percent of violation challenges succeed, so targeted challenges materially move OOS rates; FMCSA published a sweeping DataQs overhaul in April 2026 (structured three-stage review with strict deadlines, live September 2026), which rewards evidence-ready structured submissions exactly when this tool would launch. The regulatory window exists: since the August 2015 policy FMCSA continually monitors HMSP holders via SMS as the basis for compliance review referral or proposed suspension and revocation, and a proposed revocation takes effect 30 days after written notice (49 CFR 385.421) unless the carrier acts. The back-test is feasible from public data because all inputs (inspection-level OOS flags, violations, crashes, census) are published in monthly USDOT-keyed SMS snapshot flat files.",
+   "receipt_url": "https://marqueeig.com/resources/fmcsas-dataqs-overhaul/"
+  },
+  "facts_check": [
+   {
+    "fact": "HMSP eligibility thresholds: driver OOS 9.68 percent, vehicle OOS 33.33 percent, hazmat OOS 6.82 percent, crash rate 0.136 per power unit",
+    "status": "confirmed",
+    "receipt_url": "https://safer.fmcsa.dot.gov/HazMatRatesPost.aspx",
+    "receipt_title": "SAFER WEB - National Hazardous Materials Rates Information and Guidance",
+    "note": "SAFER page lists the fixed rates now in effect for HMSP eligibility as Driver 9.68, Vehicle 33.3, HM 6.82, Crash 0.136; FMCSA's FAQ page (How is the Top 30% calculated for an HMSP) states the same thresholds. Minor formatting variance: vehicle appears as 33.3 on SAFER and 33.33 in FMCSA FAQ text."
+   },
+   {
+    "fact": "General DOT compliance retainers run 50 to 250 USD per driver per month (dossier cites Moving Authority)",
+    "status": "confirmed",
+    "receipt_url": "https://movingauthority.com/dot-compliance-services-pricing/",
+    "receipt_title": "DOT Compliance Services Pricing | Moving Authority",
+    "note": "Moving Authority publishes basic packages at 50 to 100 USD and full-service at 100 to 250 USD per driver per month, with industry average 75 to 150 USD; matches the dossier range exactly."
+   },
+   {
+    "fact": "HMSP holder universe is small, low thousands of carriers",
+    "status": "unverifiable",
+    "receipt_url": "https://www.landstar.com/blog/what-is-a-federal-hazardous-materials-safety-permit-and-why-it-matters-to-hazmat-shippers/",
+    "receipt_title": "What Is a Federal Hazardous Materials Safety Permit and Why It Matters to Hazmat Shippers | Landstar",
+    "note": "FMCSA publishes no consolidated count of active HMSP holders. Directional support: Landstar states fewer than 1 percent of FMCSA-registered carriers hold the permit (under roughly 5,250 of about 525,000 active carriers), and FMCSA found 245 carriers held an HMSP just for anhydrous ammonia. Consistent with low thousands but the exact number requires the FMCSA HM Division (FMCSA.HMSP@dot.gov) or the MAP-21 HMSP study PDF (FMCSA-RRR-16-004, rosap.ntl.bts.gov/view/dot/42264), which our proxy blocked. Treat TAM ceiling as real but unquantified."
+   },
+   {
+    "fact": "FMCSA now continuously monitors HMSP holders using SMS analysis as the basis for compliance review referral or proposed suspension and revocation",
+    "status": "confirmed",
+    "receipt_url": "https://www.federalregister.gov/documents/2015/06/19/2015-15091/hazardous-materials-safety-permit-hmsp-program-amendment-to-enforcement-policy",
+    "receipt_title": "Federal Register: Hazardous Materials Safety Permit (HMSP) Program: Amendment to Enforcement Policy (80 FR 35253)",
+    "note": "Effective August 18, 2015: FMCSA replaced the renewal-time 30-percent threshold check with continual SMS monitoring of permit holders; suspension or revocation becomes effective 30 days after written notice unless the carrier requests administrative review (49 CFR 385.421). Corroborated by Bulk Transporter coverage of the program overhaul."
+   }
+  ],
+  "search_receipts": [
+   {
+    "query": "FMCSA hazardous materials safety permit national average driver out-of-service rate 9.68 vehicle 33.33 hazmat 6.82 crash rate 0.136",
+    "url": "https://safer.fmcsa.dot.gov/HazMatRatesPost.aspx",
+    "title": "SAFER WEB - National Hazardous Materials Rates Information and Guidance",
+    "claim": "Fixed HMSP eligibility rates now in effect: Driver 9.68, Vehicle 33.3, HM 6.82, Crash 0.136 per power unit; used to establish HMSP eligibility."
+   },
+   {
+    "query": "how many carriers hold FMCSA hazardous materials safety permit HMSP number of permit holders carriers",
+    "url": "https://www.fmcsa.dot.gov/regulations/hazardous-materials/hazardous-materials-safety-permit-program-hmsp",
+    "title": "Hazardous Materials Safety Permit Program (HMSP) | FMCSA",
+    "claim": "Program scope confirmed (program phased in from Jan 2005); no consolidated public count of active HMSP holders is published."
+   },
+   {
+    "query": "Federal Register hazardous materials safety permit approximately carriers hold HMSP enforcement policy 2015",
+    "url": "https://www.federalregister.gov/documents/2015/06/19/2015-15091/hazardous-materials-safety-permit-hmsp-program-amendment-to-enforcement-policy",
+    "title": "Federal Register: Hazardous Materials Safety Permit (HMSP) Program: Amendment to Enforcement Policy",
+    "claim": "Effective Aug 18, 2015, FMCSA fully utilizes SMS in HMSP oversight and requires compliance reviews for HMSP carriers with insufficient SMS data over 48 months."
+   },
+   {
+    "query": "MAP-21 HMSP study report Congress hazardous materials safety permit number of active permit holders 2014 FMCSA-RRR-16-004",
+    "url": "https://rosap.ntl.bts.gov/view/dot/42264/dot_42264_DS1.pdf",
+    "title": "Motor Carrier Hazardous Materials Safety Permits (HMSP) Study FMCSA-RRR-16-004",
+    "claim": "MAP-21 required study submitted to Congress March 2014 covers the number of HMSPs and program recommendations; the source for an exact permit-holder count (PDF fetch blocked by proxy)."
+   },
+   {
+    "query": "Bulk Transporter hazmat safety permit program overhaul FMCSA how many carriers hold permits HMSP",
+    "url": "https://www.bulktransporter.com/fleet-management/article/21656495/hazmat-permit-program-getting-a-major-overhaul-from-fmcsa",
+    "title": "Hazmat permit program getting a major overhaul from FMCSA | Bulk Transporter",
+    "claim": "FMCSA HM Division announced continuous data-based HMSP monitoring (vs review every 2 years at renewal) at the NTTC Tank Truck Safety & Security Council annual meeting; 245 carriers held an HMSP just for anhydrous ammonia."
+   },
+   {
+    "query": "J.J. Keller hazmat compliance managed services CSA score monitoring pricing",
+    "url": "https://www.jjkeller.com/professional-services/hazmat-services",
+    "title": "Hazardous Materials Compliance Services | J. J. Keller",
+    "claim": "J.J. Keller sells dedicated hazmat compliance services and a CSA Program Administration Service (DataSense platform, onsite visits 4 to 12 times/year); pricing is quote-only."
+   },
+   {
+    "query": "CSA score monitoring software trucking carriers pricing per month SambaSafety Fleetworthy Simplex",
+    "url": "https://www.getfileflo.com/blog/best-csa-score-management-safety-rating-software-2026",
+    "title": "Best CSA Score Management + Safety Rating Prep Software 2026: Top 7 Platforms Ranked | FileFlo",
+    "claim": "FileFlo publishes 299 USD/month flat for CSA score management incl. DataQ evidence and 385.17 plan prep; Fleetworthy and SambaSafety are custom/quote-only enterprise pricing."
+   },
+   {
+    "query": "Moving Authority DOT compliance service cost monthly retainer per driver per month trucking compliance company fees",
+    "url": "https://movingauthority.com/dot-compliance-services-pricing/",
+    "title": "DOT Compliance Services Pricing | Moving Authority",
+    "claim": "Full-service DOT compliance runs 100 to 250 USD per driver per month, basic 50 to 100 USD; 5-truck fleet roughly 500 to 1,250 USD per month; confirms dossier's 50 to 250 USD range."
+   },
+   {
+    "query": "DataQs requests for data review annual volume statistics success rate violations removed FMCSA",
+    "url": "https://marqueeig.com/resources/fmcsas-dataqs-overhaul/",
+    "title": "FMCSA's DataQs Overhaul: What Every Carrier Needs to Know Right Now | Marquee Insurance Group",
+    "claim": "DataQs processed 71,862 requests in 2024 (8,314 crash, 63,548 inspection/violation); about 39 percent of violation challenges succeed; April 2026 overhaul with three-stage review goes live September 2026."
+   },
+   {
+    "query": "National Tank Truck Carriers annual conference Tank Truck Week attendance safety council meeting",
+    "url": "https://www.tanktruck.org/Public/Public/Events/NTTC%20Events.aspx",
+    "title": "NTTC Events | National Tank Truck Carriers",
+    "claim": "Tank Truck Week 2026 is Sept 27-30 in Oklahoma City; NTTC Annual Conference April 20-22 in Baltimore; NTTC runs a Safety & Security Council of fleet safety professionals."
+   },
+   {
+    "query": "FMCSA public data list of hazmat safety permit holders HMSP census file field download SAFER company snapshot HM permit status",
+    "url": "https://safer.fmcsa.dot.gov/mcs150t/pkg_shipper.prc_shipper_request",
+    "title": "Verification of Carrier Hazardous Material Safety Permit (HMSP) | SAFER",
+    "claim": "Public per-USDOT HMSP status verification exists for shippers and the permit number is public on SAFER; no bulk downloadable HMSP roster is published."
+   },
+   {
+    "query": "FMCSA SMS data downloads monthly inspection flat file public ai.fmcsa.dot.gov out-of-service violation carrier file",
+    "url": "https://ai.fmcsa.dot.gov/SMS/Tools/Index.aspx",
+    "title": "Safety Measurement System - Tools (A&I online)",
+    "claim": "SMS input files (census, inspection, violation, crash) are monthly snapshots, comma delimited with one violation per row, publicly downloadable; confirms the backbone data feed and monthly cadence."
+   },
+   {
+    "query": "ATA Safety Security Human Resources National Conference attendance safety directors trucking 2025",
+    "url": "https://www.thetrucker.com/trucking-news/business/atas-national-safety-security-hr-conference-registration-now-open",
+    "title": "ATA's National Safety, Security & HR Conference registration now open | The Trucker",
+    "claim": "ATA SSHR drew more than 450 professionals in 2025 (Louisville) and expects 400+ at the April 1-3, 2026 event in Oklahoma City; audience is trucking safety leadership."
+   },
+   {
+    "query": "hazardous materials safety permit proposed revocation suspension attorney trucking defense carrier notice OOS rate above threshold",
+    "url": "https://www.law.cornell.edu/cfr/text/49/385.421",
+    "title": "49 CFR 385.421 - Revocation or suspension of safety permit | LII",
+    "claim": "Suspension or revocation becomes effective 30 days after service of written notice unless the carrier requests administrative review; grounds include unfitness and noncompliance; carriers may take corrective action or seek review under 385.423, the reactive attorney pathway."
+   },
+   {
+    "query": "Tank Truck Week NTTC attendees exhibitors number 2025",
+    "url": "https://tanktransport.com/2025/10/nttc-tank-truck-week-2025-80-years/",
+    "title": "Positive Outlook: NTTC Tank Truck Week 2025 Celebrates 80 Years of Game-Changing Progress | Tank Transport",
+    "claim": "Tank Truck Week drew 1,000+ attendees in 2024 with 1,100+ expected in 2025 and 80+ exhibitors, sizing the flagship tank truck industry gathering."
+   }
+  ]
+ },
+ "msha-citation-contest-decision-desk": {
+  "candidate_id": "msha-citation-contest-decision-desk",
+  "competitors": [
+   {
+    "name": "Predictive Compliance",
+    "url": "https://www.predictivecompliance.com/",
+    "what": "Web-based MSHA citation management and analytics: tracks citations by mine, calculates predicted Part 100 penalties, models compliance-cost impact, and helps operators plan which citations to contest. Newmont signed a 3-year subscription after a 3-month trial (E&MJ coverage).",
+    "pricing": "quote-only (enterprise subscription; no published price list)",
+    "gap": "Strong on penalty math and citation tracking but does not produce a per-citation contest-worthiness probability derived from litigated FMSHRC outcomes of similar citations (same standard, gravity, negligence, district), and does not draft the safety-and-health conference request for filing inside the 10-day window."
+   },
+   {
+    "name": "MSHAWISE",
+    "url": "https://mshawise.com/",
+    "what": "AI-powered mining compliance knowledge base with an MSHA Case Law Copilot that helps operators prepare for inspection closeouts and informal conferences by searching regulations, guidance, and case law.",
+    "pricing": "quote-only (no published pricing found)",
+    "gap": "Research and prep assistant, not keyed to a mine's own live citation stream by 7-digit Mine ID; no quantified penalty-point exposure calculation, no historical outcome-based contest score, no exposure scorecard versus district peers."
+   },
+   {
+    "name": "Status quo: outside MSHA counsel plus MSHA's free tools plus spreadsheets",
+    "url": "https://www.fisherphillips.com/en/news-insights/mining-msha-revisiting-the-conferencing-process.html",
+    "what": "Operators triage citations by gut feel and spreadsheets, call outside counsel (Fisher Phillips tier) billed hourly per contested docket, and check MSHA's free Mine Data Retrieval System (weekly Friday uploads) and monthly POV monitoring tool for their own history.",
+    "pricing": "quote-only hourly counsel; EAJA recovery cap of 125 USD/hr at FMSHRC implies market defense rates well above that; MSHA MDRS and POV tool are free",
+    "gap": "Counsel judgment is per-docket and expensive with no systematic base rates from historical outcomes; MSHA's free MDRS shows raw history and POV status but scores nothing, computes no contest-worthiness, and drafts nothing, so the 10-day conference decision is still made blind under time pressure."
+   }
+  ],
+  "pricing_anchors": [
+   {
+    "anchor": "SafetyCulture Premium plan, the common safety-software floor already budgeted by mining safety departments",
+    "amount": "24 USD/seat/month billed annually (29 USD monthly)",
+    "receipt_url": "https://safetyculture.com/pricing",
+    "receipt_title": "Pricing | SafetyCulture"
+   },
+   {
+    "anchor": "FMSHRC Equal Access to Justice Act cap on recoverable attorney fees in mine cases; a published statutory floor that market MSHA defense rates substantially exceed (operators have litigated for higher rates)",
+    "amount": "125 USD/hour cap (operators sought 175 USD/hour and above in EAJA cases)",
+    "receipt_url": "https://www.fmshrc.gov/equal-access-justice-act",
+    "receipt_title": "Equal Access to Justice Act | Federal Mine Safety and Health Review Commission"
+   },
+   {
+    "anchor": "Predictive Compliance enterprise subscription precedent: Newmont Mining signed a 3-year subscription agreement after 3 months of testing, proving multi-year per-operator MSHA-analytics subscriptions clear mining procurement",
+    "amount": "quote-only (multi-year enterprise subscription)",
+    "receipt_url": "https://www.e-mj.com/departments/operating-strategies/new-system-allows-operators-to-effectively-track-msha-citations/",
+    "receipt_title": "New System Allows Operators to Effectively Track MSHA Citations - E&MJ"
+   },
+   {
+    "anchor": "Annual industry-wide MSHA civil penalty exposure that the tool helps reduce: total assessments hit almost 200M USD in 2010, up from about 20M USD in 2005; roughly 209M USD in fines sat in contest at the backlog peak",
+    "amount": "~200M USD/year industry assessments (2010 peak)",
+    "receipt_url": "https://www.pitandquarry.com/impact-of-msha-penalties/",
+    "receipt_title": "Impact of MSHA penalties | Pit & Quarry"
+   }
+  ],
+  "buyer_channels": {
+   "associations": [
+    "National Mining Association (NMA)",
+    "National Stone, Sand & Gravel Association (NSSGA)",
+    "Joseph A. Holmes Safety Association (safety-officer network across mining)"
+   ],
+   "conferences": [
+    "MINExpo International (NMA, Las Vegas, quadrennial; 45,000 attendees and 2,000+ exhibitors in 2024, largest mining show in the world)",
+    "TRAM Conference - Training Resources Applied to Mining (annual, free, National Mine Health and Safety Academy in Beaver WV; the concentrated gathering of mine safety and health trainers, roughly hundreds of attendees)"
+   ],
+   "linkedin_filter": "Title: Safety Director OR Director of Safety and Health OR VP of Safety OR Corporate Safety Manager; Industry: Mining; Location: United States; Company headcount 51-5,000; profile keyword MSHA (maps to NAICS 2121/2122 coal and metal/nonmetal operators)",
+   "roster": "MSHA Mines Data Set on the MSHA Open Government Data Portal (https://arlweb.msha.gov/opengovernmentdata/ogimsha.asp): every US mine keyed by the 7-digit Mine ID with current operator, controller, status, and commodity; mirrored on catalog.data.gov and browsable per-mine via the Mine Data Retrieval System"
+  },
+  "enhancement_evidence": {
+   "claim": "A per-citation contest-worthiness score from historical outcomes can be delivered inside the 10-day conference window using public MSHA and FMSHRC data (dossier mind-changer: issuance-to-public-file lag under 5 days)",
+   "support": "Partially supported, with a reframe that survives the adversarial attack. Cadence receipt: MDRS/open-data files are republished every Friday, so publish lag alone runs 0-7 days from MSHA data entry; a measured sub-5-day issuance-to-appearance lag is NOT publicly documented and must be measured empirically by diffing weekly violations files against their citation issue-date fields (feasible, since issue dates are in the record layout). The latency risk only affects auto-detection of brand-new citations: under 30 CFR 100.6 the 10-day clock starts upon MSHA notice to the operator, who already holds the paper citation, so the packet can be triggered by operator upload of the citation while the value layer, historical comparables from the violations back-file plus published FMSHRC decisions and the joint DOL/MSHA/FMSHRC backlog data (about 9,200 new contest cases filed in FY2009, 14,200 pending, 209M USD in contested fines), is latency-insensitive. Commercial precedent that outcome-and-penalty modeling on this exact data sells: Newmont's 3-year Predictive Compliance subscription, and MSHAWISE marketing an AI case-law copilot specifically for informal conference prep.",
+   "receipt_url": "https://mshasafetyservices.com/understanding-the-msha-mine-data-retrieval-system/"
+  },
+  "facts_check": [
+   {
+    "fact": "Operators have 10 days to request an informal safety and health conference",
+    "status": "confirmed",
+    "receipt_url": "https://www.ecfr.gov/current/title-30/chapter-I/subchapter-P/part-100/section-100.6",
+    "receipt_title": "eCFR: 30 CFR 100.6 - Procedures for review of citations and orders",
+    "note": "Confirmed with nuance: upon notice by MSHA all parties have 10 days to submit additional information or request a safety and health conference with the District Manager, and granting the conference is within MSHA's sole discretion. The clock runs from MSHA notice to the operator, not from public-file appearance, which softens the data-lag attack."
+   },
+   {
+    "fact": "Operators have 30 days to contest a citation or proposed penalty assessment at FMSHRC",
+    "status": "confirmed",
+    "receipt_url": "https://fmshrc.gov/content/frequently-asked-questions",
+    "receipt_title": "Frequently Asked Questions | Federal Mine Safety and Health Review Commission",
+    "note": "FMSHRC FAQ: 30 days to file a notice of contest of a citation/order and 30 days to challenge a proposed civil penalty."
+   },
+   {
+    "fact": "Industry penalty assessments reached roughly 200M USD in 2010 (Pit & Quarry)",
+    "status": "confirmed",
+    "receipt_url": "https://www.pitandquarry.com/impact-of-msha-penalties/",
+    "receipt_title": "Impact of MSHA penalties | Pit & Quarry",
+    "note": "Pit & Quarry: total industry penalties in 2010 reached almost 200M USD, up from about 20M USD in 2005. Note this is the historical peak; current-year assessments are lower, so the dossier's spend framing should say '2010 peak' rather than imply a recurring annual figure."
+   },
+   {
+    "fact": "Every underground mine is inspected 4 times per year and every surface mine 2 times per year",
+    "status": "confirmed",
+    "receipt_url": "https://www.msha.gov/compliance-and-enforcement/mine-inspections",
+    "receipt_title": "Mine Inspections | Mine Safety and Health Administration (MSHA)",
+    "note": "Mine Act section 103(a) mandates a minimum of 4 annual inspections for underground and 2 for surface mines; gassy mines are inspected more often."
+   },
+   {
+    "fact": "Backbone flat files refresh weekly (claimed, per portal)",
+    "status": "confirmed",
+    "receipt_url": "https://mshasafetyservices.com/understanding-the-msha-mine-data-retrieval-system/",
+    "receipt_title": "Understanding the MSHA Mine Data Retrieval System - MSHA Safety Services",
+    "note": "MDRS datasets are uploaded every Friday. Weekly cadence confirmed, but the mind-changer's sub-5-day issuance-to-publication lag is unverifiable from public documentation and must be measured; worst-case publish lag alone approaches 7 days."
+   }
+  ],
+  "search_receipts": [
+   {
+    "query": "Predictive Compliance MSHA software citation penalty analytics",
+    "url": "https://www.e-mj.com/departments/operating-strategies/new-system-allows-operators-to-effectively-track-msha-citations/",
+    "title": "New System Allows Operators to Effectively Track MSHA Citations - E&MJ",
+    "claim": "Predictive Compliance tracks MSHA citations, calculates predicted penalties, and supports contest planning; Newmont signed a 3-year subscription after 3 months of testing."
+   },
+   {
+    "query": "MSHA compliance software citation tracking mine safety violations dashboard",
+    "url": "https://www.msha.gov/data-and-reports/mine-data-retrieval-system",
+    "title": "Mine Data Retrieval System | Mine Safety and Health Administration (MSHA)",
+    "claim": "MSHA's free MDRS is the incumbent self-serve tool for violation and inspection history; the POV monitoring tool is updated monthly."
+   },
+   {
+    "query": "MSHAWISE mining safety compliance software pricing features citations",
+    "url": "https://mshawise.com/",
+    "title": "MSHAWISE | AI powered mining safety compliance software",
+    "claim": "MSHAWISE offers an AI MSHA Case Law Copilot for closeout and informal conference prep; no published pricing."
+   },
+   {
+    "query": "MSHA attorney contest citation cost hourly rate law firm mine safety FMSHRC",
+    "url": "https://fmshrc.gov/content/frequently-asked-questions",
+    "title": "Frequently Asked Questions | Federal Mine Safety and Health Review Commission",
+    "claim": "30-day windows to contest citations and proposed penalties; law firm fees for contests are not published (quote-only status quo)."
+   },
+   {
+    "query": "MSHA mandatory inspections four times a year underground two times surface mines Mine Act",
+    "url": "https://www.msha.gov/compliance-and-enforcement/mine-inspections",
+    "title": "Mine Inspections | Mine Safety and Health Administration (MSHA)",
+    "claim": "Mine Act 103(a) requires minimum 4 inspections/year underground and 2/year surface, confirming the dossier's inspection-driven citation volume."
+   },
+   {
+    "query": "MSHA safety and health conference request 10 days citation informal conference 30 CFR 100.6",
+    "url": "https://www.ecfr.gov/current/title-30/chapter-I/subchapter-P/part-100/section-100.6",
+    "title": "eCFR: 30 CFR 100.6 - Procedures for review of citations and orders",
+    "claim": "Upon notice by MSHA, parties have 10 days to submit additional information or request a safety and health conference; granting is at MSHA discretion."
+   },
+   {
+    "query": "MSHA civil penalty assessments 2010 total 200 million penalties",
+    "url": "https://www.pitandquarry.com/impact-of-msha-penalties/",
+    "title": "Impact of MSHA penalties | Pit & Quarry",
+    "claim": "Total industry MSHA penalties reached almost 200M USD in 2010, up from about 20M USD in 2005."
+   },
+   {
+    "query": "MSHA Mine Data Retrieval System how often data updated daily weekly violations",
+    "url": "https://mshasafetyservices.com/understanding-the-msha-mine-data-retrieval-system/",
+    "title": "Understanding the MSHA Mine Data Retrieval System - MSHA Safety Services",
+    "claim": "MDRS datasets are uploaded every Friday; POV tool monthly. Weekly cadence bounds the public-data lag at up to about 7 days after MSHA data entry."
+   },
+   {
+    "query": "GAO report MSHA contested citations percentage rate backlog FMSHRC",
+    "url": "https://www.fmshrc.gov/sites/default/files/reports/DOL%20MSHA%20FMSHRC%20Joint%20Report%20to%20Congress.pdf",
+    "title": "Joint Report on Backlog Reduction (DOL, MSHA, FMSHRC)",
+    "claim": "Contest volume surged from about 2,300 new cases/year (FY2000-05) to about 9,200 filed in FY2009 with 14,200 pending and roughly 209M USD in contested fines, and averages of 600+ days to final order; large outcome corpus exists for modeling."
+   },
+   {
+    "query": "mine safety consultant MSHA citation conference representation fee per day rate",
+    "url": "https://www.fisherphillips.com/en/news-insights/mining-msha-revisiting-the-conferencing-process.html",
+    "title": "Mining MSHA - Revisiting The Conferencing Process | Fisher Phillips",
+    "claim": "National law firms actively advise operators on the informal conference process; no consultant or attorney day rates are published anywhere found (quote-only)."
+   },
+   {
+    "query": "FMSHRC EAJA attorney fees hourly rate award mine operator decision",
+    "url": "https://www.fmshrc.gov/equal-access-justice-act",
+    "title": "Equal Access to Justice Act | Federal Mine Safety and Health Review Commission",
+    "claim": "EAJA caps recoverable attorney fees at 125 USD/hour in FMSHRC proceedings and operators have litigated for higher rates, giving a published floor anchor for defense counsel pricing."
+   },
+   {
+    "query": "SafetyCulture pricing per user per month premium plan mining safety",
+    "url": "https://safetyculture.com/pricing",
+    "title": "Pricing | SafetyCulture",
+    "claim": "SafetyCulture Premium costs 24 USD/seat/month billed annually (29 USD monthly), a published safety-software benchmark mining safety departments already pay."
+   },
+   {
+    "query": "MINExpo International attendance 2024 National Mining Association trade show size",
+    "url": "https://nma.org/while-showcasing-groundbreaking-equipment-and-solutions-for-mining-minexpo-international-2024-breaks-all-records/",
+    "title": "MINExpo INTERNATIONAL 2024 Breaks All Records - National Mining Association",
+    "claim": "MINExpo 2024 drew 45,000 attendees and 2,000+ exhibitors in Las Vegas, the largest mining trade show in the world."
+   },
+   {
+    "query": "TRAM conference mine safety health training MSHA academy annual Joseph A. Holmes safety association",
+    "url": "https://www.msha.gov/training/training-programs-and-courses/annual-training-resources-applied-mining-tram-conference",
+    "title": "Annual Training Resources Applied to Mining (TRAM) Conference | MSHA",
+    "claim": "TRAM is the annual free conference at the National Mine Health and Safety Academy concentrating mine safety and health trainers; Joseph A. Holmes Safety Association is a century-old cross-industry mine safety network."
+   }
+  ]
  }
 }
