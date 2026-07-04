@@ -29,6 +29,8 @@ def main():
             missing.append(cid)
             continue
         a = c["atlas"]
+        conf = str(a.get("confidence", "")).strip().capitalize()
+        a["confidence"] = {"Medium": "Med", "Mid": "Med"}.get(conf, conf)
         killed = c["gates_passed"] < 6
         note_bits = [f"scanner:{cid}", f"gates:{c['gates_passed']}/6"]
         if killed:
