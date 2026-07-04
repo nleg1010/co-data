@@ -199,6 +199,7 @@
   "adjustments": [],
   "adversarial_verdict": "keep",
   "adversarial_attack": "The HMSP holder universe is small, low thousands of carriers, so even perfect outbound has a hard TAM ceiling, and recomputing FMCSA's four rates from public snapshots risks mismatching the agency's internal computation; one false alarm about permit jeopardy to a safety director burns the product's credibility permanently. The existential stakes cut both ways: high urgency, but also zero tolerance for approximation.",
+  "verification_note": "Verification: threshold-guidance page (src-03) is a stale 2003-2010 static sheet; product backbone re-anchored on SMS inspection files (src-01, verified-live) with thresholds from current HMSP guidance pages",
   "total": 41,
   "rank": 7
  },
@@ -275,39 +276,6 @@
   "rank": 10
  },
  {
-  "candidate_id": "fdny-violation-clearance-lead-engine",
-  "name": "FDNY Violation Clearance Packet and Fire Protection Lead Engine (NYC)",
-  "vertical": "Fire and life-safety inspection/service companies; NYC building owners",
-  "cluster": "G7 trades-fire-equipment",
-  "data_model": "public-first",
-  "lead_magnet": "Free address/BIN FDNY violation report with penalty exposure summary",
-  "entity_key": "NYC BIN/BBL (FDNY violation and account numbers secondary)",
-  "gates_passed": 6,
-  "receipt_class": "R2",
-  "scores": {
-   "quick_buildability": 9,
-   "lead_magnet_strength": 6,
-   "buyer_urgency": 8,
-   "consultancy_fit": 9,
-   "outbound_clarity": 8
-  },
-  "score_rationale": "Socrata + 109-03 penalty mapping on BIN infra (QB9); FDNY violation report with exposure (LM8); weekly violation flow, defaults at max (BU8); BBL/BIN direct (CF9); fire protection contractors from FDNY certs (OC8)",
-  "adjustments": [
-   {
-    "dimension": "lead_magnet_strength",
-    "from": 8,
-    "to": 6,
-    "reason": "Anchor 5-6 is a personalized but thin lookup summary; with free equivalents live at dobguard.com the magnet does not clear the 7-8 bar of useful-and-not-already-available",
-    "phase": "adversarial",
-    "adjudication": "accepted"
-   }
-  ],
-  "adversarial_verdict": "demote",
-  "adversarial_attack": "The lead magnet is a violation lookup with penalty mapping, and dobguard.com already gives away a free NYC violation lookup covering FDNY and ECB/OATH while SiteCompli covers FDNY monitoring for portfolios, so the free front door is commoditized. The dossier even cites DOBGuard's own content as its penalty-schedule source, which is citing the competitor as evidence. The two-sided buyer (contractor lead gen vs owner compliance) also splits a small team's go-to-market focus.",
-  "total": 40,
-  "rank": 11
- },
- {
   "candidate_id": "ll97-penalty-exposure-beam-prep",
   "name": "Local Law 97 Penalty Exposure Monitor and BEAM Filing Prep Engine",
   "vertical": "NYC CRE energy and emissions compliance",
@@ -338,7 +306,7 @@
   "adversarial_verdict": "demote",
   "adversarial_attack": "The boardroom-ready penalty number is fully commoditized: the city's own free NYC Accelerator Building Energy Snapshot, BE-Ex, NY-Engineers, Intelligreen, Law97Audit, and dobguard all publish free LL97 penalty calculators, several running on the same LL84 data. The sticky private layer then competes head-on with the RDP engineering firms (Milrose, Bright Power tier) that owners are legally required to engage for BEAM certification anyway, so the incumbent owns both the relationship and the signature.",
   "total": 40,
-  "rank": 12
+  "rank": 11
  },
  {
   "candidate_id": "ma-agency-plan-exit-retention-packet",
@@ -371,7 +339,7 @@
   "adversarial_verdict": "demote",
   "adversarial_attack": "The money lives with the FMO, not the 5-agent agency: FMOs and carrier quoting platforms (Sunfire, Connecture tier) already distribute plan-exit disruption reports to downline agencies free as retention tools, and the FMO is both the channel you need and the actor best positioned to clone this in a quarter. The 10% forced-disenrollment stat verified, so the pain is real, but the pain calendar is September through December and the buyer feels nothing in July, while client outreach scripts drag a small vendor into CMS marketing-compliance territory.",
   "total": 40,
-  "rank": 13
+  "rank": 12
  },
  {
   "candidate_id": "msha-aggregates-regulator-view-benchmark",
@@ -404,6 +372,47 @@
   "adversarial_verdict": "demote",
   "adversarial_attack": "This is the dossier's clearest case of an interesting dataset cosplaying as a product: there is no filing, no deadline, and no artifact anyone must produce this month, just a quarterly benchmark an EHS director can admire and defer indefinitely. POV early warning is real but POV-proximate mines are a tiny sliver of the aggregates universe, and the incumbents (J.J. Keller mock audits) sell the on-site work the benchmark merely points at. Note also the internal inconsistency: the rationale text says QB8 while the scored value is 7, which suggests drift in the scoring pass.",
   "total": 40,
+  "rank": 13
+ },
+ {
+  "candidate_id": "fdny-violation-clearance-lead-engine",
+  "name": "FDNY Violation Clearance Packet and Fire Protection Lead Engine (NYC)",
+  "vertical": "Fire and life-safety inspection/service companies; NYC building owners",
+  "cluster": "G7 trades-fire-equipment",
+  "data_model": "public-first",
+  "lead_magnet": "Free address/BIN FDNY violation report with penalty exposure summary",
+  "entity_key": "NYC BIN/BBL (FDNY violation and account numbers secondary)",
+  "gates_passed": 6,
+  "receipt_class": "R2",
+  "scores": {
+   "quick_buildability": 8,
+   "lead_magnet_strength": 6,
+   "buyer_urgency": 8,
+   "consultancy_fit": 9,
+   "outbound_clarity": 8
+  },
+  "score_rationale": "Socrata + 109-03 penalty mapping on BIN infra (QB9); FDNY violation report with exposure (LM8); weekly violation flow, defaults at max (BU8); BBL/BIN direct (CF9); fire protection contractors from FDNY certs (OC8)",
+  "adjustments": [
+   {
+    "dimension": "lead_magnet_strength",
+    "from": 8,
+    "to": 6,
+    "reason": "Anchor 5-6 is a personalized but thin lookup summary; with free equivalents live at dobguard.com the magnet does not clear the 7-8 bar of useful-and-not-already-available",
+    "phase": "adversarial",
+    "adjudication": "accepted"
+   },
+   {
+    "dimension": "quick_buildability",
+    "from": 9,
+    "to": 8,
+    "reason": "Verification receipt (src-49): BIN/BBL could not be confirmed as documented columns of the FDNY violations dataset and a sibling dataset creates selection ambiguity; buildability assumes address-matching fallback",
+    "phase": "verification",
+    "adjudication": "accepted"
+   }
+  ],
+  "adversarial_verdict": "demote",
+  "adversarial_attack": "The lead magnet is a violation lookup with penalty mapping, and dobguard.com already gives away a free NYC violation lookup covering FDNY and ECB/OATH while SiteCompli covers FDNY monitoring for portfolios, so the free front door is commoditized. The dossier even cites DOBGuard's own content as its penalty-schedule source, which is citing the competitor as evidence. The two-sided buyer (contractor lead gen vs owner compliance) also splits a small team's go-to-market focus.",
+  "total": 39,
   "rank": 14
  },
  {
@@ -449,6 +458,7 @@
   },
   "score_rationale": "Daily bulk CSVs, reduction stats + templates (QB8); history lookup is table stakes, conference stats are the hook (LM7); 15-working-day contest clock and 100k inspections/yr (BU9); construction safety adjacent to industrial ICP (CF7); specialty contractor owners/EHS at volume (OC8)",
   "adjustments": [],
+  "verification_note": "Verification: DOL flags enforcedata.dol.gov migration (src-19); mirror path via osha.gov enforcement data noted",
   "total": 39,
   "rank": 16
  },
@@ -636,6 +646,7 @@
   },
   "score_rationale": "CSL API daily + CSV ingestion (QB8); counterparty red-flag report from public manifests is provocative (LM8); daily CSL changes + 2025 seven-figure OFAC forwarder penalties (BU8); freight forwarders off industrial ICP (CF6); FMC OTI license list IS the roster (OC9)",
   "adjustments": [],
+  "verification_note": "Verification: CSL verified daily/free (src-65); FMC OTI roster is a separate source, key split documented",
   "total": 38,
   "rank": 24
  },
@@ -1300,6 +1311,7 @@
   },
   "score_rationale": "Quarterly DMF xlsx + weekly feeds + fuzzy joins (QB7); flag-count lookup useful (LM7); per-sourcing-event + import-alert shocks (BU7); shares FEI layer with supplier product (CF7); sourcing heads findable (OC7)",
   "adjustments": [],
+  "verification_note": "Verification: FEI is not a field of the public DMF list (src-34); site-level join requires name-based entity resolution",
   "total": 33,
   "rank": 51
  },
@@ -1344,6 +1356,7 @@
   },
   "score_rationale": "Dataset device-level grain unverified this session (QB6); obligation summary useful (LM6); annual per-device staggered, disconnection threat (BU7); BBL direct (CF8); tester firms enumerable (OC7)",
   "adjustments": [],
+  "verification_note": "Verification: device-level keys unconfirmed (src-51), consistent with in-scan caveat",
   "total": 33,
   "rank": 53
  },
