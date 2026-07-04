@@ -1,0 +1,410 @@
+[
+ {
+  "candidate_id": "ita-sub-safety-prequal-scorecard",
+  "dimension": "quick_buildability",
+  "from": 6,
+  "to": 5,
+  "reason": "name/address entity resolution across ITA+enforcement is the 6-weeks-is-tight case, anchor 5-6",
+  "phase": "judge-recalibration"
+ },
+ {
+  "candidate_id": "osha-ita-prequal-benchmark-packet",
+  "dimension": "quick_buildability",
+  "from": 6,
+  "to": 5,
+  "reason": "same ITA entity-resolution lift",
+  "phase": "judge-recalibration"
+ },
+ {
+  "candidate_id": "fsis-enforcement-radar",
+  "dimension": "quick_buildability",
+  "from": 6,
+  "to": 5,
+  "reason": "quarterly XLSX + posted letter PDFs + task datasets: multiple gnarly formats",
+  "phase": "judge-recalibration"
+ },
+ {
+  "candidate_id": "fda-import-alert-exit-packet",
+  "dimension": "quick_buildability",
+  "from": 6,
+  "to": 5,
+  "reason": "FDA alert pages are brittle HTML scraping, hard-to-parse class",
+  "phase": "judge-recalibration"
+ },
+ {
+  "candidate_id": "phmsa-nopv-response-precedent-engine",
+  "dimension": "quick_buildability",
+  "from": 6,
+  "to": 5,
+  "reason": "case-table scrape + LLM extraction over PDF corpus",
+  "phase": "judge-recalibration"
+ },
+ {
+  "candidate_id": "nerc-enforcement-intel-audit-brief",
+  "dimension": "quick_buildability",
+  "from": 6,
+  "to": 5,
+  "reason": "monthly NOP PDF corpus extraction",
+  "phase": "judge-recalibration"
+ },
+ {
+  "candidate_id": "childcare-portfolio-license-monitor",
+  "dimension": "quick_buildability",
+  "from": 6,
+  "to": 5,
+  "reason": "portal scraping with per-operation pagination",
+  "phase": "judge-recalibration"
+ },
+ {
+  "candidate_id": "cannabis-license-standing-monitor",
+  "dimension": "quick_buildability",
+  "from": 6,
+  "to": 5,
+  "reason": "four state registries with different shapes",
+  "phase": "judge-recalibration"
+ },
+ {
+  "candidate_id": "uscg-psc-prearrival-packet",
+  "dimension": "quick_buildability",
+  "from": 6,
+  "to": 5,
+  "reason": "no bulk download: per-vessel web-service pulls",
+  "phase": "judge-recalibration"
+ },
+ {
+  "candidate_id": "davis-bacon-certified-payroll-autopilot",
+  "dimension": "quick_buildability",
+  "from": 7,
+  "to": 6,
+  "reason": "WD parser + payroll rules engine + WH-347 generation: two custom parsers",
+  "phase": "judge-recalibration"
+ },
+ {
+  "candidate_id": "h2a-filing-copilot",
+  "dimension": "quick_buildability",
+  "from": 7,
+  "to": 6,
+  "reason": "multi-agency form drafting + AEWR joins push past minor normalization",
+  "phase": "judge-recalibration"
+ },
+ {
+  "candidate_id": "fsvp-supplier-dossier-factory",
+  "dimension": "quick_buildability",
+  "from": 7,
+  "to": 6,
+  "reason": "multiple scraped sources + firm-name entity resolution",
+  "phase": "judge-recalibration"
+ },
+ {
+  "candidate_id": "dmf-api-source-qualification",
+  "dimension": "quick_buildability",
+  "from": 7,
+  "to": 6,
+  "reason": "three-source fuzzy joins",
+  "phase": "judge-recalibration"
+ },
+ {
+  "candidate_id": "post-award-protest-triage-memo",
+  "dimension": "quick_buildability",
+  "from": 7,
+  "to": 6,
+  "reason": "GAO docket scraping is hard-to-parse",
+  "phase": "judge-recalibration"
+ },
+ {
+  "candidate_id": "srf-lsl-pipeline-scout",
+  "dimension": "quick_buildability",
+  "from": 7,
+  "to": 6,
+  "reason": "state IUP PDF parsing across 5-10 states",
+  "phase": "judge-recalibration"
+ },
+ {
+  "candidate_id": "uei-recompete-radar-brief",
+  "dimension": "quick_buildability",
+  "from": 8,
+  "to": 7,
+  "reason": "multi-year bulk archive ETL is heavy even if familiar",
+  "phase": "judge-recalibration"
+ },
+ {
+  "candidate_id": "cslb-sub-roster-compliance-monitor",
+  "dimension": "quick_buildability",
+  "from": 8,
+  "to": 7,
+  "reason": "CSLB warns extracts need technical formatting",
+  "phase": "judge-recalibration"
+ },
+ {
+  "candidate_id": "ndc-formulary-shortage-exposure",
+  "dimension": "quick_buildability",
+  "from": 8,
+  "to": 7,
+  "reason": "NDC normalization edge cases are real work",
+  "phase": "judge-recalibration"
+ },
+ {
+  "candidate_id": "msha-aggregates-regulator-view-benchmark",
+  "dimension": "quick_buildability",
+  "from": 8,
+  "to": 7,
+  "reason": "multi-file joins (violations+inspections+employment) push to 7",
+  "phase": "judge-recalibration"
+ },
+ {
+  "candidate_id": "naic-complaint-market-conduct-exposure",
+  "dimension": "quick_buildability",
+  "from": 5,
+  "to": 4,
+  "reason": "CIS is session-based scraping + per-state enforcement scrapes",
+  "phase": "judge-recalibration"
+ },
+ {
+  "candidate_id": "serff-rate-filing-objection-intel",
+  "dimension": "quick_buildability",
+  "from": 5,
+  "to": 4,
+  "reason": "SFA state portals are search-session UIs, scraping at scale is 3-4 territory",
+  "phase": "judge-recalibration"
+ },
+ {
+  "candidate_id": "vet-group-dea-license-compliance-packet",
+  "dimension": "quick_buildability",
+  "from": 5,
+  "to": 4,
+  "reason": "state vet boards vary wildly, some PDF-only rosters",
+  "phase": "judge-recalibration"
+ },
+ {
+  "candidate_id": "510k-predicate-landscape-package",
+  "dimension": "buyer_urgency",
+  "from": 6,
+  "to": 5,
+  "reason": "per-submission project work, deferrable",
+  "phase": "judge-recalibration"
+ },
+ {
+  "candidate_id": "dob-plan-exam-objection-intel",
+  "dimension": "buyer_urgency",
+  "from": 6,
+  "to": 5,
+  "reason": "chronic delay pain, no clock",
+  "phase": "judge-recalibration"
+ },
+ {
+  "candidate_id": "n-number-ad-gap-packet",
+  "dimension": "buyer_urgency",
+  "from": 6,
+  "to": 5,
+  "reason": "per-transaction events",
+  "phase": "judge-recalibration"
+ },
+ {
+  "candidate_id": "organic-integrity-sentinel",
+  "dimension": "buyer_urgency",
+  "from": 6,
+  "to": 5,
+  "reason": "ongoing duty, no per-event deadline",
+  "phase": "judge-recalibration"
+ },
+ {
+  "candidate_id": "clia-portfolio-compliance-calendar",
+  "dimension": "buyer_urgency",
+  "from": 6,
+  "to": 5,
+  "reason": "biennial renewals; lapse events rare per site",
+  "phase": "judge-recalibration"
+ },
+ {
+  "candidate_id": "fmo-county-market-share-intel",
+  "dimension": "buyer_urgency",
+  "from": 6,
+  "to": 5,
+  "reason": "monthly habit, not pressure",
+  "phase": "judge-recalibration"
+ },
+ {
+  "candidate_id": "cannabis-license-standing-monitor",
+  "dimension": "buyer_urgency",
+  "from": 7,
+  "to": 6,
+  "reason": "deal-driven cadence",
+  "phase": "judge-recalibration"
+ },
+ {
+  "candidate_id": "childcare-portfolio-license-monitor",
+  "dimension": "buyer_urgency",
+  "from": 7,
+  "to": 6,
+  "reason": "monitoring value chronic, enforcement episodic",
+  "phase": "judge-recalibration"
+ },
+ {
+  "candidate_id": "assisted-living-survey-readiness-benchmark",
+  "dimension": "buyer_urgency",
+  "from": 7,
+  "to": 6,
+  "reason": "same: chronic monitoring value",
+  "phase": "judge-recalibration"
+ },
+ {
+  "candidate_id": "maude-pms-signal-packet",
+  "dimension": "buyer_urgency",
+  "from": 7,
+  "to": 6,
+  "reason": "PSURs annual per family; trending duty continuous but soft",
+  "phase": "judge-recalibration"
+ },
+ {
+  "candidate_id": "dmf-api-source-qualification",
+  "dimension": "buyer_urgency",
+  "from": 7,
+  "to": 6,
+  "reason": "event-driven sourcing decisions",
+  "phase": "judge-recalibration"
+ },
+ {
+  "candidate_id": "vet-group-dea-license-compliance-packet",
+  "dimension": "buyer_urgency",
+  "from": 7,
+  "to": 6,
+  "reason": "inspection fear episodic",
+  "phase": "judge-recalibration"
+ },
+ {
+  "candidate_id": "uei-recompete-radar-brief",
+  "dimension": "buyer_urgency",
+  "from": 7,
+  "to": 6,
+  "reason": "competitive urgency, deferrable",
+  "phase": "judge-recalibration"
+ },
+ {
+  "candidate_id": "fcc-uls-spectrum-portfolio-guardian",
+  "dimension": "buyer_urgency",
+  "from": 7,
+  "to": 6,
+  "reason": "per-license deadlines years apart, portfolio aggregates to monthly",
+  "phase": "judge-recalibration"
+ },
+ {
+  "candidate_id": "nyc-backflow-testing-radar",
+  "dimension": "buyer_urgency",
+  "from": 7,
+  "to": 6,
+  "reason": "annual per device",
+  "phase": "judge-recalibration"
+ },
+ {
+  "candidate_id": "pesticide-applicator-credential-guard",
+  "dimension": "buyer_urgency",
+  "from": 6,
+  "to": 5,
+  "reason": "fines episodic though churn monthly",
+  "phase": "judge-recalibration"
+ },
+ {
+  "candidate_id": "ctgov-fdaaa-results-compliance",
+  "dimension": "buyer_urgency",
+  "from": 7,
+  "to": 6,
+  "reason": "FDA enforcement still light-touch, mostly threatened",
+  "phase": "judge-recalibration"
+ },
+ {
+  "candidate_id": "nerc-enforcement-intel-audit-brief",
+  "dimension": "buyer_urgency",
+  "from": 7,
+  "to": 6,
+  "reason": "audit cycles multi-year; NOPs are peer news",
+  "phase": "judge-recalibration"
+ },
+ {
+  "candidate_id": "subchapter-m-audit-tracker",
+  "dimension": "lead_magnet_strength",
+  "from": 6,
+  "to": 5,
+  "reason": "public survey calendar is thin content",
+  "phase": "judge-recalibration"
+ },
+ {
+  "candidate_id": "vet-group-dea-license-compliance-packet",
+  "dimension": "lead_magnet_strength",
+  "from": 6,
+  "to": 5,
+  "reason": "requires roster upload",
+  "phase": "judge-recalibration"
+ },
+ {
+  "candidate_id": "cannabis-license-standing-monitor",
+  "dimension": "lead_magnet_strength",
+  "from": 6,
+  "to": 5,
+  "reason": "single-status lookup is thin",
+  "phase": "judge-recalibration"
+ },
+ {
+  "candidate_id": "ndc-formulary-shortage-exposure",
+  "dimension": "lead_magnet_strength",
+  "from": 7,
+  "to": 6,
+  "reason": "needs pasted NDC list, input-dependent",
+  "phase": "judge-recalibration"
+ },
+ {
+  "candidate_id": "cslb-sub-roster-compliance-monitor",
+  "dimension": "lead_magnet_strength",
+  "from": 7,
+  "to": 6,
+  "reason": "paste-25-licenses friction",
+  "phase": "judge-recalibration"
+ },
+ {
+  "candidate_id": "fmo-county-market-share-intel",
+  "dimension": "lead_magnet_strength",
+  "from": 7,
+  "to": 6,
+  "reason": "county-specific, not prospect-specific",
+  "phase": "judge-recalibration"
+ },
+ {
+  "candidate_id": "pesticide-applicator-credential-guard",
+  "dimension": "lead_magnet_strength",
+  "from": 5,
+  "to": 4,
+  "reason": "roster-upload magnet is generic-with-name",
+  "phase": "judge-recalibration"
+ },
+ {
+  "candidate_id": "fsvp-supplier-dossier-factory",
+  "dimension": "consultancy_fit",
+  "from": 6,
+  "to": 5,
+  "reason": "food importers are small trading firms, not asset-heavy",
+  "phase": "judge-recalibration"
+ },
+ {
+  "candidate_id": "organic-integrity-sentinel",
+  "dimension": "consultancy_fit",
+  "from": 6,
+  "to": 5,
+  "reason": "consumer food brand QA off-ICP",
+  "phase": "judge-recalibration"
+ },
+ {
+  "candidate_id": "forwarder-screening-evidence-pack",
+  "dimension": "consultancy_fit",
+  "from": 6,
+  "to": 5,
+  "reason": "asset-light logistics brokers off-ICP",
+  "phase": "judge-recalibration"
+ },
+ {
+  "candidate_id": "der-cert-basis-packet",
+  "dimension": "buyer_urgency",
+  "from": 5,
+  "to": 4,
+  "reason": "per-project episodic",
+  "phase": "judge-recalibration"
+ }
+]

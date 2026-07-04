@@ -1,0 +1,83 @@
+# Gate summary
+
+Total candidates: 75; all-6-gates: 68
+
+Pass-count distribution: {"4": 2, "5": 5, "6": 68}
+
+| candidate | cluster | gates | failed |
+|---|---|---|---|
+| 510k-predicate-landscape-package | G5 | 6/6 | - |
+| assisted-living-survey-readiness-benchmark | G4 | 6/6 | - |
+| ca-igp-era-autopilot | G2 | 6/6 | - |
+| cannabis-license-standing-monitor | G6 | 6/6 | - |
+| chain-inspection-sentinel | G6 | 6/6 | - |
+| chicago-building-court-prep-packet | G3 | 6/6 | - |
+| childcare-portfolio-license-monitor | G4 | 6/6 | - |
+| clery-crime-log-qa-asr-packet | G10 | 6/6 | - |
+| clia-portfolio-compliance-calendar | G5 | 6/6 | - |
+| commercial-property-tax-appeal-packets | G10 | 6/6 | - |
+| cslb-sub-roster-compliance-monitor | G7 | 6/6 | - |
+| ctgov-fdaaa-results-compliance | G5 | 6/6 | - |
+| dataqs-rdr-drafter | G1 | 6/6 | - |
+| davis-bacon-certified-payroll-autopilot | G10 | 6/6 | - |
+| der-cert-basis-packet | G9 | 6/6 | - |
+| dmf-api-source-qualification | G5 | 6/6 | - |
+| dob-plan-exam-objection-intel | G3 | 6/6 | - |
+| dot-intervention-insurance-defense | G1 | 6/6 | - |
+| emanifest-tsdf-market-intel | G2 | 6/6 | - |
+| fcc-bdc-preaudit-challenge-desk | G8 | 6/6 | - |
+| fcc-rmd-carrier-kyc-packet | G8 | 6/6 | - |
+| fcc-uls-spectrum-portfolio-guardian | G8 | 6/6 | - |
+| fda-import-alert-exit-packet | G6 | 6/6 | - |
+| fdny-violation-clearance-lead-engine | G7 | 6/6 | - |
+| fei-supplier-gmp-surveillance | G5 | 6/6 | - |
+| ferc-eqr-mbr-compliance-guardrail | G8 | 6/6 | - |
+| fisp-cycle10-deadline-radar | G3 | 6/6 | - |
+| fmo-county-market-share-intel | G4 | 6/6 | - |
+| forwarder-screening-evidence-pack | G9 | 6/6 | - |
+| fsis-enforcement-radar | G6 | 6/6 | - |
+| fsvp-supplier-dossier-factory | G6 | 6/6 | - |
+| h2a-filing-copilot | G6 | 6/6 | - |
+| hha-hhvbp-payment-risk-benchmark | G4 | 6/6 | - |
+| hmsp-eligibility-guardian | G1 | 6/6 | - |
+| ieepa-tariff-refund-cape-pack | G9 | 6/6 | - |
+| ita-sub-safety-prequal-scorecard | G3 | 6/6 | - |
+| landfill-tonnage-benchmark | G2 | 6/6 | - |
+| ll152-gas-piping-inspection-radar | G7 | 6/6 | - |
+| ll97-penalty-exposure-beam-prep | G3 | 6/6 | - |
+| ma-agency-plan-exit-retention-packet | G4 | 6/6 | - |
+| maude-pms-signal-packet | G5 | 6/6 | - |
+| msha-aggregates-regulator-view-benchmark | G8 | 6/6 | - |
+| msha-citation-contest-decision-desk | G8 | 6/6 | - |
+| n-number-ad-gap-packet | G9 | 6/6 | - |
+| naic-complaint-market-conduct-exposure | G10 | 6/6 | - |
+| ndc-formulary-shortage-exposure | G5 | 6/6 | - |
+| nerc-enforcement-intel-audit-brief | G8 | 6/6 | - |
+| npdes-dmr-citizen-suit-radar | G2 | 6/6 | - |
+| nyc-backflow-testing-radar | G7 | 6/6 | - |
+| nyc-boiler-filing-penalty-shield | G7 | 6/6 | - |
+| nyc-elevator-cat1-compliance-packet | G7 | 6/6 | - |
+| oath-ecb-summons-defense-packet | G3 | 6/6 | - |
+| organic-integrity-sentinel | G6 | 6/6 | - |
+| osha-citation-response-packet | G3 | 6/6 | - |
+| osha-ita-prequal-benchmark-packet | G7 | 6/6 | - |
+| pesticide-applicator-credential-guard | G6 | 6/6 | - |
+| phmsa-nopv-response-precedent-engine | G8 | 6/6 | - |
+| phmsa-special-permit-radar | G1 | 6/6 | - |
+| post-award-protest-triage-memo | G9 | 6/6 | - |
+| pwsid-contract-operator-copilot | G2 | 6/6 | - |
+| serff-rate-filing-objection-intel | G10 | 6/6 | - |
+| snf-2567-poc-idr-copilot | G4 | 6/6 | - |
+| snf-pbj-fivestar-guardrail | G4 | 6/6 | - |
+| srf-lsl-pipeline-scout | G2 | 6/6 | - |
+| subchapter-m-audit-tracker | G1 | 6/6 | - |
+| uei-recompete-radar-brief | G9 | 6/6 | - |
+| uscg-psc-prearrival-packet | G1 | 6/6 | - |
+| vet-group-dea-license-compliance-packet | G10 | 6/6 | - |
+| ll87-energy-audit-radar | G3 | 5/6 | g3_repetition |
+| part107-waiver-draft-factory | G9 | 5/6 | g3_repetition |
+| rcra-inspection-readiness-packet | G2 | 5/6 | g3_repetition |
+| refrigerant-608-leakwatch | G7 | 5/6 | g4_public_source |
+| tx-rising-star-level-defense | G4 | 5/6 | g2_buyer_spend |
+| clearinghouse-compliance-autopilot | G1 | 4/6 | g4_public_source,g6_mvp_6wk |
+| ipeds-keyholder-autopilot | G10 | 4/6 | g1_acute_pain,g3_repetition |

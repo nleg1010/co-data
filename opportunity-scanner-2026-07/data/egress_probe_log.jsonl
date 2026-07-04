@@ -1,0 +1,35 @@
+{"ts":"2026-07-04T01:44:37Z","url":"https://ai.fmcsa.dot.gov/SMS/files/","observed_status":"000","note":"FMCSA SMS bulk"}
+{"ts":"2026-07-04T01:44:38Z","url":"https://data.transportation.gov/resource/h2ub-xxjb.json?$limit=3","observed_status":"000","note":"DOT Socrata SMS raw"}
+{"ts":"2026-07-04T01:44:38Z","url":"https://mobile.fmcsa.dot.gov/qc/services/carriers/44110?webKey=test","observed_status":"000","note":"FMCSA QCMobile API"}
+{"ts":"2026-07-04T01:44:38Z","url":"https://portal.phmsa.dot.gov/analytics/saw.dll","observed_status":"000","note":"PHMSA portal"}
+{"ts":"2026-07-04T01:44:39Z","url":"https://cgmix.uscg.mil/xml/PSIXData.asmx","observed_status":"000","note":"USCG PSIX"}
+{"ts":"2026-07-04T01:44:39Z","url":"https://echo.epa.gov/files/echodownloads/","observed_status":"000","note":"EPA ECHO downloads"}
+{"ts":"2026-07-04T01:44:39Z","url":"https://data.epa.gov/efservice/SDW_VIOL_ENFORCEMENT/ROWS/0:2/JSON","observed_status":"000","note":"EPA Envirofacts SDWIS"}
+{"ts":"2026-07-04T01:44:39Z","url":"https://data.cityofnewyork.us/resource/6bgk-3dad.json?$limit=3","observed_status":"000","note":"NYC OATH/ECB Socrata"}
+{"ts":"2026-07-04T01:44:40Z","url":"https://data.cityofnewyork.us/resource/3h2n-5cm9.json?$limit=3","observed_status":"000","note":"NYC DOB violations"}
+{"ts":"2026-07-04T01:44:40Z","url":"https://enforcedata.dol.gov/views/data_catalogs.php","observed_status":"000","note":"DOL enforcement catalog"}
+{"ts":"2026-07-04T01:44:40Z","url":"https://www.osha.gov/Establishment-Specific-Injury-and-Illness-Data","observed_status":"000","note":"OSHA ITA"}
+{"ts":"2026-07-04T01:44:41Z","url":"https://data.cms.gov/data-api/v1/dataset/2457ea29-fc82-48b0-86ec-3b0755de7515/data?size=3","observed_status":"000","note":"CMS data API"}
+{"ts":"2026-07-04T01:44:41Z","url":"https://data.cms.gov/provider-data/api/1/datastore/query/4pq5-n9py/0?limit=3","observed_status":"000","note":"CMS provider data"}
+{"ts":"2026-07-04T01:44:41Z","url":"https://www.accessdata.fda.gov/scripts/cder/daf/","observed_status":"000","note":"FDA accessdata"}
+{"ts":"2026-07-04T01:44:41Z","url":"https://api.fda.gov/food/enforcement.json?limit=1","observed_status":"000","note":"openFDA"}
+{"ts":"2026-07-04T01:44:42Z","url":"https://datadashboard.fda.gov/ora/api/complianceactions.json","observed_status":"000","note":"FDA data dashboard"}
+{"ts":"2026-07-04T01:44:42Z","url":"https://www.fsis.usda.gov/sites/default/files/media_file/documents/MPI_Directory_by_Establishment_Number.xlsx","observed_status":"000","note":"FSIS directory"}
+{"ts":"2026-07-04T01:44:43Z","url":"https://organic.ams.usda.gov/integrity/Downloads","observed_status":"000","note":"USDA INTEGRITY"}
+{"ts":"2026-07-04T01:44:43Z","url":"https://arlweb.msha.gov/OpenGovernmentData/DataSets/Violations.zip","observed_status":"000","note":"MSHA violations"}
+{"ts":"2026-07-04T01:44:43Z","url":"https://api.eia.gov/v2/electricity/facility-fuel/data/?api_key=DEMO","observed_status":"000","note":"EIA API"}
+{"ts":"2026-07-04T01:44:44Z","url":"https://opendata.fcc.gov/resource/i5k4-3fjm.json?$limit=3","observed_status":"000","note":"FCC Socrata"}
+{"ts":"2026-07-04T01:44:44Z","url":"https://registry.faa.gov/database/ReleasableAircraft.zip","observed_status":"000","note":"FAA registry bulk"}
+{"ts":"2026-07-04T01:44:44Z","url":"https://api.sam.gov/entity-information/v3/entities?api_key=DEMO","observed_status":"000","note":"SAM API"}
+{"ts":"2026-07-04T01:44:44Z","url":"https://api.usaspending.gov/api/v2/agency/012/","observed_status":"000","note":"USASpending API"}
+{"ts":"2026-07-04T01:44:45Z","url":"https://data.sec.gov/submissions/CIK0000320193.json","observed_status":"000","note":"SEC EDGAR data"}
+{"ts":"2026-07-04T01:44:45Z","url":"https://efts.sec.gov/LATEST/search-index?q=test","observed_status":"000","note":"SEC full text"}
+{"ts":"2026-07-04T01:44:45Z","url":"https://health.data.ny.gov/resource/vn5v-hh5r.json?$limit=3","observed_status":"000","note":"NY health Socrata"}
+{"ts":"2026-07-04T01:44:45Z","url":"https://data.ny.gov/resource/e8ky-4vqe.json?$limit=3","observed_status":"000","note":"NY state Socrata"}
+{"ts":"2026-07-04T01:44:46Z","url":"https://download.cms.gov/nppes/NPPES_Data_Dissemination_June_2026.zip","observed_status":"000","note":"NPPES bulk"}
+{"ts":"2026-07-04T01:44:46Z","url":"https://data.wa.gov/resource/bhbr-nu9u.json?$limit=3","observed_status":"000","note":"WA state Socrata"}
+{"ts":"2026-07-04T01:44:46Z","url":"https://s3.amazonaws.com/epa-rsei/?list-type=2&max-keys=5","observed_status":"404","note":"EPA RSEI S3 list"}
+{"ts":"2026-07-04T01:44:47Z","url":"https://epa-rsei.s3.amazonaws.com/?list-type=2&max-keys=5","observed_status":"404","note":"EPA RSEI S3 vhost"}
+{"ts":"2026-07-04T01:44:47Z","url":"https://s3.amazonaws.com/irs-form-990/?list-type=2&max-keys=5","observed_status":"200","note":"IRS990 S3 list"}
+{"ts":"2026-07-04T01:44:47Z","url":"https://irs-form-990.s3.amazonaws.com/?list-type=2&max-keys=5","observed_status":"200","note":"IRS990 vhost"}
+{"ts":"2026-07-04T01:45:23Z","url":"https://s3.amazonaws.com/irs-form-990/","observed_status":"200","note":"bucket live but KeyCount=0, IRS emptied it after moving 990 efile distribution to IRS.gov; no R1 content"}
